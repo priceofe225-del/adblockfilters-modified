@@ -3,9 +3,9 @@
 # Description: 适用于 Shadowrocket 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockclashlite.list
-# Version: 20251129171134
-# Last modified: 2025/11/29 17:11:34
-# Blocked domains: 5313
+# Version: 20251130003316
+# Last modified: 2025/11/30 00:33:16
+# Blocked domains: 5304
 #
 [Rule]
 DOMAIN-SUFFIX,img.0279.net,REJECT-DROP
@@ -558,7 +558,6 @@ DOMAIN-SUFFIX,first-hufu.oss-cn-shanghai.aliyuncs.com,REJECT-DROP
 DOMAIN-SUFFIX,free-cdn.oss-cn-shanghai.aliyuncs.com,REJECT-DROP
 DOMAIN-SUFFIX,g9m3a0kv73-default-cn.rum.aliyuncs.com,REJECT-DROP
 DOMAIN-SUFFIX,hdtu.oss-cn-beijing.aliyuncs.com,REJECT-DROP
-DOMAIN-SUFFIX,hfwpz4bisq-default-cn.rum.aliyuncs.com,REJECT-DROP
 DOMAIN-SUFFIX,httpdns-api.aliyuncs.com,REJECT-DROP
 DOMAIN-SUFFIX,httpdns-sc.aliyuncs.com,REJECT-DROP
 DOMAIN-SUFFIX,hwztx6svg3-default-cn.rum.aliyuncs.com,REJECT-DROP
@@ -1174,7 +1173,6 @@ DOMAIN-SUFFIX,kunpeng-sc.csdnimg.cn,REJECT-DROP
 DOMAIN-SUFFIX,csgbdv.cn,REJECT-DROP
 DOMAIN-SUFFIX,csjplatform.com,REJECT-DROP
 DOMAIN-SUFFIX,cslpf.cn,REJECT-DROP
-DOMAIN-SUFFIX,csvifgx.cn,REJECT-DROP
 DOMAIN-SUFFIX,ctags.cn,REJECT-DROP
 DOMAIN-SUFFIX,doubleclick.ctfile.com,REJECT-DROP
 DOMAIN-SUFFIX,mydisplay.ctfile.com,REJECT-DROP
@@ -1698,7 +1696,6 @@ DOMAIN-SUFFIX,1.glook.cn,REJECT-DROP
 DOMAIN-SUFFIX,sensorsdata.glowapp.vip,REJECT-DROP
 DOMAIN-SUFFIX,l.glrcy.cn,REJECT-DROP
 DOMAIN-SUFFIX,glwxw.net,REJECT-DROP
-DOMAIN-SUFFIX,gmtpq.cn,REJECT-DROP
 DOMAIN-SUFFIX,cpux.gmud.top,REJECT-DROP
 DOMAIN-SUFFIX,ad.gmw.cn,REJECT-DROP
 DOMAIN-SUFFIX,channel-analysis-js.gmw.cn,REJECT-DROP
@@ -2095,7 +2092,6 @@ DOMAIN-SUFFIX,report2.iciba.com,REJECT-DROP
 DOMAIN-SUFFIX,ads.icloseli.cn,REJECT-DROP
 DOMAIN-SUFFIX,id6.me,REJECT-DROP
 DOMAIN-SUFFIX,ideng.com,REJECT-DROP
-DOMAIN-SUFFIX,vpass-jp.idnqy.cn,REJECT-DROP
 DOMAIN-SUFFIX,rc.ie13.com,REJECT-DROP
 DOMAIN-SUFFIX,myeca.ieasyclick.net,REJECT-DROP
 DOMAIN-SUFFIX,myecat1.ieasyclick.net,REJECT-DROP
@@ -2254,7 +2250,6 @@ DOMAIN-SUFFIX,izuts.com,REJECT-DROP
 DOMAIN-SUFFIX,j6zh4g0.cn,REJECT-DROP
 DOMAIN-SUFFIX,jab88.com,REJECT-DROP
 DOMAIN-SUFFIX,eventlog.jackpot.de,REJECT-DROP
-DOMAIN-SUFFIX,vpass-jp.jalqp.cn,REJECT-DROP
 DOMAIN-SUFFIX,www3-vpass.jalqp.cn,REJECT-DROP
 DOMAIN-SUFFIX,a3.jandan.net,REJECT-DROP
 DOMAIN-SUFFIX,japps.cn,REJECT-DROP
@@ -3577,7 +3572,6 @@ DOMAIN-SUFFIX,bespoke-analytics.razerapi.com,REJECT-DROP
 DOMAIN-SUFFIX,rb1hdiqv.cn,REJECT-DROP
 DOMAIN-SUFFIX,vpass-jp.rbegd.cn,REJECT-DROP
 DOMAIN-SUFFIX,rbjpti.top,REJECT-DROP
-DOMAIN-SUFFIX,www3-vpass.rbocy.cn,REJECT-DROP
 DOMAIN-SUFFIX,rcqmvmq.cn,REJECT-DROP
 DOMAIN-SUFFIX,rcqqlwb.cn,REJECT-DROP
 DOMAIN-SUFFIX,rdbousn.cn,REJECT-DROP
@@ -4308,7 +4302,6 @@ DOMAIN-SUFFIX,unypud.cn,REJECT-DROP
 DOMAIN-SUFFIX,uodoo.com,REJECT-DROP
 DOMAIN-SUFFIX,upceshop.cn,REJECT-DROP
 DOMAIN-SUFFIX,uphzxdv.cn,REJECT-DROP
-DOMAIN-SUFFIX,vpass-jp.upjct.cn,REJECT-DROP
 DOMAIN-SUFFIX,www3-vpass.upzpq.cn,REJECT-DROP
 DOMAIN-SUFFIX,adscfg.uqualities.com,REJECT-DROP
 DOMAIN-SUFFIX,adsoss.uqualities.com,REJECT-DROP
@@ -4768,8 +4761,6 @@ DOMAIN-SUFFIX,1500026601.vodplayer.wxamedia.com,REJECT-DROP
 DOMAIN-SUFFIX,wxddid.cn,REJECT-DROP
 DOMAIN-SUFFIX,wxdgut.cn,REJECT-DROP
 DOMAIN-SUFFIX,wxdqgmr.cn,REJECT-DROP
-DOMAIN-SUFFIX,vpass-jp.wxlchq.cn,REJECT-DROP
-DOMAIN-SUFFIX,vpass-jp.wxyvq.cn,REJECT-DROP
 DOMAIN-SUFFIX,wy213.com,REJECT-DROP
 DOMAIN-SUFFIX,a.wzu.com,REJECT-DROP
 DOMAIN-SUFFIX,x-steam.com,REJECT-DROP

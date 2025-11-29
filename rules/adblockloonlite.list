@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/11/29 17:11:34
-#!support=5313
+#!date=2025/11/30 00:33:16
+#!support=5304
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,img.0279.net
@@ -561,7 +561,6 @@ DOMAIN-SUFFIX,first-hufu.oss-cn-shanghai.aliyuncs.com
 DOMAIN-SUFFIX,free-cdn.oss-cn-shanghai.aliyuncs.com
 DOMAIN-SUFFIX,g9m3a0kv73-default-cn.rum.aliyuncs.com
 DOMAIN-SUFFIX,hdtu.oss-cn-beijing.aliyuncs.com
-DOMAIN-SUFFIX,hfwpz4bisq-default-cn.rum.aliyuncs.com
 DOMAIN-SUFFIX,httpdns-api.aliyuncs.com
 DOMAIN-SUFFIX,httpdns-sc.aliyuncs.com
 DOMAIN-SUFFIX,hwztx6svg3-default-cn.rum.aliyuncs.com
@@ -1177,7 +1176,6 @@ DOMAIN-SUFFIX,kunpeng-sc.csdnimg.cn
 DOMAIN-SUFFIX,csgbdv.cn
 DOMAIN-SUFFIX,csjplatform.com
 DOMAIN-SUFFIX,cslpf.cn
-DOMAIN-SUFFIX,csvifgx.cn
 DOMAIN-SUFFIX,ctags.cn
 DOMAIN-SUFFIX,doubleclick.ctfile.com
 DOMAIN-SUFFIX,mydisplay.ctfile.com
@@ -1701,7 +1699,6 @@ DOMAIN-SUFFIX,1.glook.cn
 DOMAIN-SUFFIX,sensorsdata.glowapp.vip
 DOMAIN-SUFFIX,l.glrcy.cn
 DOMAIN-SUFFIX,glwxw.net
-DOMAIN-SUFFIX,gmtpq.cn
 DOMAIN-SUFFIX,cpux.gmud.top
 DOMAIN-SUFFIX,ad.gmw.cn
 DOMAIN-SUFFIX,channel-analysis-js.gmw.cn
@@ -2098,7 +2095,6 @@ DOMAIN-SUFFIX,report2.iciba.com
 DOMAIN-SUFFIX,ads.icloseli.cn
 DOMAIN-SUFFIX,id6.me
 DOMAIN-SUFFIX,ideng.com
-DOMAIN-SUFFIX,vpass-jp.idnqy.cn
 DOMAIN-SUFFIX,rc.ie13.com
 DOMAIN-SUFFIX,myeca.ieasyclick.net
 DOMAIN-SUFFIX,myecat1.ieasyclick.net
@@ -2257,7 +2253,6 @@ DOMAIN-SUFFIX,izuts.com
 DOMAIN-SUFFIX,j6zh4g0.cn
 DOMAIN-SUFFIX,jab88.com
 DOMAIN-SUFFIX,eventlog.jackpot.de
-DOMAIN-SUFFIX,vpass-jp.jalqp.cn
 DOMAIN-SUFFIX,www3-vpass.jalqp.cn
 DOMAIN-SUFFIX,a3.jandan.net
 DOMAIN-SUFFIX,japps.cn
@@ -3580,7 +3575,6 @@ DOMAIN-SUFFIX,bespoke-analytics.razerapi.com
 DOMAIN-SUFFIX,rb1hdiqv.cn
 DOMAIN-SUFFIX,vpass-jp.rbegd.cn
 DOMAIN-SUFFIX,rbjpti.top
-DOMAIN-SUFFIX,www3-vpass.rbocy.cn
 DOMAIN-SUFFIX,rcqmvmq.cn
 DOMAIN-SUFFIX,rcqqlwb.cn
 DOMAIN-SUFFIX,rdbousn.cn
@@ -4311,7 +4305,6 @@ DOMAIN-SUFFIX,unypud.cn
 DOMAIN-SUFFIX,uodoo.com
 DOMAIN-SUFFIX,upceshop.cn
 DOMAIN-SUFFIX,uphzxdv.cn
-DOMAIN-SUFFIX,vpass-jp.upjct.cn
 DOMAIN-SUFFIX,www3-vpass.upzpq.cn
 DOMAIN-SUFFIX,adscfg.uqualities.com
 DOMAIN-SUFFIX,adsoss.uqualities.com
@@ -4771,8 +4764,6 @@ DOMAIN-SUFFIX,1500026601.vodplayer.wxamedia.com
 DOMAIN-SUFFIX,wxddid.cn
 DOMAIN-SUFFIX,wxdgut.cn
 DOMAIN-SUFFIX,wxdqgmr.cn
-DOMAIN-SUFFIX,vpass-jp.wxlchq.cn
-DOMAIN-SUFFIX,vpass-jp.wxyvq.cn
 DOMAIN-SUFFIX,wy213.com
 DOMAIN-SUFFIX,a.wzu.com
 DOMAIN-SUFFIX,x-steam.com
