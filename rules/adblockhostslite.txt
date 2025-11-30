@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20251130163338
-# Last modified: 2025/11/30 16:33:38
-# Blocked domains: 10541
+# Version: 20251201003316
+# Last modified: 2025/12/01 00:33:16
+# Blocked domains: 10513
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -101,7 +101,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	101.35.56.7
 0.0.0.0	101.42.51.184
 0.0.0.0	101.43.166.60
-0.0.0.0	101.43.2.116
 0.0.0.0	101.43.49.183
 0.0.0.0	1.1010pic.com
 0.0.0.0	2.1010pic.com
@@ -126,7 +125,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	soft.110route.com
 0.0.0.0	111.228.40.85
 0.0.0.0	1.11130.com.cn
-0.0.0.0	112.125.88.176
 0.0.0.0	112.18.10.80
 0.0.0.0	oss-asq-static.11222.cn
 0.0.0.0	113.31.111.76
@@ -148,7 +146,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	117.50.194.20
 0.0.0.0	117.72.102.110
 0.0.0.0	117.72.206.39
-0.0.0.0	117.72.222.203
 0.0.0.0	118.178.133.241
 0.0.0.0	118.178.231.121
 0.0.0.0	118.25.68.152
@@ -239,12 +236,9 @@ ff02::3	ip6-allhosts
 0.0.0.0	1391.com
 0.0.0.0	14.103.234.180
 0.0.0.0	14198.com
-0.0.0.0	1483aa8748.top
 0.0.0.0	1483aa87583.top
-0.0.0.0	1483bb3487.top
 0.0.0.0	1483dd37583.top
 0.0.0.0	1483ee38758.top
-0.0.0.0	1483ee7834.top
 0.0.0.0	1483ff38593.top
 0.0.0.0	d.14yaa.com
 0.0.0.0	150100.cn
@@ -896,9 +890,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	8.137.114.210
 0.0.0.0	8.137.149.67
 0.0.0.0	8.138.182.17
-0.0.0.0	8.148.237.33
 0.0.0.0	8.148.5.67
-0.0.0.0	8.153.205.30
 0.0.0.0	8.153.97.202
 0.0.0.0	8.155.161.181
 0.0.0.0	8020home.com.cn
@@ -1048,8 +1040,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	a1643383982.top
 0.0.0.0	tgd.a1eg07.cn
 0.0.0.0	a2m.cn
-0.0.0.0	telemetry.cell-0.cn-north-1.prod.tangerinebox.console.aws.a2z.org.cn
-0.0.0.0	telemetry.cell-0.cn-northwest-1.prod.tangerinebox.console.aws.a2z.org.cn
 0.0.0.0	a32a.com.cn
 0.0.0.0	a360053476.xyz
 0.0.0.0	a395813236.cn
@@ -1355,7 +1345,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	errors.aliyun.com
 0.0.0.0	update.aegis.aliyun.com
 0.0.0.0	9-8.oss-cn-hangzhou.aliyuncs.com
-0.0.0.0	ac9olrggo8-default-cn.rum.aliyuncs.com
 0.0.0.0	ad-host-backup-america.oss-us-west-1.aliyuncs.com
 0.0.0.0	ad-host-backup-asia.oss-ap-southeast-1.aliyuncs.com
 0.0.0.0	ad-host-backup-europe.oss-eu-central-1.aliyuncs.com
@@ -1390,8 +1379,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	first-hufu.oss-cn-shanghai.aliyuncs.com
 0.0.0.0	free-cdn.oss-cn-shanghai.aliyuncs.com
 0.0.0.0	fs-uc-nearme-com-cn.oss-cn-hangzhou.aliyuncs.com
-0.0.0.0	g9m3a0kv73-default-cn.rum.aliyuncs.com
-0.0.0.0	g9m3a0kv73-sdk.rum.aliyuncs.com
 0.0.0.0	hdtu.oss-cn-beijing.aliyuncs.com
 0.0.0.0	hkuu.oss-cn-hongkong.aliyuncs.com
 0.0.0.0	httpdns-api.aliyuncs.com
@@ -2493,7 +2480,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	m.cnxmyb.cn
 0.0.0.0	www3-vpass.cnxzzb.cn
 0.0.0.0	cnyibs.com
-0.0.0.0	cnzh-wps-office.com.cn
 0.0.0.0	cnzz.cn
 0.0.0.0	cnzz.com
 0.0.0.0	coc56.com
@@ -2942,7 +2928,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	v1-feed-ad.ap4r.com.cdn.dnsv1.com
 0.0.0.0	dnyzbp.cn
 0.0.0.0	do-global.com
-0.0.0.0	stat.doc88.com
 0.0.0.0	info.meihua.docer.com
 0.0.0.0	fpb.docin.com
 0.0.0.0	zx.docin.com
@@ -3018,7 +3003,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	drenqils.com
 0.0.0.0	drihmae.com
 0.0.0.0	drivethelife.com
-0.0.0.0	b9belphnajw1hfbosyc7ya.on.drv.tw
 0.0.0.0	email-verification-tbw2hsczpwmnv0lvrtfpuq-authentification.on.drv.tw
 0.0.0.0	drxrc.com
 0.0.0.0	dsapksd.cn
@@ -3461,7 +3445,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	founseezb.cn
 0.0.0.0	foxea.com.cn
 0.0.0.0	foyue.com.cn
-0.0.0.0	www3-vpass.fpbrg.cn
 0.0.0.0	fqbr.cn
 0.0.0.0	fqghykp.cn
 0.0.0.0	frontier100-toutiao-lf.fqnovel.com
@@ -5033,7 +5016,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	kdqnaec.cn
 0.0.0.0	gateway-bugly.ke.com
 0.0.0.0	m.keai36.cn
-0.0.0.0	keapimu.cn
 0.0.0.0	kedejj.cn
 0.0.0.0	keenkind.com
 0.0.0.0	kehuduan.com
@@ -5389,7 +5371,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	cr.m.liebao.cn
 0.0.0.0	j.wan.liebao.cn
 0.0.0.0	liebaovip.com
-0.0.0.0	log.liepin.com
 0.0.0.0	lieqitianxia.cn
 0.0.0.0	lieying.cn
 0.0.0.0	ligfdjnfd.cn
@@ -5508,7 +5489,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	c.lxtvb.cn
 0.0.0.0	v.lxtvb.cn
 0.0.0.0	analytics.ly200.com
-0.0.0.0	lyaa58tz.cn
 0.0.0.0	www3-vpass.lyblje.cn
 0.0.0.0	lycjsix.cn
 0.0.0.0	lydownload.net
@@ -5589,7 +5569,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	maxshopping.cn
 0.0.0.0	mm.maxthon.cn
 0.0.0.0	accounts.maxweb.academy
-0.0.0.0	accounts.maxweb.red
 0.0.0.0	mazarine-ap.com
 0.0.0.0	ad.mazc.org
 0.0.0.0	mb33g.com
@@ -6007,7 +5986,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	crashsight-logs-1258344700.cos.ap-shanghai.myqcloud.com
 0.0.0.0	crashsight-logs-1319323203.cos.accelerate.myqcloud.com
 0.0.0.0	d-098ybui-hgf-1324992141.cos.ap-bangkok.myqcloud.com
-0.0.0.0	dahdangshan-1372261619.cos.accelerate.myqcloud.com
 0.0.0.0	dianying-1304791696.cos.ap-shanghai.myqcloud.com
 0.0.0.0	f3i5-0g49bgn-3h95-1324992141.cos.ap-jakarta.myqcloud.com
 0.0.0.0	freshfaxmail-1318034737.cos.sa-saopaulo.myqcloud.com
@@ -7513,8 +7491,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	m.shwedar.com.cn
 0.0.0.0	shwlyb.cn
 0.0.0.0	shxinjie.cn
-0.0.0.0	ads-monitoring.shziyi.com
-0.0.0.0	sftestlogin.siaedu.net
 0.0.0.0	yun.sifuhe.cn
 0.0.0.0	sigao.cn
 0.0.0.0	sigmob.com
@@ -7666,7 +7642,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	web.smrsir.cn
 0.0.0.0	smucdn.com
 0.0.0.0	res-ga.smzdm.com
-0.0.0.0	sn79.cn
 0.0.0.0	ujm.snackmachinery.cn
 0.0.0.0	errortracking.snapp.site
 0.0.0.0	sensors.snappea.com
@@ -7882,7 +7857,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	lcs.dev.surepush.cn
 0.0.0.0	susapi.dev.surepush.cn
 0.0.0.0	test.surepush.cn
-0.0.0.0	52mj.susuwei.cn
 0.0.0.0	suu7b.com
 0.0.0.0	bdunion1.suxiazai.com
 0.0.0.0	download.suxiazai.com
@@ -8099,7 +8073,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.tatatimes.com
 0.0.0.0	fpcy.tax.ln.cn
 0.0.0.0	m.tbaiq.com
-0.0.0.0	vpass-jp.tbakm.cn
 0.0.0.0	all.cnzz.com.danuoyi.tbcache.com
 0.0.0.0	httpdns.danuoyi.tbcache.com
 0.0.0.0	g.tbcdn.cn
@@ -8332,7 +8305,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tradplus.cn
 0.0.0.0	tradplus.com
 0.0.0.0	tradplusad.com
-0.0.0.0	telemetry.trae.com.cn
 0.0.0.0	trafficjam.cn
 0.0.0.0	traffok.cn
 0.0.0.0	analysis.tratao.com
@@ -8364,7 +8336,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	activity.tuipear.com
 0.0.0.0	tukeai.com
 0.0.0.0	tukveks.com
-0.0.0.0	tulaoshi.com
+0.0.0.0	1.tulaoshi.com
 0.0.0.0	ask.tulingxueyuan.cn
 0.0.0.0	lm1.tuliu.com
 0.0.0.0	tumeite.cn
