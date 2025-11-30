@@ -10,7 +10,7 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/11/30 00:33:16
+#!date=2025/11/30 10:25:35
 #!support=5304
 #!proxy-select=REJECT-DROP
 #
@@ -2046,6 +2046,7 @@
 .trackcommon.hujiang.com
 .u8.hujiang.com
 .hulichuang.mobi
+.huluxia.net
 .log.hunantv.com
 .log.v2.hunantv.com
 .huoche.com.cn
@@ -2167,7 +2168,6 @@
 .apidns.kwd.inkuai.com
 .httpdns.kwd.inkuai.com
 .yoda.kwd.inkuai.com
-.www3-vpass.inlfc.cn
 .inmobi.cn
 .inmobicdn.cn
 .inmobicdn.net
