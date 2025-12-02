@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/12/02 00:40:02
-#!support=10583
+#!date=2025/12/02 10:09:57
+#!support=10572
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,395131115419474531.002.sh.cn
@@ -88,7 +88,7 @@ DOMAIN-SUFFIX,101.126.11.168
 DOMAIN-SUFFIX,101.132.131.225
 DOMAIN-SUFFIX,101.34.66.77
 DOMAIN-SUFFIX,101.35.56.7
-DOMAIN-SUFFIX,101.42.51.184
+DOMAIN-SUFFIX,101.43.166.60
 DOMAIN-SUFFIX,101.43.49.183
 DOMAIN-SUFFIX,1.1010pic.com
 DOMAIN-SUFFIX,2.1010pic.com
@@ -570,6 +570,7 @@ DOMAIN-SUFFIX,4008813318.com.cn
 DOMAIN-SUFFIX,4009997658.com
 DOMAIN-SUFFIX,m.408uo.cn
 DOMAIN-SUFFIX,42.192.49.146
+DOMAIN-SUFFIX,42.51.49.238
 DOMAIN-SUFFIX,426g.com
 DOMAIN-SUFFIX,43.138.28.205
 DOMAIN-SUFFIX,43.226.39.44
@@ -874,7 +875,6 @@ DOMAIN-SUFFIX,8.137.149.67
 DOMAIN-SUFFIX,8.138.182.17
 DOMAIN-SUFFIX,8.140.27.124
 DOMAIN-SUFFIX,8.148.5.67
-DOMAIN-SUFFIX,8.153.205.30
 DOMAIN-SUFFIX,8.153.97.202
 DOMAIN-SUFFIX,8.155.161.181
 DOMAIN-SUFFIX,8020home.com.cn
@@ -1540,7 +1540,6 @@ DOMAIN-SUFFIX,arpun.com
 DOMAIN-SUFFIX,arswz.com
 DOMAIN-SUFFIX,artistrylab.com.cn
 DOMAIN-SUFFIX,artmaker.cn
-DOMAIN-SUFFIX,asdxxcg.top
 DOMAIN-SUFFIX,asiangames-weather.cn
 DOMAIN-SUFFIX,appkfpx.asmen.cn
 DOMAIN-SUFFIX,aspwg.cn
@@ -2852,7 +2851,6 @@ DOMAIN-SUFFIX,dexinyi.cn
 DOMAIN-SUFFIX,apisoft.df0535.com
 DOMAIN-SUFFIX,df4sc.com
 DOMAIN-SUFFIX,dfad.dfdaily.com
-DOMAIN-SUFFIX,dfhgry.com
 DOMAIN-SUFFIX,newswifiapi.dfshurufa.com
 DOMAIN-SUFFIX,dfuu5.com
 DOMAIN-SUFFIX,dg186.cn
@@ -3141,7 +3139,6 @@ DOMAIN-SUFFIX,formulario-registro-firma-v9l4k3kmhu.edgeone.app
 DOMAIN-SUFFIX,hkz2311011313001-l5deuphxox.edgeone.app
 DOMAIN-SUFFIX,hq-cpanel-uptime-upgrade-hnrv61j7if.edgeone.app
 DOMAIN-SUFFIX,pointball-llvwkkfsoo.edgeone.app
-DOMAIN-SUFFIX,sqqqwee2334cloudstorage90034ppoe-7230s2b404.edgeone.app
 DOMAIN-SUFFIX,tyrereyyt-6r6jpsvq0z.edgeone.app
 DOMAIN-SUFFIX,wealotheoloagathalimda.edgeone.app
 DOMAIN-SUFFIX,webemali234rfy3ch34fc8ui43-fy234-dyalqukr2d.edgeone.app
@@ -4361,7 +4358,6 @@ DOMAIN-SUFFIX,track.hujiang.com
 DOMAIN-SUFFIX,trackcommon.hujiang.com
 DOMAIN-SUFFIX,u8.hujiang.com
 DOMAIN-SUFFIX,hulichuang.mobi
-DOMAIN-SUFFIX,huluxia.net
 DOMAIN-SUFFIX,corp.hunantv.com
 DOMAIN-SUFFIX,log.hunantv.com
 DOMAIN-SUFFIX,log.v2.hunantv.com
@@ -4406,7 +4402,6 @@ DOMAIN-SUFFIX,hy-cn.cn
 DOMAIN-SUFFIX,hy90.cn
 DOMAIN-SUFFIX,11.hydcd.com
 DOMAIN-SUFFIX,hyfyuan.com
-DOMAIN-SUFFIX,faq.hyiyqy.cn
 DOMAIN-SUFFIX,c2.wifi.hypdncy.com
 DOMAIN-SUFFIX,hypers.com
 DOMAIN-SUFFIX,dsp.hypers.com.cn
@@ -6168,7 +6163,6 @@ DOMAIN-SUFFIX,nloodt.cn
 DOMAIN-SUFFIX,nlyuuy.cn
 DOMAIN-SUFFIX,nmkgs.cn
 DOMAIN-SUFFIX,nmntgd.cn
-DOMAIN-SUFFIX,jaccs-boxate.nnalyw.cn
 DOMAIN-SUFFIX,nndzsw1.com
 DOMAIN-SUFFIX,nnfls.com.cn
 DOMAIN-SUFFIX,nnocsin.cn
@@ -7199,7 +7193,6 @@ DOMAIN-SUFFIX,rakuten2019.net.cn
 DOMAIN-SUFFIX,rarjzshf.cn
 DOMAIN-SUFFIX,ravelotti.cn
 DOMAIN-SUFFIX,bespoke-analytics.razerapi.com
-DOMAIN-SUFFIX,rb1hdiqv.cn
 DOMAIN-SUFFIX,rbjpti.top
 DOMAIN-SUFFIX,qm.rcaiv.com
 DOMAIN-SUFFIX,rcpuierp.cn
@@ -7264,7 +7257,6 @@ DOMAIN-SUFFIX,all.rising.com.cn
 DOMAIN-SUFFIX,bi-tracker-global.rivergame.net
 DOMAIN-SUFFIX,tatracker-us.rivergame.net
 DOMAIN-SUFFIX,rja.com.cn
-DOMAIN-SUFFIX,vpass-jp.rjnqf.cn
 DOMAIN-SUFFIX,rkrkfpa.cn
 DOMAIN-SUFFIX,www3-vpass.rkvpy.cn
 DOMAIN-SUFFIX,rkzby.cn
@@ -7388,7 +7380,6 @@ DOMAIN-SUFFIX,sarahchapman.com.cn
 DOMAIN-SUFFIX,saxysec.com
 DOMAIN-SUFFIX,e.sbaoe.com
 DOMAIN-SUFFIX,m.sbaoe.com
-DOMAIN-SUFFIX,www3-vpass.sbfis.cn
 DOMAIN-SUFFIX,sbird.xyz
 DOMAIN-SUFFIX,sbldw.cn
 DOMAIN-SUFFIX,sboite.cn
@@ -7965,7 +7956,6 @@ DOMAIN-SUFFIX,sykazt.com.cn
 DOMAIN-SUFFIX,symaa.cn
 DOMAIN-SUFFIX,symad.cn
 DOMAIN-SUFFIX,synacast.com
-DOMAIN-SUFFIX,www3-vpass.syokb.cn
 DOMAIN-SUFFIX,syr66.com.cn
 DOMAIN-SUFFIX,sysadult.cn
 DOMAIN-SUFFIX,syxgsq.com.cn
@@ -8157,7 +8147,6 @@ DOMAIN-SUFFIX,gwrtdp-tn690bfadt.tclclouds.com
 DOMAIN-SUFFIX,td1h.cn
 DOMAIN-SUFFIX,sg.tdatamaster.com
 DOMAIN-SUFFIX,tdataspace.com
-DOMAIN-SUFFIX,tdhqury.cn
 DOMAIN-SUFFIX,tdhserg.cn
 DOMAIN-SUFFIX,m.tdiac.com
 DOMAIN-SUFFIX,site.tdk.cn

@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20251202004002
-# Last modified: 2025/12/02 00:40:02
-# Blocked domains: 10583
+# Version: 20251202100957
+# Last modified: 2025/12/02 10:09:57
+# Blocked domains: 10572
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -99,7 +99,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	101.132.131.225
 0.0.0.0	101.34.66.77
 0.0.0.0	101.35.56.7
-0.0.0.0	101.42.51.184
+0.0.0.0	101.43.166.60
 0.0.0.0	101.43.49.183
 0.0.0.0	1.1010pic.com
 0.0.0.0	2.1010pic.com
@@ -581,6 +581,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	4009997658.com
 0.0.0.0	m.408uo.cn
 0.0.0.0	42.192.49.146
+0.0.0.0	42.51.49.238
 0.0.0.0	426g.com
 0.0.0.0	43.138.28.205
 0.0.0.0	43.226.39.44
@@ -885,7 +886,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	8.138.182.17
 0.0.0.0	8.140.27.124
 0.0.0.0	8.148.5.67
-0.0.0.0	8.153.205.30
 0.0.0.0	8.153.97.202
 0.0.0.0	8.155.161.181
 0.0.0.0	8020home.com.cn
@@ -1551,7 +1551,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	arswz.com
 0.0.0.0	artistrylab.com.cn
 0.0.0.0	artmaker.cn
-0.0.0.0	asdxxcg.top
 0.0.0.0	asiangames-weather.cn
 0.0.0.0	appkfpx.asmen.cn
 0.0.0.0	aspwg.cn
@@ -2863,7 +2862,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	apisoft.df0535.com
 0.0.0.0	df4sc.com
 0.0.0.0	dfad.dfdaily.com
-0.0.0.0	dfhgry.com
 0.0.0.0	newswifiapi.dfshurufa.com
 0.0.0.0	dfuu5.com
 0.0.0.0	dg186.cn
@@ -3152,7 +3150,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	hkz2311011313001-l5deuphxox.edgeone.app
 0.0.0.0	hq-cpanel-uptime-upgrade-hnrv61j7if.edgeone.app
 0.0.0.0	pointball-llvwkkfsoo.edgeone.app
-0.0.0.0	sqqqwee2334cloudstorage90034ppoe-7230s2b404.edgeone.app
 0.0.0.0	tyrereyyt-6r6jpsvq0z.edgeone.app
 0.0.0.0	wealotheoloagathalimda.edgeone.app
 0.0.0.0	webemali234rfy3ch34fc8ui43-fy234-dyalqukr2d.edgeone.app
@@ -4372,7 +4369,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	trackcommon.hujiang.com
 0.0.0.0	u8.hujiang.com
 0.0.0.0	hulichuang.mobi
-0.0.0.0	huluxia.net
 0.0.0.0	corp.hunantv.com
 0.0.0.0	log.hunantv.com
 0.0.0.0	log.v2.hunantv.com
@@ -4417,7 +4413,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	hy90.cn
 0.0.0.0	11.hydcd.com
 0.0.0.0	hyfyuan.com
-0.0.0.0	faq.hyiyqy.cn
 0.0.0.0	c2.wifi.hypdncy.com
 0.0.0.0	hypers.com
 0.0.0.0	dsp.hypers.com.cn
@@ -6179,7 +6174,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	nlyuuy.cn
 0.0.0.0	nmkgs.cn
 0.0.0.0	nmntgd.cn
-0.0.0.0	jaccs-boxate.nnalyw.cn
 0.0.0.0	nndzsw1.com
 0.0.0.0	nnfls.com.cn
 0.0.0.0	nnocsin.cn
@@ -7210,7 +7204,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	rarjzshf.cn
 0.0.0.0	ravelotti.cn
 0.0.0.0	bespoke-analytics.razerapi.com
-0.0.0.0	rb1hdiqv.cn
 0.0.0.0	rbjpti.top
 0.0.0.0	qm.rcaiv.com
 0.0.0.0	rcpuierp.cn
@@ -7275,7 +7268,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	bi-tracker-global.rivergame.net
 0.0.0.0	tatracker-us.rivergame.net
 0.0.0.0	rja.com.cn
-0.0.0.0	vpass-jp.rjnqf.cn
 0.0.0.0	rkrkfpa.cn
 0.0.0.0	www3-vpass.rkvpy.cn
 0.0.0.0	rkzby.cn
@@ -7399,7 +7391,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	saxysec.com
 0.0.0.0	e.sbaoe.com
 0.0.0.0	m.sbaoe.com
-0.0.0.0	www3-vpass.sbfis.cn
 0.0.0.0	sbird.xyz
 0.0.0.0	sbldw.cn
 0.0.0.0	sboite.cn
@@ -7976,7 +7967,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	symaa.cn
 0.0.0.0	symad.cn
 0.0.0.0	synacast.com
-0.0.0.0	www3-vpass.syokb.cn
 0.0.0.0	syr66.com.cn
 0.0.0.0	sysadult.cn
 0.0.0.0	syxgsq.com.cn
@@ -8168,7 +8158,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	td1h.cn
 0.0.0.0	sg.tdatamaster.com
 0.0.0.0	tdataspace.com
-0.0.0.0	tdhqury.cn
 0.0.0.0	tdhserg.cn
 0.0.0.0	m.tdiac.com
 0.0.0.0	site.tdk.cn
