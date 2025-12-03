@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20251203004020
-! Last modified: 2025/12/03 00:40:20
-! Blocked domains: 10442
+! Version: 20251203100943
+! Last modified: 2025/12/03 10:09:43
+! Blocked domains: 10431
 !
 395131115419474531.002.sh.cn
 005555.com
@@ -124,7 +124,7 @@ tg.1155t.cn
 117.50.194.20
 117.72.102.110
 117.72.206.39
-117.72.222.203
+118.178.133.241
 118.178.231.121
 118.25.68.152
 118.25.85.198
@@ -137,7 +137,6 @@ bj1.118pan.com
 12-daysofxmas.com
 120.24.64.74
 120.25.163.165
-120.46.212.33
 120.48.50.33
 120.79.192.88
 120.79.255.238
@@ -205,7 +204,6 @@ yt-adp.nosdn.127.net
 133u.com
 1357902.cn
 139.159.155.204
-139.196.126.161
 139.198.15.223
 1391.com
 14.103.234.180
@@ -326,7 +324,6 @@ m.1x3td.cn
 2009llll.cn
 wm.20150.net
 201ttkj.cn
-202.112.50.151
 202.189.4.56
 20201314.cn
 20230329.com
@@ -442,6 +439,7 @@ wan.360.cn
 wot.360.cn
 wows.360.cn
 yasuo.360.cn
+ykapi.luyou.360.cn
 yule.360.com
 360ads.com
 cps.360buy.com
@@ -857,7 +855,6 @@ cp.7y7.com
 7ywl.com
 8.131.63.6
 8.134.51.218
-8.137.114.210
 8.137.149.67
 8.138.182.17
 8.148.5.67
@@ -2443,7 +2440,6 @@ codesoftchina.com
 reportwest-midas.codmwest.com
 cogitoai.cn
 interactivoebrokers-com.coin888.cn
-coinbae.cn
 plausible.coinglass.com
 coix1.cn
 colago.cn
@@ -2949,9 +2945,7 @@ www2-uccard.dpbor.cn
 s.dpcq1.net
 dpd-app.icu
 drdwy.com
-vpass-login.dreader.cn
 dreamfull.cn
-vpass-login.drehbn.cn
 drenqils.com
 drihmae.com
 drivethelife.com
@@ -3089,7 +3083,6 @@ earthewndegtheyased.edgeone.app
 formulario-registro-firma-v9l4k3kmhu.edgeone.app
 hkz2311011313001-l5deuphxox.edgeone.app
 hq-cpanel-uptime-upgrade-hnrv61j7if.edgeone.app
-plkmnikqazxcik-akuog8ifdo.edgeone.app
 pointball-llvwkkfsoo.edgeone.app
 tyrereyyt-6r6jpsvq0z.edgeone.app
 wealotheoloagathalimda.edgeone.app
@@ -3749,7 +3742,6 @@ gszbba.cn
 gt8bv.com
 ad.gtbrowser.com
 gtcqbnu.cn
-www3-vpass.gtffg.cn
 oldk.gtifund.cn
 g.gtimg.cn
 pgdt.gtimg.cn
@@ -4739,7 +4731,6 @@ pic.jdunion.com
 jeepyy.com
 jesgoo.com
 jewelryedu.cn
-www3-vpass.jfpre.cn
 jfy-stone.cn
 jg1668.com
 m.jg59q.cn
@@ -8405,7 +8396,6 @@ uczzd.cn
 udajswf.cn
 udeztrb.cn
 udr26c.cn
-udrayyq.cn
 udrig.com
 vpass-jp.udzci.cn
 uebabuf.cn
@@ -9139,7 +9129,6 @@ wkanx.com
 e.wkjhd.com
 m.wkjhd.com
 lm1.wkpcw.cn
-vpass-jp.wksfx.cn
 p.wktfkj.com
 wkzw.me
 opensdk.wlanbanlv.com
