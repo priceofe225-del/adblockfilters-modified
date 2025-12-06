@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/12/06 16:35:12
-#!support=10167
+#!date=2025/12/07 00:33:21
+#!support=10114
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,395131115419474531.002.sh.cn
@@ -81,7 +81,6 @@ DOMAIN-SUFFIX,101.126.11.168
 DOMAIN-SUFFIX,101.132.131.225
 DOMAIN-SUFFIX,101.34.66.77
 DOMAIN-SUFFIX,101.35.56.7
-DOMAIN-SUFFIX,101.43.166.60
 DOMAIN-SUFFIX,101.43.2.116
 DOMAIN-SUFFIX,101.43.226.227
 DOMAIN-SUFFIX,101.43.49.183
@@ -129,7 +128,6 @@ DOMAIN-SUFFIX,117.72.102.110
 DOMAIN-SUFFIX,117.72.206.39
 DOMAIN-SUFFIX,118.178.133.241
 DOMAIN-SUFFIX,118.25.68.152
-DOMAIN-SUFFIX,118.25.85.198
 DOMAIN-SUFFIX,118678.com
 DOMAIN-SUFFIX,1188.com
 DOMAIN-SUFFIX,11888vip.cn
@@ -1004,7 +1002,6 @@ DOMAIN-SUFFIX,a0c77.com
 DOMAIN-SUFFIX,tgd.a1eg07.cn
 DOMAIN-SUFFIX,a2m.cn
 DOMAIN-SUFFIX,telemetry.cell-0.cn-north-1.prod.tangerinebox.console.aws.a2z.org.cn
-DOMAIN-SUFFIX,telemetry.cell-0.cn-northwest-1.prod.tangerinebox.console.aws.a2z.org.cn
 DOMAIN-SUFFIX,a32a.com.cn
 DOMAIN-SUFFIX,a395813236.cn
 DOMAIN-SUFFIX,a3p4.net
@@ -1475,7 +1472,6 @@ DOMAIN-SUFFIX,appgift.sinaapp.com
 DOMAIN-SUFFIX,appgo.cn
 DOMAIN-SUFFIX,feedbackws.fe.apple-dns.cn
 DOMAIN-SUFFIX,apple-hb.com.cn
-DOMAIN-SUFFIX,apple-max.top
 DOMAIN-SUFFIX,experiments.apple.com
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,securemetrics.apple.com.cn
@@ -1585,7 +1581,6 @@ DOMAIN-SUFFIX,azovshopping.cn
 DOMAIN-SUFFIX,collector.azure.cn
 DOMAIN-SUFFIX,dc.applicationinsights.azure.cn
 DOMAIN-SUFFIX,live.applicationinsights.azure.cn
-DOMAIN-SUFFIX,b1315514762.xyz
 DOMAIN-SUFFIX,b1.b2b168.com
 DOMAIN-SUFFIX,b1.b2b168.net
 DOMAIN-SUFFIX,ee.b2fwnu.cn
@@ -3194,7 +3189,6 @@ DOMAIN-SUFFIX,config.ad.falconnet.app
 DOMAIN-SUFFIX,falgin.cn
 DOMAIN-SUFFIX,faloge.com
 DOMAIN-SUFFIX,flux.faloo.com
-DOMAIN-SUFFIX,s.faloo.com
 DOMAIN-SUFFIX,bdlmggcs1.familydoctor.com.cn
 DOMAIN-SUFFIX,fan-bing.cn
 DOMAIN-SUFFIX,fanche.top
@@ -3697,7 +3691,7 @@ DOMAIN-SUFFIX,1.gunsuo.com
 DOMAIN-SUFFIX,guodulvyou.xyz
 DOMAIN-SUFFIX,link.guoqi365.com
 DOMAIN-SUFFIX,mo.gushiji.cc
-DOMAIN-SUFFIX,guyaheng.com
+DOMAIN-SUFFIX,1.guyaheng.com
 DOMAIN-SUFFIX,guzhibo.cn
 DOMAIN-SUFFIX,guzsjdl.cn
 DOMAIN-SUFFIX,gvhswz.com
@@ -3983,7 +3977,6 @@ DOMAIN-SUFFIX,log-drru.platform.hihonorcloud.com
 DOMAIN-SUFFIX,hiido.com
 DOMAIN-SUFFIX,qiejushuo.hirz.cn
 DOMAIN-SUFFIX,analytics.shop.hisense.com
-DOMAIN-SUFFIX,api-4know-em.hismarttv.com
 DOMAIN-SUFFIX,api-4know-eu.hismarttv.com
 DOMAIN-SUFFIX,api-gps.hismarttv.com
 DOMAIN-SUFFIX,api-gps-em.hismarttv.com
@@ -5115,7 +5108,6 @@ DOMAIN-SUFFIX,ads-uo.api.leiniao.com
 DOMAIN-SUFFIX,ads-ut.api.leiniao.com
 DOMAIN-SUFFIX,euads-o.api.leiniao.com
 DOMAIN-SUFFIX,update.lejiao.tv
-DOMAIN-SUFFIX,adm.leju.com
 DOMAIN-SUFFIX,src.leju.com
 DOMAIN-SUFFIX,staticadm.leju.com
 DOMAIN-SUFFIX,lejuliang.com
@@ -5183,7 +5175,6 @@ DOMAIN-SUFFIX,lichunxiao.cn
 DOMAIN-SUFFIX,cr.m.liebao.cn
 DOMAIN-SUFFIX,j.wan.liebao.cn
 DOMAIN-SUFFIX,liebaovip.com
-DOMAIN-SUFFIX,log.liepin.com
 DOMAIN-SUFFIX,lieqitianxia.cn
 DOMAIN-SUFFIX,lieying.cn
 DOMAIN-SUFFIX,ligfdjnfd.cn
@@ -8746,49 +8737,6 @@ DOMAIN-SUFFIX,mbd.weathercn.com
 DOMAIN-SUFFIX,mbs.weathercn.com
 DOMAIN-SUFFIX,zgzxm.weathercn.com
 DOMAIN-SUFFIX,zgzxs.weathercn.com
-DOMAIN-SUFFIX,web-asc-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-ayk-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-cgm-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-cug-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-eae-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-eoa-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-ewc-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-fbb-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-ffh-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-fxh-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-ggu-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-ieg-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-iuy-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-kou-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-kyy-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-lfj-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-mgo-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-moi-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-oau-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-oii-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-oka-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-osg-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-owo-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-qcc-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-qcw-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-qmy-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-qqi-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-qwa-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-qwi-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-qyc-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-rbt-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-rlf-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-sec-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-seq-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-sgu-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-sog-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-tjf-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-ucg-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-xdj-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-xnz-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-yaa-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-yay-cn-whatsapp.com.cn
-DOMAIN-SUFFIX,web-yqk-cn-whatsapp.com.cn
 DOMAIN-SUFFIX,mall.web0312.cn
 DOMAIN-SUFFIX,web2u.cn
 DOMAIN-SUFFIX,web605.cn
@@ -9040,7 +8988,6 @@ DOMAIN-SUFFIX,xdk7m.com
 DOMAIN-SUFFIX,xdku9.com
 DOMAIN-SUFFIX,xdrig.com
 DOMAIN-SUFFIX,180.xdwan.com
-DOMAIN-SUFFIX,sensors.h5.xed.plus
 DOMAIN-SUFFIX,e.xeig.cn
 DOMAIN-SUFFIX,m.xeig.cn
 DOMAIN-SUFFIX,xenjswd.cn
