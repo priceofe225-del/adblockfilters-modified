@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251207163430
-# Last modified: 2025/12/07 16:34:30
-# Blocked domains: 10203
+# Version: 20251208003250
+# Last modified: 2025/12/08 00:32:50
+# Blocked domains: 10190
 #
 local=/395131115419474531.002.sh.cn/
 local=/011211.cn/
@@ -198,7 +198,6 @@ local=/pg-ad-b1.nosdn.127.net/
 local=/wanproxy.127.net/
 local=/yt-adp.nosdn.127.net/
 local=/129.204.103.151/
-local=/129.204.146.115/
 local=/129.204.254.108/
 local=/12i.cn/
 local=/133u.com/
@@ -552,7 +551,6 @@ local=/4008813318.com.cn/
 local=/4009997658.com/
 local=/m.408uo.cn/
 local=/42.192.49.146/
-local=/42.230.19.139/
 local=/42.51.49.238/
 local=/420909.cn/
 local=/426g.com/
@@ -754,7 +752,6 @@ local=/6071.com/
 local=/60999.cn/
 local=/609999.xyz/
 local=/ee.60w3s.cn/
-local=/61.158.158.63/
 local=/61165.com/
 local=/6119.com.cn/
 local=/612100.cn/
@@ -852,7 +849,6 @@ local=/8.137.114.210/
 local=/8.137.149.67/
 local=/8.138.182.17/
 local=/8.148.237.33/
-local=/8.153.205.30/
 local=/8.153.97.202/
 local=/8020home.com.cn/
 local=/a.80982.org/
@@ -1318,7 +1314,6 @@ local=/dmg-dd.oss-accelerate.aliyuncs.com/
 local=/dongtukj.oss-cn-hongkong.aliyuncs.com/
 local=/dreemdmbabys.oss-cn-guangzhou.aliyuncs.com/
 local=/dressimage.img-cn-beijing.aliyuncs.com/
-local=/eex8nehrx0-default-cn.rum.aliyuncs.com/
 local=/ep2x3kiawg-sdk.rum.aliyuncs.com/
 local=/etc33.oss-ap-southeast-1.aliyuncs.com/
 local=/f7vkagmqwq-sdk.rum.aliyuncs.com/
@@ -1773,7 +1768,6 @@ local=/baizhu.cc/
 local=/a1.bajiu.cn/
 local=/bakbitionb.com/
 local=/balldollars.com/
-local=/baluro.cn/
 local=/changan.bama555.com/
 local=/baminw.cn/
 local=/baminw.com.cn/
@@ -1919,7 +1913,6 @@ local=/miniapp.bilibili.com/
 local=/line1-log.biligame.net/
 local=/mcdn.bilivideo.com/
 local=/billionfocus.com/
-local=/bim-live.top/
 local=/bing-live.top/
 local=/bingdianhuanyuan.cn/
 local=/an.biocoop.cn/
@@ -2568,7 +2561,6 @@ local=/ggjs.d17.cc/
 local=/ee.d6s2pn5t.cn/
 local=/m.d6s2pn5t.cn/
 local=/d7ytrv7yxa.com/
-local=/d92491638324.xyz/
 local=/d99q.cn/
 local=/daadr.cn/
 local=/dabaicai.cn/
@@ -2785,7 +2777,6 @@ local=/dh6.ink/
 local=/dhgdp.cn/
 local=/dhl-exp.com.cn/
 local=/dhlcompany.cn/
-local=/dhlgwzw.xyz/
 local=/dhlhk.com.cn/
 local=/dhlian.com.cn/
 local=/dhlxb.cn/
@@ -4967,7 +4958,6 @@ local=/kpzip.com/
 local=/kqgn.cn/
 local=/marketing.krones.com/
 local=/slb-p2p.vcloud.ks-live.com/
-local=/vpass-jp.ksakc.cn/
 local=/log-sdk.ksapisrv.com/
 local=/multi-az-ulog.ksapisrv.com/
 local=/ulog.ksapisrv.com/
@@ -6002,7 +5992,6 @@ local=/nt002.cn/
 local=/ntcor.com/
 local=/ntfsformac.cc/
 local=/ntfsformac.cn/
-local=/1.datadog.pool.ntp.org/
 local=/icloud.nttyyp.cn/
 local=/nuaaad.cn/
 local=/pdns.nudt.edu.cn/
@@ -7057,7 +7046,6 @@ local=/retrefsf.cn/
 local=/api.revenuads.com/
 local=/revenuenetwork.com/
 local=/reycross.cn/
-local=/vpass-jp.rfaxg.cn/
 local=/bursaneity.rfimu.cn/
 local=/track.msadcenter.rfjq.com/
 local=/rgyun.com/
@@ -7073,7 +7061,6 @@ local=/all.rising.com.cn/
 local=/bi-tracker-global.rivergame.net/
 local=/tatracker-us.rivergame.net/
 local=/rja.com.cn/
-local=/rkrkfpa.cn/
 local=/www3-vpass.rkvpy.cn/
 local=/rkzby.cn/
 local=/rljjt.cn/

@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/12/07 16:34:30
-#!support=10203
+#!date=2025/12/08 00:32:50
+#!support=10190
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,395131115419474531.002.sh.cn
@@ -202,7 +202,6 @@ DOMAIN-SUFFIX,pg-ad-b1.nosdn.127.net
 DOMAIN-SUFFIX,wanproxy.127.net
 DOMAIN-SUFFIX,yt-adp.nosdn.127.net
 DOMAIN-SUFFIX,129.204.103.151
-DOMAIN-SUFFIX,129.204.146.115
 DOMAIN-SUFFIX,129.204.254.108
 DOMAIN-SUFFIX,12i.cn
 DOMAIN-SUFFIX,133u.com
@@ -556,7 +555,6 @@ DOMAIN-SUFFIX,4008813318.com.cn
 DOMAIN-SUFFIX,4009997658.com
 DOMAIN-SUFFIX,m.408uo.cn
 DOMAIN-SUFFIX,42.192.49.146
-DOMAIN-SUFFIX,42.230.19.139
 DOMAIN-SUFFIX,42.51.49.238
 DOMAIN-SUFFIX,420909.cn
 DOMAIN-SUFFIX,426g.com
@@ -758,7 +756,6 @@ DOMAIN-SUFFIX,6071.com
 DOMAIN-SUFFIX,60999.cn
 DOMAIN-SUFFIX,609999.xyz
 DOMAIN-SUFFIX,ee.60w3s.cn
-DOMAIN-SUFFIX,61.158.158.63
 DOMAIN-SUFFIX,61165.com
 DOMAIN-SUFFIX,6119.com.cn
 DOMAIN-SUFFIX,612100.cn
@@ -856,7 +853,6 @@ DOMAIN-SUFFIX,8.137.114.210
 DOMAIN-SUFFIX,8.137.149.67
 DOMAIN-SUFFIX,8.138.182.17
 DOMAIN-SUFFIX,8.148.237.33
-DOMAIN-SUFFIX,8.153.205.30
 DOMAIN-SUFFIX,8.153.97.202
 DOMAIN-SUFFIX,8020home.com.cn
 DOMAIN-SUFFIX,a.80982.org
@@ -1322,7 +1318,6 @@ DOMAIN-SUFFIX,dmg-dd.oss-accelerate.aliyuncs.com
 DOMAIN-SUFFIX,dongtukj.oss-cn-hongkong.aliyuncs.com
 DOMAIN-SUFFIX,dreemdmbabys.oss-cn-guangzhou.aliyuncs.com
 DOMAIN-SUFFIX,dressimage.img-cn-beijing.aliyuncs.com
-DOMAIN-SUFFIX,eex8nehrx0-default-cn.rum.aliyuncs.com
 DOMAIN-SUFFIX,ep2x3kiawg-sdk.rum.aliyuncs.com
 DOMAIN-SUFFIX,etc33.oss-ap-southeast-1.aliyuncs.com
 DOMAIN-SUFFIX,f7vkagmqwq-sdk.rum.aliyuncs.com
@@ -1777,7 +1772,6 @@ DOMAIN-SUFFIX,baizhu.cc
 DOMAIN-SUFFIX,a1.bajiu.cn
 DOMAIN-SUFFIX,bakbitionb.com
 DOMAIN-SUFFIX,balldollars.com
-DOMAIN-SUFFIX,baluro.cn
 DOMAIN-SUFFIX,changan.bama555.com
 DOMAIN-SUFFIX,baminw.cn
 DOMAIN-SUFFIX,baminw.com.cn
@@ -1923,7 +1917,6 @@ DOMAIN-SUFFIX,miniapp.bilibili.com
 DOMAIN-SUFFIX,line1-log.biligame.net
 DOMAIN-SUFFIX,mcdn.bilivideo.com
 DOMAIN-SUFFIX,billionfocus.com
-DOMAIN-SUFFIX,bim-live.top
 DOMAIN-SUFFIX,bing-live.top
 DOMAIN-SUFFIX,bingdianhuanyuan.cn
 DOMAIN-SUFFIX,an.biocoop.cn
@@ -2572,7 +2565,6 @@ DOMAIN-SUFFIX,ggjs.d17.cc
 DOMAIN-SUFFIX,ee.d6s2pn5t.cn
 DOMAIN-SUFFIX,m.d6s2pn5t.cn
 DOMAIN-SUFFIX,d7ytrv7yxa.com
-DOMAIN-SUFFIX,d92491638324.xyz
 DOMAIN-SUFFIX,d99q.cn
 DOMAIN-SUFFIX,daadr.cn
 DOMAIN-SUFFIX,dabaicai.cn
@@ -2789,7 +2781,6 @@ DOMAIN-SUFFIX,dh6.ink
 DOMAIN-SUFFIX,dhgdp.cn
 DOMAIN-SUFFIX,dhl-exp.com.cn
 DOMAIN-SUFFIX,dhlcompany.cn
-DOMAIN-SUFFIX,dhlgwzw.xyz
 DOMAIN-SUFFIX,dhlhk.com.cn
 DOMAIN-SUFFIX,dhlian.com.cn
 DOMAIN-SUFFIX,dhlxb.cn
@@ -4971,7 +4962,6 @@ DOMAIN-SUFFIX,kpzip.com
 DOMAIN-SUFFIX,kqgn.cn
 DOMAIN-SUFFIX,marketing.krones.com
 DOMAIN-SUFFIX,slb-p2p.vcloud.ks-live.com
-DOMAIN-SUFFIX,vpass-jp.ksakc.cn
 DOMAIN-SUFFIX,log-sdk.ksapisrv.com
 DOMAIN-SUFFIX,multi-az-ulog.ksapisrv.com
 DOMAIN-SUFFIX,ulog.ksapisrv.com
@@ -6006,7 +5996,6 @@ DOMAIN-SUFFIX,nt002.cn
 DOMAIN-SUFFIX,ntcor.com
 DOMAIN-SUFFIX,ntfsformac.cc
 DOMAIN-SUFFIX,ntfsformac.cn
-DOMAIN-SUFFIX,1.datadog.pool.ntp.org
 DOMAIN-SUFFIX,icloud.nttyyp.cn
 DOMAIN-SUFFIX,nuaaad.cn
 DOMAIN-SUFFIX,pdns.nudt.edu.cn
@@ -7061,7 +7050,6 @@ DOMAIN-SUFFIX,retrefsf.cn
 DOMAIN-SUFFIX,api.revenuads.com
 DOMAIN-SUFFIX,revenuenetwork.com
 DOMAIN-SUFFIX,reycross.cn
-DOMAIN-SUFFIX,vpass-jp.rfaxg.cn
 DOMAIN-SUFFIX,bursaneity.rfimu.cn
 DOMAIN-SUFFIX,track.msadcenter.rfjq.com
 DOMAIN-SUFFIX,rgyun.com
@@ -7077,7 +7065,6 @@ DOMAIN-SUFFIX,all.rising.com.cn
 DOMAIN-SUFFIX,bi-tracker-global.rivergame.net
 DOMAIN-SUFFIX,tatracker-us.rivergame.net
 DOMAIN-SUFFIX,rja.com.cn
-DOMAIN-SUFFIX,rkrkfpa.cn
 DOMAIN-SUFFIX,www3-vpass.rkvpy.cn
 DOMAIN-SUFFIX,rkzby.cn
 DOMAIN-SUFFIX,rljjt.cn
