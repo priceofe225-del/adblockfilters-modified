@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20251210164022
-# Last modified: 2025/12/10 16:40:22
-# Blocked domains: 10340
+# Version: 20251211003825
+# Last modified: 2025/12/11 00:38:25
+# Blocked domains: 10326
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -117,7 +117,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	v.110route.cn
 0.0.0.0	ytx-file.110route.cn
 0.0.0.0	soft.110route.com
-0.0.0.0	111.228.40.85
 0.0.0.0	1.11130.com.cn
 0.0.0.0	112.18.10.80
 0.0.0.0	oss-asq-static.11222.cn
@@ -158,7 +157,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	120.46.212.33
 0.0.0.0	120.48.43.140
 0.0.0.0	120.48.50.33
-0.0.0.0	120.79.192.88
 0.0.0.0	120.79.255.238
 0.0.0.0	120.79.64.164
 0.0.0.0	analysis.120ask.com
@@ -219,7 +217,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	wanproxy.127.net
 0.0.0.0	yt-adp.nosdn.127.net
 0.0.0.0	129.204.103.151
-0.0.0.0	129.204.146.115
 0.0.0.0	129.204.254.108
 0.0.0.0	12i.cn
 0.0.0.0	133u.com
@@ -307,7 +304,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	eezdx.erc.18183.com
 0.0.0.0	img1.18183.com
 0.0.0.0	zpe.klre.18183.com
-0.0.0.0	182.113.3.99
 0.0.0.0	182.254.146.29
 0.0.0.0	182.92.99.95
 0.0.0.0	webwebfenxi.189.cn
@@ -600,7 +596,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	47.109.48.57
 0.0.0.0	47.109.77.84
 0.0.0.0	47.113.186.138
-0.0.0.0	47.113.191.98
 0.0.0.0	47.116.208.81
 0.0.0.0	47.120.70.161
 0.0.0.0	47.121.137.8
@@ -1316,7 +1311,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	click.aliyun.com
 0.0.0.0	errors.aliyun.com
 0.0.0.0	update.aegis.aliyun.com
-0.0.0.0	1la12k2jpbw-default-cn.rum.aliyuncs.com
 0.0.0.0	9-8.oss-cn-hangzhou.aliyuncs.com
 0.0.0.0	ac9olrggo8-default-cn.rum.aliyuncs.com
 0.0.0.0	ad-host-backup-america.oss-us-west-1.aliyuncs.com
@@ -2411,7 +2405,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	log2.cmpassport.com
 0.0.0.0	senlog.cmpassport.com
 0.0.0.0	cmpxaup.cn
-0.0.0.0	cmqxy.cn
 0.0.0.0	ggc.cmvideo.cn
 0.0.0.0	ggv.cmvideo.cn
 0.0.0.0	ggx.cmvideo.cn
@@ -3091,6 +3084,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	bdstatic.eastmoney.com
 0.0.0.0	bduserlog.eastmoney.com
 0.0.0.0	bdwblog.eastmoney.com
+0.0.0.0	cmsjs.eastmoney.com
 0.0.0.0	cp.eastmoney.com
 0.0.0.0	cp2.eastmoney.com
 0.0.0.0	emdcadvertise.eastmoney.com
@@ -3522,7 +3516,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	xyoss.g.com.cn
 0.0.0.0	r01.g1c5.com
 0.0.0.0	h.g1d.net
-0.0.0.0	ppva.g1d.net
 0.0.0.0	video-va.g1d.net
 0.0.0.0	g2q3e.cn
 0.0.0.0	kcc.g31hc.cn
@@ -4217,7 +4210,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	abtest-api-data-sg.hoyoverse.com
 0.0.0.0	ad-log-upload-os.hoyoverse.com
 0.0.0.0	apm-log-upload-os.hoyoverse.com
-0.0.0.0	bh3-sdk-os-static.hoyoverse.com
 0.0.0.0	devlog-upload-os.hoyoverse.com
 0.0.0.0	hkrpg-log-upload-os.hoyoverse.com
 0.0.0.0	log-upload-os.hoyoverse.com
@@ -4486,7 +4478,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	y3.ifengimg.com
 0.0.0.0	log.iflytek.com
 0.0.0.0	logconf.iflytek.com
-0.0.0.0	log.igamecj.com
 0.0.0.0	igehuo.com
 0.0.0.0	entree.igetget.com
 0.0.0.0	piccdn.igetget.com
@@ -8067,7 +8058,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	telekomkhu.cfd
 0.0.0.0	telekoml.cfd
 0.0.0.0	telekomlhu.cfd
-0.0.0.0	telekoms.cfd
 0.0.0.0	teleqpnm.cn
 0.0.0.0	apd-pcdnvodstat.teg.tencent-cloud.net
 0.0.0.0	apd-pcdnwxlogin.teg.tencent-cloud.net
@@ -8964,7 +8954,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	royalbankofca5.wecom.work
 0.0.0.0	royalbankofca6.wecom.work
 0.0.0.0	weddingeeos.com
-0.0.0.0	event.stat.wedobest.com.cn
 0.0.0.0	dns.weibo.cn
 0.0.0.0	dp.im.weibo.cn
 0.0.0.0	game.weibo.cn
@@ -9158,7 +9147,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	wywsdx.com
 0.0.0.0	c.wyykxyp.cn
 0.0.0.0	v.wyykxyp.cn
-0.0.0.0	m.wz382.cn
 0.0.0.0	wzaigo.com
 0.0.0.0	wzdq.cn
 0.0.0.0	wzfjsh.cn
@@ -9910,7 +9898,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	myes.youku.com
 0.0.0.0	orange-dc.youku.com
 0.0.0.0	pcapp-data-collect.youku.com
-0.0.0.0	pis-tel-pcdn.youku.com
 0.0.0.0	pl.youku.com
 0.0.0.0	player-lg.youku.com
 0.0.0.0	playlog.youku.com
@@ -9955,7 +9942,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	yrszy.com.cn
 0.0.0.0	ys630.com
 0.0.0.0	ys6ot.cn
-0.0.0.0	ad-material.ys7.com
 0.0.0.0	log.ys7.com
 0.0.0.0	ysdqww.com
 0.0.0.0	ysgsq.cn

@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20251210164022
-! Last modified: 2025/12/10 16:40:22
-! Blocked domains: 10340
+! Version: 20251211003825
+! Last modified: 2025/12/11 00:38:25
+! Blocked domains: 10326
 !
 395131115419474531.002.sh.cn
 011211.cn
@@ -102,7 +102,6 @@ stat.10jqka.com.cn
 v.110route.cn
 ytx-file.110route.cn
 soft.110route.com
-111.228.40.85
 1.11130.com.cn
 112.18.10.80
 oss-asq-static.11222.cn
@@ -143,7 +142,6 @@ bj1.118pan.com
 120.46.212.33
 120.48.43.140
 120.48.50.33
-120.79.192.88
 120.79.255.238
 120.79.64.164
 analysis.120ask.com
@@ -204,7 +202,6 @@ pg-ad-b1.nosdn.127.net
 wanproxy.127.net
 yt-adp.nosdn.127.net
 129.204.103.151
-129.204.146.115
 129.204.254.108
 12i.cn
 133u.com
@@ -292,7 +289,6 @@ vstlog.17u.cn
 eezdx.erc.18183.com
 img1.18183.com
 zpe.klre.18183.com
-182.113.3.99
 182.254.146.29
 182.92.99.95
 webwebfenxi.189.cn
@@ -585,7 +581,6 @@ stat.api.4399.com
 47.109.48.57
 47.109.77.84
 47.113.186.138
-47.113.191.98
 47.116.208.81
 47.120.70.161
 47.121.137.8
@@ -1301,7 +1296,6 @@ acjs.aliyun.com
 click.aliyun.com
 errors.aliyun.com
 update.aegis.aliyun.com
-1la12k2jpbw-default-cn.rum.aliyuncs.com
 9-8.oss-cn-hangzhou.aliyuncs.com
 ac9olrggo8-default-cn.rum.aliyuncs.com
 ad-host-backup-america.oss-us-west-1.aliyuncs.com
@@ -2396,7 +2390,6 @@ log1.cmpassport.com
 log2.cmpassport.com
 senlog.cmpassport.com
 cmpxaup.cn
-cmqxy.cn
 ggc.cmvideo.cn
 ggv.cmvideo.cn
 ggx.cmvideo.cn
@@ -3076,6 +3069,7 @@ ay.eastmoney.com
 bdstatic.eastmoney.com
 bduserlog.eastmoney.com
 bdwblog.eastmoney.com
+cmsjs.eastmoney.com
 cp.eastmoney.com
 cp2.eastmoney.com
 emdcadvertise.eastmoney.com
@@ -3507,7 +3501,6 @@ simulatelab-datasink.fzzixun.com
 xyoss.g.com.cn
 r01.g1c5.com
 h.g1d.net
-ppva.g1d.net
 video-va.g1d.net
 g2q3e.cn
 kcc.g31hc.cn
@@ -4202,7 +4195,6 @@ h.how5.cn
 abtest-api-data-sg.hoyoverse.com
 ad-log-upload-os.hoyoverse.com
 apm-log-upload-os.hoyoverse.com
-bh3-sdk-os-static.hoyoverse.com
 devlog-upload-os.hoyoverse.com
 hkrpg-log-upload-os.hoyoverse.com
 log-upload-os.hoyoverse.com
@@ -4471,7 +4463,6 @@ c1.ifengimg.com
 y3.ifengimg.com
 log.iflytek.com
 logconf.iflytek.com
-log.igamecj.com
 igehuo.com
 entree.igetget.com
 piccdn.igetget.com
@@ -8052,7 +8043,6 @@ jpz.telegramn.com.cn
 telekomkhu.cfd
 telekoml.cfd
 telekomlhu.cfd
-telekoms.cfd
 teleqpnm.cn
 apd-pcdnvodstat.teg.tencent-cloud.net
 apd-pcdnwxlogin.teg.tencent-cloud.net
@@ -8949,7 +8939,6 @@ ifm5.wecom.work
 royalbankofca5.wecom.work
 royalbankofca6.wecom.work
 weddingeeos.com
-event.stat.wedobest.com.cn
 dns.weibo.cn
 dp.im.weibo.cn
 game.weibo.cn
@@ -9143,7 +9132,6 @@ wyvw.cn
 wywsdx.com
 c.wyykxyp.cn
 v.wyykxyp.cn
-m.wz382.cn
 wzaigo.com
 wzdq.cn
 wzfjsh.cn
@@ -9895,7 +9883,6 @@ msg.youku.com
 myes.youku.com
 orange-dc.youku.com
 pcapp-data-collect.youku.com
-pis-tel-pcdn.youku.com
 pl.youku.com
 player-lg.youku.com
 playlog.youku.com
@@ -9940,7 +9927,6 @@ yrqwnc.cn
 yrszy.com.cn
 ys630.com
 ys6ot.cn
-ad-material.ys7.com
 log.ys7.com
 ysdqww.com
 ysgsq.cn
