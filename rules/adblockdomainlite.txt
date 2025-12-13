@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20251213003702
-! Last modified: 2025/12/13 00:37:02
-! Blocked domains: 10089
+! Version: 20251213100717
+! Last modified: 2025/12/13 10:07:17
+! Blocked domains: 10079
 !
 395131115419474531.002.sh.cn
 011211.cn
@@ -79,7 +79,6 @@ huodong.feixin.10086.cn
 101.132.131.225
 101.34.66.77
 101.35.56.7
-101.43.2.116
 101.43.49.183
 1.1010pic.com
 2.1010pic.com
@@ -105,6 +104,7 @@ oss-asq-static.11222.cn
 113.98.201.248
 1133.cc
 114.132.150.96
+114.55.106.136
 114.fm
 1.11467.com
 115.159.149.113
@@ -452,7 +452,6 @@ down.xzwd.360eus.cn
 360office.cn
 360os.com
 aiclean.us.cloud.360safe.com
-down.360safe.com
 ini.update.360safe.com
 inst.360safe.com
 kuaikan.netmon.360safe.com
@@ -551,8 +550,8 @@ m.408uo.cn
 426g.com
 43.138.248.196
 43.138.28.205
-43.139.169.60
 43.139.50.42
+43.226.39.44
 43.249.192.196
 43366.cn
 stat.api.4399.com
@@ -1256,7 +1255,6 @@ aemetrics.aliexpress.ru
 alifixed.cn
 cddp-track.aligames.com
 g.aligames.com
-optimus-ads.amap.com.w.alikunlun.com
 acookie.alimama.com
 afpeng.alimama.com
 afpssp.alimama.com
@@ -2028,7 +2026,6 @@ m.by29s.cn
 bydcxdy.cn
 bydonline.com
 byscy.cn
-log-api.pangolin-sdk-toutiao-b.com.gtm.byte008.com
 dm.bytedance.com
 mssdk.bytedance.com
 mssdk-bu.bytedance.com
@@ -6071,7 +6068,6 @@ okhan.net
 okmgy.cn
 baid1.okooo.com
 okwfx.cn
-kw.okxwan.cn
 ole7o.cn
 olmvkq.cn
 olssna.cn
@@ -6291,7 +6287,6 @@ m.phonthing.com
 phormchina.com
 photogo.cn
 photozoomchina.com
-phrarv.cn
 pian.com.cn
 piaogj.com
 pibaba.com.cn
@@ -6379,7 +6374,6 @@ ppnpmq2.cn
 game.pps.tv
 api.afdback.ppsimg.com
 static.g.ppstream.com
-ppsutl.cn
 ads.aplus.pptv.com
 app.aplus.pptv.com
 as.aplus.pptv.com
@@ -6928,7 +6922,6 @@ ablink.em.redmart.com
 redmx.cn
 a8cv.jp.redodopower.com
 news.reedexpo.com.cn
-dwsg.reedooai.com
 solutions.refinitiv.cn
 wyzq.rehuwang.com
 relish.com.cn
@@ -6951,7 +6944,6 @@ api.revenuads.com
 revenuenetwork.com
 info.revvity.cn
 reycross.cn
-bursaneity.rfimu.cn
 track.msadcenter.rfjq.com
 rfwyvxa.cn
 rgyun.com
@@ -7089,7 +7081,6 @@ scdcd333.cn
 scfans.cn
 scfrwo.cn
 schysd.cn
-scj-cbe-wms.com
 scjjh.cn
 scjpqut.cn
 sckexing.cn
@@ -7331,7 +7322,6 @@ rs.sinajs.cn
 tjs.sjs.sinajs.cn
 sinawap.com
 mail.siom.ac.cn
-sipcoj.com
 sdk.sipujia.cn
 sitesite.cn
 sixiuwl.cn

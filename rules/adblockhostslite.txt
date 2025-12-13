@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20251213003702
-# Last modified: 2025/12/13 00:37:02
-# Blocked domains: 10089
+# Version: 20251213100717
+# Last modified: 2025/12/13 10:07:17
+# Blocked domains: 10079
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -94,7 +94,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	101.132.131.225
 0.0.0.0	101.34.66.77
 0.0.0.0	101.35.56.7
-0.0.0.0	101.43.2.116
 0.0.0.0	101.43.49.183
 0.0.0.0	1.1010pic.com
 0.0.0.0	2.1010pic.com
@@ -120,6 +119,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	113.98.201.248
 0.0.0.0	1133.cc
 0.0.0.0	114.132.150.96
+0.0.0.0	114.55.106.136
 0.0.0.0	114.fm
 0.0.0.0	1.11467.com
 0.0.0.0	115.159.149.113
@@ -467,7 +467,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	360office.cn
 0.0.0.0	360os.com
 0.0.0.0	aiclean.us.cloud.360safe.com
-0.0.0.0	down.360safe.com
 0.0.0.0	ini.update.360safe.com
 0.0.0.0	inst.360safe.com
 0.0.0.0	kuaikan.netmon.360safe.com
@@ -566,8 +565,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	426g.com
 0.0.0.0	43.138.248.196
 0.0.0.0	43.138.28.205
-0.0.0.0	43.139.169.60
 0.0.0.0	43.139.50.42
+0.0.0.0	43.226.39.44
 0.0.0.0	43.249.192.196
 0.0.0.0	43366.cn
 0.0.0.0	stat.api.4399.com
@@ -1271,7 +1270,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	alifixed.cn
 0.0.0.0	cddp-track.aligames.com
 0.0.0.0	g.aligames.com
-0.0.0.0	optimus-ads.amap.com.w.alikunlun.com
 0.0.0.0	acookie.alimama.com
 0.0.0.0	afpeng.alimama.com
 0.0.0.0	afpssp.alimama.com
@@ -2043,7 +2041,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	bydcxdy.cn
 0.0.0.0	bydonline.com
 0.0.0.0	byscy.cn
-0.0.0.0	log-api.pangolin-sdk-toutiao-b.com.gtm.byte008.com
 0.0.0.0	dm.bytedance.com
 0.0.0.0	mssdk.bytedance.com
 0.0.0.0	mssdk-bu.bytedance.com
@@ -6086,7 +6083,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	okmgy.cn
 0.0.0.0	baid1.okooo.com
 0.0.0.0	okwfx.cn
-0.0.0.0	kw.okxwan.cn
 0.0.0.0	ole7o.cn
 0.0.0.0	olmvkq.cn
 0.0.0.0	olssna.cn
@@ -6306,7 +6302,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	phormchina.com
 0.0.0.0	photogo.cn
 0.0.0.0	photozoomchina.com
-0.0.0.0	phrarv.cn
 0.0.0.0	pian.com.cn
 0.0.0.0	piaogj.com
 0.0.0.0	pibaba.com.cn
@@ -6394,7 +6389,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	game.pps.tv
 0.0.0.0	api.afdback.ppsimg.com
 0.0.0.0	static.g.ppstream.com
-0.0.0.0	ppsutl.cn
 0.0.0.0	ads.aplus.pptv.com
 0.0.0.0	app.aplus.pptv.com
 0.0.0.0	as.aplus.pptv.com
@@ -6943,7 +6937,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	redmx.cn
 0.0.0.0	a8cv.jp.redodopower.com
 0.0.0.0	news.reedexpo.com.cn
-0.0.0.0	dwsg.reedooai.com
 0.0.0.0	solutions.refinitiv.cn
 0.0.0.0	wyzq.rehuwang.com
 0.0.0.0	relish.com.cn
@@ -6966,7 +6959,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	revenuenetwork.com
 0.0.0.0	info.revvity.cn
 0.0.0.0	reycross.cn
-0.0.0.0	bursaneity.rfimu.cn
 0.0.0.0	track.msadcenter.rfjq.com
 0.0.0.0	rfwyvxa.cn
 0.0.0.0	rgyun.com
@@ -7104,7 +7096,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	scfans.cn
 0.0.0.0	scfrwo.cn
 0.0.0.0	schysd.cn
-0.0.0.0	scj-cbe-wms.com
 0.0.0.0	scjjh.cn
 0.0.0.0	scjpqut.cn
 0.0.0.0	sckexing.cn
@@ -7346,7 +7337,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	tjs.sjs.sinajs.cn
 0.0.0.0	sinawap.com
 0.0.0.0	mail.siom.ac.cn
-0.0.0.0	sipcoj.com
 0.0.0.0	sdk.sipujia.cn
 0.0.0.0	sitesite.cn
 0.0.0.0	sixiuwl.cn
