@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20251214003426
-# Last modified: 2025/12/14 00:34:26
-# Blocked domains: 9705
+# Version: 20251214102649
+# Last modified: 2025/12/14 10:26:49
+# Blocked domains: 9706
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -101,11 +101,13 @@ ff02::3	ip6-allhosts
 0.0.0.0	117.72.102.110
 0.0.0.0	117.72.206.39
 0.0.0.0	117.72.242.9
+0.0.0.0	118.178.133.241
 0.0.0.0	118.25.68.152
 0.0.0.0	118.31.16.216
 0.0.0.0	118678.com
 0.0.0.0	1188.com
 0.0.0.0	bj1.118pan.com
+0.0.0.0	119.45.161.174
 0.0.0.0	119.91.141.214
 0.0.0.0	12-daysofxmas.com
 0.0.0.0	120.24.64.74
@@ -520,6 +522,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	7zva1jn.44j4oo2a.cn
 0.0.0.0	8k64sz0.44j4oo2a.cn
 0.0.0.0	46676.cn
+0.0.0.0	47.104.169.91
 0.0.0.0	47.104.173.216
 0.0.0.0	47.104.31.7
 0.0.0.0	47.104.96.89
@@ -2542,7 +2545,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	darm.cn
 0.0.0.0	sgtm.darryring.com
 0.0.0.0	dartsearch-cn.net
-0.0.0.0	clickserve.dartsearch.net
 0.0.0.0	dashet.com
 0.0.0.0	datacaciques.com
 0.0.0.0	datamaster.com.cn
@@ -2839,6 +2841,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	drdwy.com
 0.0.0.0	dreamfull.cn
 0.0.0.0	dreamoffice.cn
+0.0.0.0	drivethelife.com
 0.0.0.0	email-verification-tbw2hsczpwmnv0lvrtfpuq-authentification.on.drv.tw
 0.0.0.0	drxrc.com
 0.0.0.0	dsapksd.cn
@@ -6257,7 +6260,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	qixiwangluo.com
 0.0.0.0	qiyegongqiu1.qiyegongqiu.com
 0.0.0.0	qiyeit.com.cn
-0.0.0.0	qiyeyou126.cn
 0.0.0.0	api.cupid.qiyi.com
 0.0.0.0	data.video.qiyi.com
 0.0.0.0	meta.video.qiyi.com
@@ -6418,6 +6420,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	omgmta1.qq.com
 0.0.0.0	openapi.guanjia.qq.com
 0.0.0.0	openmsf.3g.qq.com
+0.0.0.0	oth.eve.mdt.qq.com
+0.0.0.0	oth.str.mdt.qq.com
 0.0.0.0	p.store.qq.com
 0.0.0.0	p2p.qq.com
 0.0.0.0	p2pupdate.gamedl.qq.com
@@ -8628,7 +8632,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	bbb.xfrwu.cn
 0.0.0.0	xftsjv.top
 0.0.0.0	dt.xfyun.cn
-0.0.0.0	xgcdk.cn
 0.0.0.0	analytics.xgimi.com
 0.0.0.0	pics.xgo-img.com.cn
 0.0.0.0	img.xgo.com.cn
@@ -9447,8 +9450,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	zazhipu.com
 0.0.0.0	m.zbhbs.cn
 0.0.0.0	p3.zbjimg.com
-0.0.0.0	p5.zbjimg.com
-0.0.0.0	p6.zbjimg.com
 0.0.0.0	zbrushcn.com
 0.0.0.0	d.zbusa.com
 0.0.0.0	c.zbwnzb.cn

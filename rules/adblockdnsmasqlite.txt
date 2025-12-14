@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251214003426
-# Last modified: 2025/12/14 00:34:26
-# Blocked domains: 9705
+# Version: 20251214102649
+# Last modified: 2025/12/14 10:26:49
+# Blocked domains: 9706
 #
 local=/395131115419474531.002.sh.cn/
 local=/005555.com/
@@ -86,11 +86,13 @@ local=/117.50.194.20/
 local=/117.72.102.110/
 local=/117.72.206.39/
 local=/117.72.242.9/
+local=/118.178.133.241/
 local=/118.25.68.152/
 local=/118.31.16.216/
 local=/118678.com/
 local=/1188.com/
 local=/bj1.118pan.com/
+local=/119.45.161.174/
 local=/119.91.141.214/
 local=/12-daysofxmas.com/
 local=/120.24.64.74/
@@ -505,6 +507,7 @@ local=/44629.com/
 local=/7zva1jn.44j4oo2a.cn/
 local=/8k64sz0.44j4oo2a.cn/
 local=/46676.cn/
+local=/47.104.169.91/
 local=/47.104.173.216/
 local=/47.104.31.7/
 local=/47.104.96.89/
@@ -2527,7 +2530,6 @@ local=/net.daraz.pk/
 local=/darm.cn/
 local=/sgtm.darryring.com/
 local=/dartsearch-cn.net/
-local=/clickserve.dartsearch.net/
 local=/dashet.com/
 local=/datacaciques.com/
 local=/datamaster.com.cn/
@@ -2824,6 +2826,7 @@ local=/dpd-ptostz.cfd/
 local=/drdwy.com/
 local=/dreamfull.cn/
 local=/dreamoffice.cn/
+local=/drivethelife.com/
 local=/email-verification-tbw2hsczpwmnv0lvrtfpuq-authentification.on.drv.tw/
 local=/drxrc.com/
 local=/dsapksd.cn/
@@ -6242,7 +6245,6 @@ local=/qixiu88.com/
 local=/qixiwangluo.com/
 local=/qiyegongqiu1.qiyegongqiu.com/
 local=/qiyeit.com.cn/
-local=/qiyeyou126.cn/
 local=/api.cupid.qiyi.com/
 local=/data.video.qiyi.com/
 local=/meta.video.qiyi.com/
@@ -6403,6 +6405,8 @@ local=/omgid.qq.com/
 local=/omgmta1.qq.com/
 local=/openapi.guanjia.qq.com/
 local=/openmsf.3g.qq.com/
+local=/oth.eve.mdt.qq.com/
+local=/oth.str.mdt.qq.com/
 local=/p.store.qq.com/
 local=/p2p.qq.com/
 local=/p2pupdate.gamedl.qq.com/
@@ -8613,7 +8617,6 @@ local=/dashboard.nm.xevil.cn/
 local=/bbb.xfrwu.cn/
 local=/xftsjv.top/
 local=/dt.xfyun.cn/
-local=/xgcdk.cn/
 local=/analytics.xgimi.com/
 local=/pics.xgo-img.com.cn/
 local=/img.xgo.com.cn/
@@ -9432,8 +9435,6 @@ local=/zapads.zapak.com/
 local=/zazhipu.com/
 local=/m.zbhbs.cn/
 local=/p3.zbjimg.com/
-local=/p5.zbjimg.com/
-local=/p6.zbjimg.com/
 local=/zbrushcn.com/
 local=/d.zbusa.com/
 local=/c.zbwnzb.cn/
