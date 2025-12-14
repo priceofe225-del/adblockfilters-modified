@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20251214163612
-! Last modified: 2025/12/14 16:36:12
-! Blocked domains: 9983
+! Version: 20251215003402
+! Last modified: 2025/12/15 00:34:02
+! Blocked domains: 9965
 ! unBlocked domains: 47
 !
 ||395131115419474531.002.sh.cn^
@@ -79,7 +79,6 @@
 ||101.34.66.77^
 ||101.35.56.7^
 ||101.43.166.60^
-||101.43.2.116^
 ||101.43.49.183^
 ||1.1010pic.com^
 ||2.1010pic.com^
@@ -113,7 +112,6 @@
 ||1.11467.com^
 ||115.159.149.113^
 ||115.190.235.92^
-||115.55.206.138^
 ||appversion.115.com^
 ||tg.1155t.cn^
 ||115fx.com^
@@ -124,7 +122,6 @@
 ||117.72.102.110^
 ||117.72.206.39^
 ||117.72.222.203^
-||118.178.133.241^
 ||118.25.68.152^
 ||118.31.16.216^
 ||118678.com^
@@ -157,7 +154,6 @@
 ||122.51.93.94^
 ||12291.com^
 ||js1.122cha.com^
-||123.12.245.195^
 ||123.207.20.187^
 ||123.232.43.185^
 ||123.57.250.154^
@@ -991,8 +987,6 @@
 ||a0c77.com^
 ||tgd.a1eg07.cn^
 ||a2m.cn^
-||telemetry.cell-0.cn-north-1.prod.tangerinebox.console.aws.a2z.org.cn^
-||telemetry.cell-0.cn-northwest-1.prod.tangerinebox.console.aws.a2z.org.cn^
 ||a395813236.cn^
 ||a48505.cn^
 ||a7shun.com^
@@ -1311,7 +1305,6 @@
 ||dongtukj.oss-cn-hongkong.aliyuncs.com^
 ||dreemdmbabys.oss-cn-guangzhou.aliyuncs.com^
 ||dressimage.img-cn-beijing.aliyuncs.com^
-||eex8nehrx0-default-cn.rum.aliyuncs.com^
 ||ep2x3kiawg-sdk.rum.aliyuncs.com^
 ||etc33.oss-ap-southeast-1.aliyuncs.com^
 ||f7vkagmqwq-sdk.rum.aliyuncs.com^
@@ -2328,7 +2321,6 @@
 ||cityhuitech.com^
 ||e.cj59c.cn^
 ||3.cjcp.cn^
-||cjhicp.cn^
 ||cjmkt.com^
 ||ck-bitnova.xin^
 ||img.ckcgsy.cn^
@@ -2793,7 +2785,6 @@
 ||dhlxb.cn^
 ||dhlxc.art^
 ||dhlxy.cm^
-||dhlylb1.icu^
 ||ssl.di9qu.com.cn^
 ||diamonstar.cn^
 ||m.dian6.cn^
@@ -2819,7 +2810,6 @@
 ||mcdeezts.direnave.cn^
 ||diskclean.cn^
 ||displink.com^
-||jenkins.diteng.site^
 ||code.ditiezu.net^
 ||b.diyifanwen.com^
 ||img16.diyifanwen.com^
@@ -3054,7 +3044,6 @@
 ||hkz2311011313001-l5deuphxox.edgeone.app^
 ||hq-cpanel-uptime-upgrade-hnrv61j7if.edgeone.app^
 ||pointball-llvwkkfsoo.edgeone.app^
-||qqwwertyza.edgeone.app^
 ||tyrereyyt-6r6jpsvq0z.edgeone.app^
 ||wealotheoloagathalimda.edgeone.app^
 ||webemali234rfy3ch34fc8ui43-fy234-dyalqukr2d.edgeone.app^
@@ -3983,7 +3972,6 @@
 ||auth-launcher-sa.hismarttv.com^
 ||auth-na.hismarttv.com^
 ||auth-phone-ap.hismarttv.com^
-||auth-phone-na.hismarttv.com^
 ||auth-sa.hismarttv.com^
 ||cdn-plugin-sync-upgrade-juui.hismarttv.com^
 ||msg-em.hismarttv.com^
@@ -5178,7 +5166,6 @@
 ||cr.m.liebao.cn^
 ||j.wan.liebao.cn^
 ||liebaovip.com^
-||log.liepin.com^
 ||lieqitianxia.cn^
 ||lieying.cn^
 ||ligfdjnfd.cn^
@@ -5302,7 +5289,6 @@
 ||lyszsz.cn^
 ||lytrjx.cn^
 ||lyua.cn^
-||lyw65khi.cn^
 ||ggle.lywf.me^
 ||lyzon.com.cn^
 ||app.lz55.cn^
@@ -5946,7 +5932,6 @@
 ||c.nuhcpf.com^
 ||ray2jing.808.nuno.cn^
 ||log.nuomi.com^
-||ads.nuonuo.com^
 ||metric.nuonuo.com^
 ||nuxwlc.cn^
 ||m.nuxyz.cn^
@@ -6873,7 +6858,6 @@
 ||info.revvity.cn^
 ||reycross.cn^
 ||track.msadcenter.rfjq.com^
-||rfwyvxa.cn^
 ||rgyun.com^
 ||rhinogo.cn^
 ||plausible.ricequant.com^
@@ -8558,7 +8542,6 @@
 ||wanghejun.cn^
 ||wangluoruanjian.com^
 ||wangping721.com.cn^
-||wangqiang3.cn^
 ||mlog.wangsu.com^
 ||wangzhan5.com^
 ||analytics.wanmei.com^
@@ -8864,7 +8847,6 @@
 ||xdku9.com^
 ||xdrig.com^
 ||180.xdwan.com^
-||sensors.h5.xed.plus^
 ||e.xeig.cn^
 ||m.xeig.cn^
 ||xenjswd.cn^
