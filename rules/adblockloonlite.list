@@ -7,7 +7,7 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/12/16 00:42:25
+#!date=2025/12/16 10:20:53
 #!support=9598
 #!proxy-select=REJECT
 #
@@ -81,6 +81,8 @@ DOMAIN-SUFFIX,112.18.10.80
 DOMAIN-SUFFIX,oss-asq-static.11222.cn
 DOMAIN-SUFFIX,113.31.111.76
 DOMAIN-SUFFIX,113.98.201.248
+DOMAIN-SUFFIX,114.132.150.96
+DOMAIN-SUFFIX,114.242.100.72
 DOMAIN-SUFFIX,114.55.106.136
 DOMAIN-SUFFIX,115.159.149.113
 DOMAIN-SUFFIX,115.190.235.92
@@ -88,6 +90,7 @@ DOMAIN-SUFFIX,appversion.115.com
 DOMAIN-SUFFIX,116.198.233.179
 DOMAIN-SUFFIX,116.62.226.163
 DOMAIN-SUFFIX,117.157.17.194
+DOMAIN-SUFFIX,117.50.194.20
 DOMAIN-SUFFIX,117.72.102.110
 DOMAIN-SUFFIX,117.72.206.39
 DOMAIN-SUFFIX,117.72.222.203
@@ -167,6 +170,7 @@ DOMAIN-SUFFIX,d.14yaa.com
 DOMAIN-SUFFIX,150100.cn
 DOMAIN-SUFFIX,1503.net
 DOMAIN-SUFFIX,155qk.com
+DOMAIN-SUFFIX,159.75.201.5
 DOMAIN-SUFFIX,159.75.221.127
 DOMAIN-SUFFIX,15tianqi.com
 DOMAIN-SUFFIX,15world.cn
@@ -1780,7 +1784,6 @@ DOMAIN-SUFFIX,benyuanbaina.com
 DOMAIN-SUFFIX,bestnameshop.cn
 DOMAIN-SUFFIX,bestpillcheap.com.cn
 DOMAIN-SUFFIX,bestverse.cn
-DOMAIN-SUFFIX,bet988s.com
 DOMAIN-SUFFIX,better.com.np
 DOMAIN-SUFFIX,betterzip.net
 DOMAIN-SUFFIX,betterzipcn.com
@@ -2865,7 +2868,6 @@ DOMAIN-SUFFIX,app.acm.dzwww.com
 DOMAIN-SUFFIX,page.acm.dzwww.com
 DOMAIN-SUFFIX,api.e-cg.cn
 DOMAIN-SUFFIX,e-cte.cn
-DOMAIN-SUFFIX,stat-ssl.e-map.ne.jp
 DOMAIN-SUFFIX,api.e-toys.cn
 DOMAIN-SUFFIX,e-wei.com.cn
 DOMAIN-SUFFIX,h.e0hkzk2.cn
@@ -5761,7 +5763,6 @@ DOMAIN-SUFFIX,bilibili.osfc.org.cn
 DOMAIN-SUFFIX,osrrltw.cn
 DOMAIN-SUFFIX,ossedm.com
 DOMAIN-SUFFIX,log.gxa.bcs.ottcn.com
-DOMAIN-SUFFIX,oukfcmz.cn
 DOMAIN-SUFFIX,oulaxiang.cn
 DOMAIN-SUFFIX,cp.oupeng.com
 DOMAIN-SUFFIX,img-ad.oupeng.com
@@ -7492,7 +7493,6 @@ DOMAIN-SUFFIX,admonitor.thepaper.cn
 DOMAIN-SUFFIX,adpai.thepaper.cn
 DOMAIN-SUFFIX,imgadpai.thepaper.cn
 DOMAIN-SUFFIX,thering.cn
-DOMAIN-SUFFIX,sstats.thermofisher.com.cn
 DOMAIN-SUFFIX,event.thermoscientific.cn
 DOMAIN-SUFFIX,info.thermoscientific.cn
 DOMAIN-SUFFIX,sstats.thermoscientific.cn

@@ -3,8 +3,8 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20251216004225
-! Last modified: 2025/12/16 00:42:25
+! Version: 20251216102053
+! Last modified: 2025/12/16 10:20:53
 ! Blocked domains: 9598
 !
 395131115419474531.002.sh.cn
@@ -77,6 +77,8 @@ soft.110route.com
 oss-asq-static.11222.cn
 113.31.111.76
 113.98.201.248
+114.132.150.96
+114.242.100.72
 114.55.106.136
 115.159.149.113
 115.190.235.92
@@ -84,6 +86,7 @@ appversion.115.com
 116.198.233.179
 116.62.226.163
 117.157.17.194
+117.50.194.20
 117.72.102.110
 117.72.206.39
 117.72.222.203
@@ -163,6 +166,7 @@ d.14yaa.com
 150100.cn
 1503.net
 155qk.com
+159.75.201.5
 159.75.221.127
 15tianqi.com
 15world.cn
@@ -1776,7 +1780,6 @@ benyuanbaina.com
 bestnameshop.cn
 bestpillcheap.com.cn
 bestverse.cn
-bet988s.com
 better.com.np
 betterzip.net
 betterzipcn.com
@@ -2861,7 +2864,6 @@ app.acm.dzwww.com
 page.acm.dzwww.com
 api.e-cg.cn
 e-cte.cn
-stat-ssl.e-map.ne.jp
 api.e-toys.cn
 e-wei.com.cn
 h.e0hkzk2.cn
@@ -5757,7 +5759,6 @@ bilibili.osfc.org.cn
 osrrltw.cn
 ossedm.com
 log.gxa.bcs.ottcn.com
-oukfcmz.cn
 oulaxiang.cn
 cp.oupeng.com
 img-ad.oupeng.com
@@ -7488,7 +7489,6 @@ admonitor.thepaper.cn
 adpai.thepaper.cn
 imgadpai.thepaper.cn
 thering.cn
-sstats.thermofisher.com.cn
 event.thermoscientific.cn
 info.thermoscientific.cn
 sstats.thermoscientific.cn
