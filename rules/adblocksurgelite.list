@@ -10,8 +10,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/12/16 16:42:01
-#!support=9837
+#!date=2025/12/17 00:41:10
+#!support=9797
 #!proxy-select=REJECT-DROP
 #
 .395131115419474531.002.sh.cn
@@ -114,8 +114,6 @@
 .113.31.111.76
 .113.98.201.248
 .1133.cc
-.114.132.150.96
-.114.242.100.72
 .114.55.106.136
 .114.fm
 .1.11467.com
@@ -123,8 +121,6 @@
 .115.190.235.92
 .appversion.115.com
 .115fx.com
-.116.198.233.179
-.116.62.226.163
 .117.157.17.194
 .117.50.194.20
 .117.72.102.110
@@ -849,7 +845,6 @@
 .8.137.114.210
 .8.137.149.67
 .8.138.182.17
-.8.148.237.33
 .8.153.205.30
 .8.153.97.202
 .8020home.com.cn
@@ -1279,7 +1274,6 @@
 .errors.aliyun.com
 .update.aegis.aliyun.com
 .9-8.oss-cn-hangzhou.aliyuncs.com
-.ac9olrggo8-default-cn.rum.aliyuncs.com
 .ad-host-backup-america.oss-us-west-1.aliyuncs.com
 .ad-host-backup-asia.oss-ap-southeast-1.aliyuncs.com
 .ad-host-backup-europe.oss-eu-central-1.aliyuncs.com
@@ -3613,11 +3607,8 @@
 .google-ce.com.cn
 .google-chrome-google.com.cn
 .google-chrome-intl.com.cn
-.google-hf.com.cn
 .google-newbot.cn
-.google-op.com.cn
 .google-pz.com.cn
-.google-qw.com.cn
 .google-sc.com.cn
 .ads.google.cn
 .adsense.google.cn
@@ -4045,7 +4036,6 @@
 .bd2.home8080.cn
 .hoodor.com
 .hopemobi.net
-.horizon-continental.cn
 .hot-stories.cn
 .om.hotels.cn
 .hotslotpot.cn
@@ -4326,7 +4316,6 @@
 .y3.ifengimg.com
 .log.iflytek.com
 .logconf.iflytek.com
-.log.igamecj.com
 .igehuo.com
 .entree.igetget.com
 .piccdn.igetget.com
@@ -5712,7 +5701,6 @@
 .m.mxguan.com
 .my-hr.cn
 .fdc.my0511.com
-.ads.api.my7v.com
 .hwads-t.api.my7v.com
 .testads.api.my7v.com
 .apiyd.my91app.com
@@ -6084,50 +6072,27 @@
 .monitor.patzer0.com
 .paypa1.cn
 .paypayinsurance.cn
-.pc-bbrfj-whatsapp.com.cn
-.pc-bnnbd-whatsapp.com.cn
 .pc-bprnd-whatsapp.com.cn
-.pc-bvhtz-whatsapp.com.cn
-.pc-ccwou-whatsapp.com.cn
 .pc-cwgeu-whatsapp.com.cn
-.pc-cwwgi-whatsapp.com.cn
-.pc-ddxzz-whatsapp.com.cn
-.pc-dzznn-whatsapp.com.cn
 .pc-fntbx-whatsapp.com.cn
 .pc-fntdv-whatsapp.com.cn
 .pc-ftxxh-whatsapp.com.cn
-.pc-gueqo-whatsapp.com.cn
 .pc-hjttt-whatsapp.com.cn
-.pc-hpfxd-whatsapp.com.cn
-.pc-hxtjv-whatsapp.com.cn
-.pc-jbnbz-whatsapp.com.cn
-.pc-lfdjd-whatsapp.com.cn
-.pc-lfhvx-whatsapp.com.cn
-.pc-lpxfd-whatsapp.com.cn
 .pc-lthvd-whatsapp.com.cn
 .pc-ndppd-whatsapp.com.cn
-.pc-ndxzj-whatsapp.com.cn
 .pc-nfbjd-whatsapp.com.cn
-.pc-nthrz-whatsapp.com.cn
-.pc-nzllp-whatsapp.com.cn
 .pc-nzrht-whatsapp.com.cn
 .pc-pfxfp-whatsapp.com.cn
 .pc-phnrx-whatsapp.com.cn
 .pc-prrnr-whatsapp.com.cn
-.pc-rftlr-whatsapp.com.cn
 .pc-rntxx-whatsapp.com.cn
 .pc-rrjdz-whatsapp.com.cn
 .pc-rtpbn-whatsapp.com.cn
 .pc-rxrdl-whatsapp.com.cn
-.pc-tlzdp-whatsapp.com.cn
 .pc-vfjhn-whatsapp.com.cn
 .pc-xpzzh-whatsapp.com.cn
-.pc-xrzrz-whatsapp.com.cn
-.pc-xvvlp-whatsapp.com.cn
 .pc-zrvrv-whatsapp.com.cn
 .pc-ztfhb-whatsapp.com.cn
-.pc-zthxx-whatsapp.com.cn
-.pc-zzflx-whatsapp.com.cn
 .ipad.pc899.cn
 .count.pcauto.com.cn
 .counter.pcauto.com.cn
@@ -7720,7 +7685,6 @@
 .telegramcn.co
 .jpz.telegramn.com.cn
 .telekomkhu.cfd
-.telekoml.cfd
 .telekomlhu.cfd
 .teleqpnm.cn
 .apd-pcdnvodstat.teg.tencent-cloud.net
@@ -7928,7 +7892,7 @@
 .activity.tuifish.com
 .activity.tuipear.com
 .tukeai.com
-.tulaoshi.com
+.1.tulaoshi.com
 .ask.tulingxueyuan.cn
 .lm1.tuliu.com
 .tumeite.cn
@@ -8058,7 +8022,6 @@
 .analytics.umetrip.com
 .umiwi.com
 .umm6.cn
-.stat.umu.cn
 .ccb.uncle-ad.com
 .vhs.wwstat.com.eo.unicomcdn.com.cn
 .unionli.com
@@ -8531,7 +8494,6 @@
 .royalbankofca5.wecom.work
 .royalbankofca6.wecom.work
 .weddingeeos.com
-.event.stat.wedobest.com.cn
 .dns.weibo.cn
 .dp.im.weibo.cn
 .game.weibo.cn
@@ -8749,7 +8711,6 @@
 .xdku9.com
 .xdrig.com
 .180.xdwan.com
-.sensors.h5.xed.plus
 .e.xeig.cn
 .m.xeig.cn
 .xenjswd.cn
@@ -9418,7 +9379,6 @@
 .myes.youku.com
 .orange-dc.youku.com
 .pcapp-data-collect.youku.com
-.pis-tel-pcdn.youku.com
 .pl.youku.com
 .player-lg.youku.com
 .playlog.youku.com

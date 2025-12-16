@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/12/16 16:42:01
-#!support=9837
+#!date=2025/12/17 00:41:10
+#!support=9797
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,395131115419474531.002.sh.cn
@@ -111,8 +111,6 @@ DOMAIN-SUFFIX,oss-asq-static.11222.cn
 DOMAIN-SUFFIX,113.31.111.76
 DOMAIN-SUFFIX,113.98.201.248
 DOMAIN-SUFFIX,1133.cc
-DOMAIN-SUFFIX,114.132.150.96
-DOMAIN-SUFFIX,114.242.100.72
 DOMAIN-SUFFIX,114.55.106.136
 DOMAIN-SUFFIX,114.fm
 DOMAIN-SUFFIX,1.11467.com
@@ -120,8 +118,6 @@ DOMAIN-SUFFIX,115.159.149.113
 DOMAIN-SUFFIX,115.190.235.92
 DOMAIN-SUFFIX,appversion.115.com
 DOMAIN-SUFFIX,115fx.com
-DOMAIN-SUFFIX,116.198.233.179
-DOMAIN-SUFFIX,116.62.226.163
 DOMAIN-SUFFIX,117.157.17.194
 DOMAIN-SUFFIX,117.50.194.20
 DOMAIN-SUFFIX,117.72.102.110
@@ -846,7 +842,6 @@ DOMAIN-SUFFIX,8.134.51.218
 DOMAIN-SUFFIX,8.137.114.210
 DOMAIN-SUFFIX,8.137.149.67
 DOMAIN-SUFFIX,8.138.182.17
-DOMAIN-SUFFIX,8.148.237.33
 DOMAIN-SUFFIX,8.153.205.30
 DOMAIN-SUFFIX,8.153.97.202
 DOMAIN-SUFFIX,8020home.com.cn
@@ -1276,7 +1271,6 @@ DOMAIN-SUFFIX,click.aliyun.com
 DOMAIN-SUFFIX,errors.aliyun.com
 DOMAIN-SUFFIX,update.aegis.aliyun.com
 DOMAIN-SUFFIX,9-8.oss-cn-hangzhou.aliyuncs.com
-DOMAIN-SUFFIX,ac9olrggo8-default-cn.rum.aliyuncs.com
 DOMAIN-SUFFIX,ad-host-backup-america.oss-us-west-1.aliyuncs.com
 DOMAIN-SUFFIX,ad-host-backup-asia.oss-ap-southeast-1.aliyuncs.com
 DOMAIN-SUFFIX,ad-host-backup-europe.oss-eu-central-1.aliyuncs.com
@@ -3610,11 +3604,8 @@ DOMAIN-SUFFIX,google-analyze.cn
 DOMAIN-SUFFIX,google-ce.com.cn
 DOMAIN-SUFFIX,google-chrome-google.com.cn
 DOMAIN-SUFFIX,google-chrome-intl.com.cn
-DOMAIN-SUFFIX,google-hf.com.cn
 DOMAIN-SUFFIX,google-newbot.cn
-DOMAIN-SUFFIX,google-op.com.cn
 DOMAIN-SUFFIX,google-pz.com.cn
-DOMAIN-SUFFIX,google-qw.com.cn
 DOMAIN-SUFFIX,google-sc.com.cn
 DOMAIN-SUFFIX,ads.google.cn
 DOMAIN-SUFFIX,adsense.google.cn
@@ -4042,7 +4033,6 @@ DOMAIN-SUFFIX,bd1.home8080.cn
 DOMAIN-SUFFIX,bd2.home8080.cn
 DOMAIN-SUFFIX,hoodor.com
 DOMAIN-SUFFIX,hopemobi.net
-DOMAIN-SUFFIX,horizon-continental.cn
 DOMAIN-SUFFIX,hot-stories.cn
 DOMAIN-SUFFIX,om.hotels.cn
 DOMAIN-SUFFIX,hotslotpot.cn
@@ -4323,7 +4313,6 @@ DOMAIN-SUFFIX,c1.ifengimg.com
 DOMAIN-SUFFIX,y3.ifengimg.com
 DOMAIN-SUFFIX,log.iflytek.com
 DOMAIN-SUFFIX,logconf.iflytek.com
-DOMAIN-SUFFIX,log.igamecj.com
 DOMAIN-SUFFIX,igehuo.com
 DOMAIN-SUFFIX,entree.igetget.com
 DOMAIN-SUFFIX,piccdn.igetget.com
@@ -5709,7 +5698,6 @@ DOMAIN-SUFFIX,mxevdii.cn
 DOMAIN-SUFFIX,m.mxguan.com
 DOMAIN-SUFFIX,my-hr.cn
 DOMAIN-SUFFIX,fdc.my0511.com
-DOMAIN-SUFFIX,ads.api.my7v.com
 DOMAIN-SUFFIX,hwads-t.api.my7v.com
 DOMAIN-SUFFIX,testads.api.my7v.com
 DOMAIN-SUFFIX,apiyd.my91app.com
@@ -6081,50 +6069,27 @@ DOMAIN-SUFFIX,bt1.patexplorer.com
 DOMAIN-SUFFIX,monitor.patzer0.com
 DOMAIN-SUFFIX,paypa1.cn
 DOMAIN-SUFFIX,paypayinsurance.cn
-DOMAIN-SUFFIX,pc-bbrfj-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-bnnbd-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-bprnd-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-bvhtz-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-ccwou-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-cwgeu-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-cwwgi-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-ddxzz-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-dzznn-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-fntbx-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-fntdv-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-ftxxh-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-gueqo-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-hjttt-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-hpfxd-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-hxtjv-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-jbnbz-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-lfdjd-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-lfhvx-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-lpxfd-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-lthvd-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-ndppd-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-ndxzj-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-nfbjd-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-nthrz-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-nzllp-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-nzrht-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-pfxfp-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-phnrx-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-prrnr-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-rftlr-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-rntxx-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-rrjdz-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-rtpbn-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-rxrdl-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-tlzdp-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-vfjhn-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-xpzzh-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-xrzrz-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-xvvlp-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-zrvrv-whatsapp.com.cn
 DOMAIN-SUFFIX,pc-ztfhb-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-zthxx-whatsapp.com.cn
-DOMAIN-SUFFIX,pc-zzflx-whatsapp.com.cn
 DOMAIN-SUFFIX,ipad.pc899.cn
 DOMAIN-SUFFIX,count.pcauto.com.cn
 DOMAIN-SUFFIX,counter.pcauto.com.cn
@@ -7717,7 +7682,6 @@ DOMAIN-SUFFIX,teddymobile.cn
 DOMAIN-SUFFIX,telegramcn.co
 DOMAIN-SUFFIX,jpz.telegramn.com.cn
 DOMAIN-SUFFIX,telekomkhu.cfd
-DOMAIN-SUFFIX,telekoml.cfd
 DOMAIN-SUFFIX,telekomlhu.cfd
 DOMAIN-SUFFIX,teleqpnm.cn
 DOMAIN-SUFFIX,apd-pcdnvodstat.teg.tencent-cloud.net
@@ -7925,7 +7889,7 @@ DOMAIN-SUFFIX,activity.tuiapple.com
 DOMAIN-SUFFIX,activity.tuifish.com
 DOMAIN-SUFFIX,activity.tuipear.com
 DOMAIN-SUFFIX,tukeai.com
-DOMAIN-SUFFIX,tulaoshi.com
+DOMAIN-SUFFIX,1.tulaoshi.com
 DOMAIN-SUFFIX,ask.tulingxueyuan.cn
 DOMAIN-SUFFIX,lm1.tuliu.com
 DOMAIN-SUFFIX,tumeite.cn
@@ -8055,7 +8019,6 @@ DOMAIN-SUFFIX,gf.umenglog.com
 DOMAIN-SUFFIX,analytics.umetrip.com
 DOMAIN-SUFFIX,umiwi.com
 DOMAIN-SUFFIX,umm6.cn
-DOMAIN-SUFFIX,stat.umu.cn
 DOMAIN-SUFFIX,ccb.uncle-ad.com
 DOMAIN-SUFFIX,vhs.wwstat.com.eo.unicomcdn.com.cn
 DOMAIN-SUFFIX,unionli.com
@@ -8528,7 +8491,6 @@ DOMAIN-SUFFIX,ifm5.wecom.work
 DOMAIN-SUFFIX,royalbankofca5.wecom.work
 DOMAIN-SUFFIX,royalbankofca6.wecom.work
 DOMAIN-SUFFIX,weddingeeos.com
-DOMAIN-SUFFIX,event.stat.wedobest.com.cn
 DOMAIN-SUFFIX,dns.weibo.cn
 DOMAIN-SUFFIX,dp.im.weibo.cn
 DOMAIN-SUFFIX,game.weibo.cn
@@ -8746,7 +8708,6 @@ DOMAIN-SUFFIX,xdk7m.com
 DOMAIN-SUFFIX,xdku9.com
 DOMAIN-SUFFIX,xdrig.com
 DOMAIN-SUFFIX,180.xdwan.com
-DOMAIN-SUFFIX,sensors.h5.xed.plus
 DOMAIN-SUFFIX,e.xeig.cn
 DOMAIN-SUFFIX,m.xeig.cn
 DOMAIN-SUFFIX,xenjswd.cn
@@ -9415,7 +9376,6 @@ DOMAIN-SUFFIX,msg.youku.com
 DOMAIN-SUFFIX,myes.youku.com
 DOMAIN-SUFFIX,orange-dc.youku.com
 DOMAIN-SUFFIX,pcapp-data-collect.youku.com
-DOMAIN-SUFFIX,pis-tel-pcdn.youku.com
 DOMAIN-SUFFIX,pl.youku.com
 DOMAIN-SUFFIX,player-lg.youku.com
 DOMAIN-SUFFIX,playlog.youku.com
