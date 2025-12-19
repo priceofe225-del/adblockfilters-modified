@@ -3,9 +3,9 @@
 # Description: 适用于 DNSMasq 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnsmasqlite.txt
-# Version: 20251219004124
-# Last modified: 2025/12/19 00:41:24
-# Blocked domains: 9626
+# Version: 20251219101944
+# Last modified: 2025/12/19 10:19:44
+# Blocked domains: 9623
 #
 local=/395131115419474531.002.sh.cn/
 local=/011211.cn/
@@ -80,7 +80,6 @@ local=/101.132.131.225/
 local=/101.34.66.77/
 local=/101.35.56.7/
 local=/101.43.166.60/
-local=/101.43.2.116/
 local=/101.43.49.183/
 local=/1.1010pic.com/
 local=/2.1010pic.com/
@@ -88,7 +87,6 @@ local=/103.205.253.156/
 local=/103.205.253.251/
 local=/103.28.204.208/
 local=/103.40.13.122/
-local=/106.13.29.104/
 local=/106.14.68.26/
 local=/106.52.208.143/
 local=/106.54.239.134/
@@ -101,28 +99,29 @@ local=/110.40.199.21/
 local=/v.110route.cn/
 local=/ytx-file.110route.cn/
 local=/1.11130.com.cn/
+local=/112.18.10.80/
 local=/oss-asq-static.11222.cn/
 local=/113.31.111.76/
 local=/113.98.201.248/
 local=/1133.cc/
 local=/114.132.150.96/
-local=/114.55.106.136/
 local=/114.fm/
 local=/1.11467.com/
 local=/115.159.149.113/
 local=/115.190.235.92/
 local=/appversion.115.com/
 local=/115fx.com/
+local=/116.198.233.179/
 local=/117.157.17.194/
 local=/117.50.194.20/
 local=/117.72.102.110/
 local=/117.72.206.39/
+local=/118.178.133.241/
 local=/118.25.68.152/
 local=/118.25.85.198/
 local=/118.31.16.216/
 local=/118678.com/
 local=/1188.com/
-local=/119.45.161.174/
 local=/119.91.141.214/
 local=/120.24.64.74/
 local=/120.46.212.33/
@@ -192,7 +191,6 @@ local=/129.204.254.108/
 local=/12i.cn/
 local=/133u.com/
 local=/1357902.cn/
-local=/139.159.155.204/
 local=/139.198.15.223/
 local=/1391.com/
 local=/14.103.234.180/
@@ -539,7 +537,6 @@ local=/42.192.49.146/
 local=/420909.cn/
 local=/426g.com/
 local=/43.138.28.205/
-local=/43.139.169.60/
 local=/43.139.50.42/
 local=/43.226.39.44/
 local=/43.249.192.196/
