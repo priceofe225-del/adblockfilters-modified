@@ -1,0 +1,17 @@
+name: Cleanup Failed Workflows
+
+on:
+  workflow_dispatch:
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Delete Failed Workflow Runs
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          retain_days: 0
+          keep_minimum_runs: 0
+          delete_workflow_pattern: 'all'
+          delete_run_by_conclusion_pattern: 'failure,cancelled'
