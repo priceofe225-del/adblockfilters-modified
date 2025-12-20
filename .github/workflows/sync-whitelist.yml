@@ -27,21 +27,66 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
       
-      - name: Sync Upstream Whitelist
+      - name: Sync and Merge Whitelist
         run: |
-          # Download whitelist from upstream
+          # Download upstream whitelist
           curl -fsSL "https://raw.githubusercontent.com/${{ env.UPSTREAM_REPO }}/${{ env.UPSTREAM_BRANCH }}/${{ env.TARGET_FILE }}" -o white_upstream.txt
           
+          # Merge upstream with custom whitelist (white2.txt)
+          cat white_upstream.txt > white_merged.txt
+          
+          # Append custom whitelist if it exists and has non-comment lines
+          if [ -f "rules/white2.txt" ]; then
+            echo "" >> white_merged.txt
+            echo "# Custom whitelist entries" >> white_merged.txt
+            cat rules/white2.txt >> white_merged.txt
+          fi
+          
+          # Deduplicate: keep only unique non-comment lines while preserving comments
+          python3 << 'EOF'
+import sys
+
+# Read merged file
+with open('white_merged.txt', 'r', encoding='utf-8') as f:
+    lines = f.readlines()
+
+# Separate comments and domains
+comments = []
+domains = set()
+
+for line in lines:
+    line = line.rstrip('\r\n')
+    if not line or line.startswith('#') or line.startswith('!'):
+        comments.append(line)
+    else:
+        domains.add(line.strip())
+
+# Write deduplicated result
+with open('white_final.txt', 'w', encoding='utf-8') as f:
+    # Write comments first
+    for comment in comments:
+        f.write(comment + '\n')
+    
+    # Write sorted unique domains
+    if domains:
+        f.write('\n')
+        for domain in sorted(domains):
+            f.write(domain + '\n')
+EOF
+          
           # Check if file has changed
-          if ! cmp -s white_upstream.txt "${{ env.TARGET_FILE }}"; then
+          if ! cmp -s white_final.txt "${{ env.TARGET_FILE }}"; then
             echo "Whitelist has been updated"
-            mv white_upstream.txt "${{ env.TARGET_FILE }}"
+            mv white_final.txt "${{ env.TARGET_FILE }}"
             echo "CHANGED=true" >> $GITHUB_ENV
           else
             echo "Whitelist is already up to date"
-            rm white_upstream.txt
+            rm white_final.txt
             echo "CHANGED=false" >> $GITHUB_ENV
           fi
+          
+          # Cleanup
+          rm -f white_upstream.txt white_merged.txt
       
       - name: Commit Changes
         if: env.CHANGED == 'true'

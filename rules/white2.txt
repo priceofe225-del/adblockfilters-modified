@@ -1,0 +1,8 @@
+# Custom Whitelist
+#
+# Add your own whitelist entries here, one domain per line.
+# This will be merged with upstream white.txt during sync.
+#
+# Example:
+# dns.weixin.qq.com.cn
+# api.example.com
