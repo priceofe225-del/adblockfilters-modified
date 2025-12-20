@@ -10,8 +10,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/12/20 23:04:50
-#!support=9709
+#!date=2025/12/21 00:34:21
+#!support=9708
 #!proxy-select=REJECT-DROP
 #
 .005555.com
@@ -6377,7 +6377,6 @@
 .data.qq.com
 .detect.mb.qq.com
 .dnet.mb.qq.com
-.dns.weixin.qq.com
 .download.sj.qq.com
 .dp3.qq.com
 .e.qq.com

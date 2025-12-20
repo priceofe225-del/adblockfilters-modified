@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/12/20 23:04:50
-#!support=9709
+#!date=2025/12/21 00:34:20
+#!support=9708
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,005555.com
@@ -6374,7 +6374,6 @@ DOMAIN-SUFFIX,d3g.qq.com
 DOMAIN-SUFFIX,data.qq.com
 DOMAIN-SUFFIX,detect.mb.qq.com
 DOMAIN-SUFFIX,dnet.mb.qq.com
-DOMAIN-SUFFIX,dns.weixin.qq.com
 DOMAIN-SUFFIX,download.sj.qq.com
 DOMAIN-SUFFIX,dp3.qq.com
 DOMAIN-SUFFIX,e.qq.com
