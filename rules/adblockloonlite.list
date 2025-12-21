@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/12/21 16:36:29
-#!support=9970
+#!date=2025/12/22 00:34:07
+#!support=9956
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,395131115419474531.002.sh.cn
@@ -91,7 +91,6 @@ DOMAIN-SUFFIX,103.205.253.156
 DOMAIN-SUFFIX,103.205.253.251
 DOMAIN-SUFFIX,103.28.204.208
 DOMAIN-SUFFIX,103.40.13.122
-DOMAIN-SUFFIX,106.13.29.104
 DOMAIN-SUFFIX,106.14.68.26
 DOMAIN-SUFFIX,106.52.185.141
 DOMAIN-SUFFIX,106.52.208.143
@@ -101,7 +100,6 @@ DOMAIN-SUFFIX,107788.com
 DOMAIN-SUFFIX,adm.10jqka.com.cn
 DOMAIN-SUFFIX,stat.10jqka.com.cn
 DOMAIN-SUFFIX,10raw.com
-DOMAIN-SUFFIX,110.40.199.21
 DOMAIN-SUFFIX,v.110route.cn
 DOMAIN-SUFFIX,ytx-file.110route.cn
 DOMAIN-SUFFIX,soft.110route.com
@@ -565,7 +563,6 @@ DOMAIN-SUFFIX,42.192.49.146
 DOMAIN-SUFFIX,420909.cn
 DOMAIN-SUFFIX,426g.com
 DOMAIN-SUFFIX,43.138.28.205
-DOMAIN-SUFFIX,43.139.169.60
 DOMAIN-SUFFIX,43.139.50.42
 DOMAIN-SUFFIX,43.226.39.44
 DOMAIN-SUFFIX,43.249.192.196
@@ -1000,8 +997,6 @@ DOMAIN-SUFFIX,a-peeloffsexvip.com
 DOMAIN-SUFFIX,a0c77.com
 DOMAIN-SUFFIX,tgd.a1eg07.cn
 DOMAIN-SUFFIX,a2m.cn
-DOMAIN-SUFFIX,telemetry.cell-0.cn-north-1.prod.tangerinebox.console.aws.a2z.org.cn
-DOMAIN-SUFFIX,telemetry.cell-0.cn-northwest-1.prod.tangerinebox.console.aws.a2z.org.cn
 DOMAIN-SUFFIX,a395813236.cn
 DOMAIN-SUFFIX,a3p4.net
 DOMAIN-SUFFIX,a48505.cn
@@ -1319,7 +1314,6 @@ DOMAIN-SUFFIX,dmg-dd.oss-accelerate.aliyuncs.com
 DOMAIN-SUFFIX,dongtukj.oss-cn-hongkong.aliyuncs.com
 DOMAIN-SUFFIX,dreemdmbabys.oss-cn-guangzhou.aliyuncs.com
 DOMAIN-SUFFIX,dressimage.img-cn-beijing.aliyuncs.com
-DOMAIN-SUFFIX,eex8nehrx0-default-cn.rum.aliyuncs.com
 DOMAIN-SUFFIX,ep2x3kiawg-sdk.rum.aliyuncs.com
 DOMAIN-SUFFIX,f7vkagmqwq-sdk.rum.aliyuncs.com
 DOMAIN-SUFFIX,facai383.oss-cn-guangzhou.aliyuncs.com
@@ -2172,7 +2166,6 @@ DOMAIN-SUFFIX,cetcf.cn
 DOMAIN-SUFFIX,cf73k.com
 DOMAIN-SUFFIX,cfcc-caf.org.cn
 DOMAIN-SUFFIX,cfss.cc
-DOMAIN-SUFFIX,cg-google.com.cn
 DOMAIN-SUFFIX,update.cg100iii.com
 DOMAIN-SUFFIX,cgigc.com.cn
 DOMAIN-SUFFIX,cgt66s.com
@@ -2534,8 +2527,6 @@ DOMAIN-SUFFIX,m.cuoss.com
 DOMAIN-SUFFIX,ads.cup.com.cn
 DOMAIN-SUFFIX,cvfgere96.cn
 DOMAIN-SUFFIX,cvg53.com
-DOMAIN-SUFFIX,cvoesnzam.cfd
-DOMAIN-SUFFIX,cvoesnzaz.cfd
 DOMAIN-SUFFIX,cvv6.com
 DOMAIN-SUFFIX,z1.cwbaike.com
 DOMAIN-SUFFIX,cwc494e.cn
@@ -4912,7 +4903,6 @@ DOMAIN-SUFFIX,j.kfd3sm2c.com
 DOMAIN-SUFFIX,kfnkkng.cn
 DOMAIN-SUFFIX,kfpcm.com
 DOMAIN-SUFFIX,kfpnqug.cn
-DOMAIN-SUFFIX,kgm-gov-tr.me
 DOMAIN-SUFFIX,mail.kguapp.com
 DOMAIN-SUFFIX,e.kguaq.com
 DOMAIN-SUFFIX,m.kguaq.com
@@ -5180,7 +5170,6 @@ DOMAIN-SUFFIX,e.ldsfh.cn
 DOMAIN-SUFFIX,banana.le.com
 DOMAIN-SUFFIX,cherry.le.com
 DOMAIN-SUFFIX,stat.le.com
-DOMAIN-SUFFIX,api.leancloud.cn
 DOMAIN-SUFFIX,leeleo.top
 DOMAIN-SUFFIX,analysis.leetcode.cn
 DOMAIN-SUFFIX,legend.ac.cn
@@ -6933,7 +6922,6 @@ DOMAIN-SUFFIX,rpkcqtf.cn
 DOMAIN-SUFFIX,rplzmw.cn
 DOMAIN-SUFFIX,rsdpg.cn
 DOMAIN-SUFFIX,rsoz.cn
-DOMAIN-SUFFIX,ip.rss.ink
 DOMAIN-SUFFIX,rtbasia.com
 DOMAIN-SUFFIX,rtbwave.com
 DOMAIN-SUFFIX,ruan.cn
@@ -7993,7 +7981,6 @@ DOMAIN-SUFFIX,tsfkjbw.com
 DOMAIN-SUFFIX,m.tsgyg.cn
 DOMAIN-SUFFIX,ttdbh.com
 DOMAIN-SUFFIX,settings.ttwebview.com
-DOMAIN-SUFFIX,ttyy.asia
 DOMAIN-SUFFIX,ttyyuuoo.com
 DOMAIN-SUFFIX,tudou.com
 DOMAIN-SUFFIX,tudxhzj.cn
@@ -8164,7 +8151,6 @@ DOMAIN-SUFFIX,gf.umenglog.com
 DOMAIN-SUFFIX,analytics.umetrip.com
 DOMAIN-SUFFIX,umiwi.com
 DOMAIN-SUFFIX,umm6.cn
-DOMAIN-SUFFIX,stat.umu.cn
 DOMAIN-SUFFIX,ccb.uncle-ad.com
 DOMAIN-SUFFIX,vhs.wwstat.com.eo.unicomcdn.com.cn
 DOMAIN-SUFFIX,unionli.com
