@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20251222164122
-# Last modified: 2025/12/22 16:41:22
-# Blocked domains: 10014
+# Version: 20251223003732
+# Last modified: 2025/12/23 00:37:32
+# Blocked domains: 10015
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -130,7 +130,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	115.190.235.92
 0.0.0.0	appversion.115.com
 0.0.0.0	115fx.com
-0.0.0.0	116.198.233.179
 0.0.0.0	116.62.226.163
 0.0.0.0	117.157.17.194
 0.0.0.0	117.50.194.20
@@ -593,7 +592,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	47.120.70.161
 0.0.0.0	47.121.137.8
 0.0.0.0	47.92.148.108
-0.0.0.0	47.93.216.2
 0.0.0.0	47.93.28.103
 0.0.0.0	47.98.165.119
 0.0.0.0	47.98.224.91
@@ -673,6 +671,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	52shouyou.com.cn
 0.0.0.0	adm.52swine.com
 0.0.0.0	52xiyou.com
+0.0.0.0	api.52youtu.com
 0.0.0.0	a.52zxw.com
 0.0.0.0	53kf.com
 0.0.0.0	m.53trya.cn
@@ -1301,7 +1300,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	aixuntupian.oss-cn-hongkong.aliyuncs.com
 0.0.0.0	alime-pic.oss-cn-hangzhou.aliyuncs.com
 0.0.0.0	appgiftwall.oss-us-west-1.aliyuncs.com
-0.0.0.0	axyleu11gz-default-cn.rum.aliyuncs.com
 0.0.0.0	badding.oss-ap-southeast-1.aliyuncs.com
 0.0.0.0	beacon-api.aliyuncs.com
 0.0.0.0	bruplong.oss-accelerate.aliyuncs.com
@@ -3591,7 +3589,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	media.globalsign.com
 0.0.0.0	seal.globalsign.com
 0.0.0.0	africa.edm.globalsources.com
-0.0.0.0	analytics.globalsources.com
 0.0.0.0	electronics.edm.globalsources.com
 0.0.0.0	electronics.tradeshow.globalsources.com
 0.0.0.0	exhibition.edm.globalsources.com
@@ -3619,6 +3616,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	l.glrcy.cn
 0.0.0.0	glwxw.net
 0.0.0.0	gmkqd.cn
+0.0.0.0	cpux.gmud.top
 0.0.0.0	ad.gmw.cn
 0.0.0.0	channel-analysis-js.gmw.cn
 0.0.0.0	gn52.cn
@@ -3664,6 +3662,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	partnerad.l.google.com
 0.0.0.0	ssl-google-analytics.l.google.com
 0.0.0.0	www-google-analytics.l.google.com
+0.0.0.0	www-googletagmanager.l.google.com
 0.0.0.0	googleadservices-cn.com
 0.0.0.0	googleadservices.com
 0.0.0.0	googleanalytics.com
@@ -4176,6 +4175,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	hstpnetwork.com
 0.0.0.0	g.hsw.cn
 0.0.0.0	hswfj.cn
+0.0.0.0	hsych.com
 0.0.0.0	hsykj.net
 0.0.0.0	ht55.cn
 0.0.0.0	htgjkm.cn
@@ -5495,6 +5495,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	analytics.meituan.net
 0.0.0.0	data-sdk-uuid-log.d.meituan.net
 0.0.0.0	dreport.meituan.net
+0.0.0.0	cloudcollect.meitudata.com
 0.0.0.0	meitubeauty.meitudata.com
 0.0.0.0	my-material.zone1.meitudata.com
 0.0.0.0	stat.meitudata.com
@@ -5945,7 +5946,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	advert.lx.netease.com
 0.0.0.0	analytics.hz.netease.com
 0.0.0.0	analytics.mpay.netease.com
-0.0.0.0	countly.unus.netease.com
 0.0.0.0	da.netease.com
 0.0.0.0	httpdns-sdk.n.netease.com
 0.0.0.0	httpdns.n.netease.com
@@ -5981,6 +5981,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	nimaxrv.cn
 0.0.0.0	m.nimenzaina.cn
 0.0.0.0	ninebox.cn
+0.0.0.0	down.nishuoa.com
 0.0.0.0	nisihu.com.cn
 0.0.0.0	taobao.niucha.ren
 0.0.0.0	niudashu.com
@@ -6368,7 +6369,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	pthejzb.com
 0.0.0.0	ptmabek.cn
 0.0.0.0	ptmind.com
-0.0.0.0	pttplcic.cc
 0.0.0.0	pufhzpt.cn
 0.0.0.0	pulton.info
 0.0.0.0	pig.pupuapi.com
@@ -7071,10 +7071,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	sensorsdata.cn
 0.0.0.0	seonaudo.cn
 0.0.0.0	seordl.cn
-0.0.0.0	service-delivery-hub.com
 0.0.0.0	servicehot.com
 0.0.0.0	setqre.cn
-0.0.0.0	seur-com.cc
 0.0.0.0	seures.blog
 0.0.0.0	seurese.click
 0.0.0.0	sfbixfd.cn
@@ -7723,7 +7721,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	sjarvis.taobao.com
 0.0.0.0	srd.simba.taobao.com
 0.0.0.0	stat.simba.taobao.com
-0.0.0.0	tbskip.taobao.com
 0.0.0.0	tejia.taobao.com
 0.0.0.0	temai.taobao.com
 0.0.0.0	textlink.simba.taobao.com
@@ -8019,6 +8016,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	analy.tuniu.cn
 0.0.0.0	turbonamestore.cn
 0.0.0.0	api.tusdk.com
+0.0.0.0	asdkd.tutuapp.com
+0.0.0.0	log.tutuapp.com
 0.0.0.0	smetrics.tuvsud.cn
 0.0.0.0	tuxi.com.cn
 0.0.0.0	m.tv12h.cn
@@ -8163,6 +8162,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	um1.cn
 0.0.0.0	umapi.cn
 0.0.0.0	umeng.com
+0.0.0.0	gf.umenglog.com
 0.0.0.0	analytics.umetrip.com
 0.0.0.0	umiwi.com
 0.0.0.0	umm6.cn
@@ -8195,6 +8195,8 @@ ff02::3	ip6-allhosts
 0.0.0.0	uphzxdv.cn
 0.0.0.0	ads-sdk-cn.upltv.com
 0.0.0.0	upyzqf.cn
+0.0.0.0	adscfg.uqualities.com
+0.0.0.0	adsoss.uqualities.com
 0.0.0.0	uqz.com
 0.0.0.0	urhu.cn
 0.0.0.0	uri6.com
@@ -9004,7 +9006,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	console.admin.xmpush.xiaomi.com
 0.0.0.0	controller.india.xiaomi.com
 0.0.0.0	data.game.xiaomi.com
-0.0.0.0	data.mistat.xiaomi.com
 0.0.0.0	de.pandora.xiaomi.com
 0.0.0.0	dev.staging.api.developer.n.xiaomi.com
 0.0.0.0	drm.market.xiaomi.com
@@ -9099,7 +9100,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	static.game.xiaomi.com
 0.0.0.0	stats-fm.music.xiaomi.com
 0.0.0.0	stats.music.xiaomi.com
-0.0.0.0	storeconfig.mistat.xiaomi.com
 0.0.0.0	sys.tv.india.xiaomi.com
 0.0.0.0	t.app.xiaomi.com
 0.0.0.0	t1.a.market.xiaomi.com
@@ -9638,6 +9638,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	yrszy.com.cn
 0.0.0.0	ys630.com
 0.0.0.0	ys6ot.cn
+0.0.0.0	log.ys7.com
 0.0.0.0	ads.ysepay.com
 0.0.0.0	ysgsq.cn
 0.0.0.0	ysjwj.com
