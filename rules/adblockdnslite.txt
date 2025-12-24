@@ -3,9 +3,9 @@
 ! Description: 适用于 AdGuard、AdGuardHome 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt
-! Version: 20251224164029
-! Last modified: 2025/12/24 16:40:29
-! Blocked domains: 9992
+! Version: 20251225003623
+! Last modified: 2025/12/25 00:36:23
+! Blocked domains: 9979
 ! unBlocked domains: 45
 !
 ||395131115419474531.002.sh.cn^
@@ -124,7 +124,6 @@
 ||117.72.102.110^
 ||117.72.206.39^
 ||117.72.222.203^
-||118.178.133.241^
 ||118.25.68.152^
 ||118.25.85.198^
 ||118.31.16.216^
@@ -289,7 +288,6 @@
 ||189zj.cn^
 ||p1.18zhongyao.com^
 ||link.1905.com^
-||192.140.189.7^
 ||19869.com^
 ||198game.com^
 ||m.198nc.cn^
@@ -505,7 +503,6 @@
 ||39.104.161.178^
 ||39.105.165.37^
 ||39.97.47.45^
-||39.98.48.153^
 ||abody.39.net^
 ||app-g.39.net^
 ||d.39.net^
@@ -572,7 +569,6 @@
 ||47.104.31.7^
 ||47.104.96.89^
 ||47.107.136.106^
-||47.108.63.64^
 ||47.109.145.121^
 ||47.109.48.57^
 ||47.109.77.84^
@@ -1447,7 +1443,6 @@
 ||wxhawk.aoscdn.com^
 ||log-pub-hk.aoshitang.com^
 ||aotiw.cn^
-||ap-google.com.cn^
 ||adx.apicgate.com^
 ||us-behavior.apitd.net^
 ||apkevery.com^
@@ -1581,7 +1576,6 @@
 ||kele1688.web23.badudns.cc^
 ||qmlog.baertt.com^
 ||game.baichuanhd.cn^
-||advertise.baicizhan.com^
 ||events.baicizhan.com^
 ||advertise.baicizhan.org^
 ||baicp.com^
@@ -3153,7 +3147,6 @@
 ||log.ergeduoduo.com^
 ||erlpbwy.cn^
 ||www.erun-tech.com^
-||analytics.escience.org.cn^
 ||esdaftot.qpon^
 ||ethan.wang^
 ||zghn.ethereh.cn^
@@ -3653,13 +3646,11 @@
 ||google-analytics-cn.com^
 ||google-analytics.com^
 ||google-analyze.cn^
-||google-ce.com.cn^
 ||google-chrome-google.com.cn^
 ||google-chrome-intl.com.cn^
 ||google-jd.com.cn^
 ||google-newbot.cn^
 ||google-rv.com.cn^
-||google-sc.com.cn^
 ||ads.google.cn^
 ||adsense.google.cn^
 ||adservice.google.com^
@@ -5787,7 +5778,6 @@
 ||m.mxguan.com^
 ||my-hr.cn^
 ||fdc.my0511.com^
-||ads.api.my7v.com^
 ||hwads-t.api.my7v.com^
 ||testads.api.my7v.com^
 ||apiyd.my91app.com^
@@ -5887,7 +5877,6 @@
 ||ytapi1.nagezan.net^
 ||naljjd.top^
 ||nalook.com^
-||nampost.biz^
 ||logs.nandu.com^
 ||1.nanrenwo.net^
 ||nasimobi.com^
@@ -7697,6 +7686,7 @@
 ||sjarvis.taobao.com^
 ||srd.simba.taobao.com^
 ||stat.simba.taobao.com^
+||tbskip.taobao.com^
 ||tejia.taobao.com^
 ||temai.taobao.com^
 ||textlink.simba.taobao.com^
@@ -8572,7 +8562,6 @@
 ||wangzhan5.com^
 ||analytics.wanmei.com^
 ||analytics-gw.games.wanmei.com^
-||dlog.wanmei.com^
 ||log1.wanmei.com^
 ||log2.wanmei.com^
 ||h5.wannaplay.cn^
@@ -8874,7 +8863,6 @@
 ||xdku9.com^
 ||xdrig.com^
 ||180.xdwan.com^
-||sensors.h5.xed.plus^
 ||xmizxgugh.xehe.cn^
 ||e.xeig.cn^
 ||m.xeig.cn^
@@ -9557,7 +9545,6 @@
 ||myes.youku.com^
 ||orange-dc.youku.com^
 ||pcapp-data-collect.youku.com^
-||pis-tel-pcdn.youku.com^
 ||pl.youku.com^
 ||player-lg.youku.com^
 ||playlog.youku.com^

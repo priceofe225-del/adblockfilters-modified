@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/12/24 16:40:29
-#!support=9992
+#!date=2025/12/25 00:36:23
+#!support=9979
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,395131115419474531.002.sh.cn
@@ -127,7 +127,6 @@ DOMAIN-SUFFIX,117.50.194.20
 DOMAIN-SUFFIX,117.72.102.110
 DOMAIN-SUFFIX,117.72.206.39
 DOMAIN-SUFFIX,117.72.222.203
-DOMAIN-SUFFIX,118.178.133.241
 DOMAIN-SUFFIX,118.25.68.152
 DOMAIN-SUFFIX,118.25.85.198
 DOMAIN-SUFFIX,118.31.16.216
@@ -292,7 +291,6 @@ DOMAIN-SUFFIX,webwebfenxi.189.cn
 DOMAIN-SUFFIX,189zj.cn
 DOMAIN-SUFFIX,p1.18zhongyao.com
 DOMAIN-SUFFIX,link.1905.com
-DOMAIN-SUFFIX,192.140.189.7
 DOMAIN-SUFFIX,19869.com
 DOMAIN-SUFFIX,198game.com
 DOMAIN-SUFFIX,m.198nc.cn
@@ -508,7 +506,6 @@ DOMAIN-SUFFIX,39.103.217.92
 DOMAIN-SUFFIX,39.104.161.178
 DOMAIN-SUFFIX,39.105.165.37
 DOMAIN-SUFFIX,39.97.47.45
-DOMAIN-SUFFIX,39.98.48.153
 DOMAIN-SUFFIX,abody.39.net
 DOMAIN-SUFFIX,app-g.39.net
 DOMAIN-SUFFIX,d.39.net
@@ -575,7 +572,6 @@ DOMAIN-SUFFIX,47.104.173.216
 DOMAIN-SUFFIX,47.104.31.7
 DOMAIN-SUFFIX,47.104.96.89
 DOMAIN-SUFFIX,47.107.136.106
-DOMAIN-SUFFIX,47.108.63.64
 DOMAIN-SUFFIX,47.109.145.121
 DOMAIN-SUFFIX,47.109.48.57
 DOMAIN-SUFFIX,47.109.77.84
@@ -1450,7 +1446,6 @@ DOMAIN-SUFFIX,aoqinglv.cn
 DOMAIN-SUFFIX,wxhawk.aoscdn.com
 DOMAIN-SUFFIX,log-pub-hk.aoshitang.com
 DOMAIN-SUFFIX,aotiw.cn
-DOMAIN-SUFFIX,ap-google.com.cn
 DOMAIN-SUFFIX,adx.apicgate.com
 DOMAIN-SUFFIX,us-behavior.apitd.net
 DOMAIN-SUFFIX,apkevery.com
@@ -1584,7 +1579,6 @@ DOMAIN-SUFFIX,photo.backerbiotech.cn
 DOMAIN-SUFFIX,kele1688.web23.badudns.cc
 DOMAIN-SUFFIX,qmlog.baertt.com
 DOMAIN-SUFFIX,game.baichuanhd.cn
-DOMAIN-SUFFIX,advertise.baicizhan.com
 DOMAIN-SUFFIX,events.baicizhan.com
 DOMAIN-SUFFIX,advertise.baicizhan.org
 DOMAIN-SUFFIX,baicp.com
@@ -3156,7 +3150,6 @@ DOMAIN-SUFFIX,ergeapp.com
 DOMAIN-SUFFIX,log.ergeduoduo.com
 DOMAIN-SUFFIX,erlpbwy.cn
 DOMAIN-SUFFIX,www.erun-tech.com
-DOMAIN-SUFFIX,analytics.escience.org.cn
 DOMAIN-SUFFIX,esdaftot.qpon
 DOMAIN-SUFFIX,ethan.wang
 DOMAIN-SUFFIX,zghn.ethereh.cn
@@ -3656,13 +3649,11 @@ DOMAIN-SUFFIX,goodusahost.cn
 DOMAIN-SUFFIX,google-analytics-cn.com
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,google-analyze.cn
-DOMAIN-SUFFIX,google-ce.com.cn
 DOMAIN-SUFFIX,google-chrome-google.com.cn
 DOMAIN-SUFFIX,google-chrome-intl.com.cn
 DOMAIN-SUFFIX,google-jd.com.cn
 DOMAIN-SUFFIX,google-newbot.cn
 DOMAIN-SUFFIX,google-rv.com.cn
-DOMAIN-SUFFIX,google-sc.com.cn
 DOMAIN-SUFFIX,ads.google.cn
 DOMAIN-SUFFIX,adsense.google.cn
 DOMAIN-SUFFIX,adservice.google.com
@@ -5790,7 +5781,6 @@ DOMAIN-SUFFIX,mxevdii.cn
 DOMAIN-SUFFIX,m.mxguan.com
 DOMAIN-SUFFIX,my-hr.cn
 DOMAIN-SUFFIX,fdc.my0511.com
-DOMAIN-SUFFIX,ads.api.my7v.com
 DOMAIN-SUFFIX,hwads-t.api.my7v.com
 DOMAIN-SUFFIX,testads.api.my7v.com
 DOMAIN-SUFFIX,apiyd.my91app.com
@@ -5890,7 +5880,6 @@ DOMAIN-SUFFIX,yiyuan.nagezan.net
 DOMAIN-SUFFIX,ytapi1.nagezan.net
 DOMAIN-SUFFIX,naljjd.top
 DOMAIN-SUFFIX,nalook.com
-DOMAIN-SUFFIX,nampost.biz
 DOMAIN-SUFFIX,logs.nandu.com
 DOMAIN-SUFFIX,1.nanrenwo.net
 DOMAIN-SUFFIX,nasimobi.com
@@ -7700,6 +7689,7 @@ DOMAIN-SUFFIX,simba.m.taobao.com
 DOMAIN-SUFFIX,sjarvis.taobao.com
 DOMAIN-SUFFIX,srd.simba.taobao.com
 DOMAIN-SUFFIX,stat.simba.taobao.com
+DOMAIN-SUFFIX,tbskip.taobao.com
 DOMAIN-SUFFIX,tejia.taobao.com
 DOMAIN-SUFFIX,temai.taobao.com
 DOMAIN-SUFFIX,textlink.simba.taobao.com
@@ -8575,7 +8565,6 @@ DOMAIN-SUFFIX,mlog.wangsu.com
 DOMAIN-SUFFIX,wangzhan5.com
 DOMAIN-SUFFIX,analytics.wanmei.com
 DOMAIN-SUFFIX,analytics-gw.games.wanmei.com
-DOMAIN-SUFFIX,dlog.wanmei.com
 DOMAIN-SUFFIX,log1.wanmei.com
 DOMAIN-SUFFIX,log2.wanmei.com
 DOMAIN-SUFFIX,h5.wannaplay.cn
@@ -8877,7 +8866,6 @@ DOMAIN-SUFFIX,xdk7m.com
 DOMAIN-SUFFIX,xdku9.com
 DOMAIN-SUFFIX,xdrig.com
 DOMAIN-SUFFIX,180.xdwan.com
-DOMAIN-SUFFIX,sensors.h5.xed.plus
 DOMAIN-SUFFIX,xmizxgugh.xehe.cn
 DOMAIN-SUFFIX,e.xeig.cn
 DOMAIN-SUFFIX,m.xeig.cn
@@ -9560,7 +9548,6 @@ DOMAIN-SUFFIX,msg.youku.com
 DOMAIN-SUFFIX,myes.youku.com
 DOMAIN-SUFFIX,orange-dc.youku.com
 DOMAIN-SUFFIX,pcapp-data-collect.youku.com
-DOMAIN-SUFFIX,pis-tel-pcdn.youku.com
 DOMAIN-SUFFIX,pl.youku.com
 DOMAIN-SUFFIX,player-lg.youku.com
 DOMAIN-SUFFIX,playlog.youku.com
