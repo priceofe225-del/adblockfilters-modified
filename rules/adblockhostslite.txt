@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20251225163903
-# Last modified: 2025/12/25 16:39:03
-# Blocked domains: 10034
+# Version: 20251226003622
+# Last modified: 2025/12/26 00:36:22
+# Blocked domains: 10027
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -134,13 +134,11 @@ ff02::3	ip6-allhosts
 0.0.0.0	appversion.115.com
 0.0.0.0	115fx.com
 0.0.0.0	116.198.233.179
-0.0.0.0	116.62.226.163
 0.0.0.0	117.157.17.194
 0.0.0.0	117.50.194.20
 0.0.0.0	117.72.102.110
 0.0.0.0	117.72.206.39
 0.0.0.0	117.72.222.203
-0.0.0.0	118.178.133.241
 0.0.0.0	118.25.68.152
 0.0.0.0	118.25.85.198
 0.0.0.0	118.31.16.216
@@ -151,7 +149,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	120.24.64.74
 0.0.0.0	120.25.163.165
 0.0.0.0	120.48.50.33
-0.0.0.0	120.79.192.88
 0.0.0.0	120.79.255.238
 0.0.0.0	120.79.64.164
 0.0.0.0	analysis.120ask.com
@@ -1011,7 +1008,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	a3h.de
 0.0.0.0	a3p4.net
 0.0.0.0	a48505.cn
-0.0.0.0	jasccservice.a5bzl2q.cn
 0.0.0.0	a6522.s3-website-us-east-1.amazonaws.com
 0.0.0.0	a7shun.com
 0.0.0.0	a910445285.cn
@@ -1502,7 +1498,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	aqgyju.cn
 0.0.0.0	pay.aqiu6.com
 0.0.0.0	aqw886.cn
-0.0.0.0	aramexae.cfd
 0.0.0.0	arealx.com
 0.0.0.0	arewcdf116.cn
 0.0.0.0	arjr.cn
@@ -2887,7 +2882,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	dnyzbp.cn
 0.0.0.0	do-global.com
 0.0.0.0	doberman.cc
-0.0.0.0	stat.doc88.com
 0.0.0.0	fpb.docin.com
 0.0.0.0	zx.docin.com
 0.0.0.0	doctorlc.com
@@ -3191,7 +3185,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	apub.europeanchamber.com.cn
 0.0.0.0	dw.evo.cn
 0.0.0.0	g.x.evolife.cn
-0.0.0.0	alongen.evsntg.cn
 0.0.0.0	duologinsupersdk.ewan.cn
 0.0.0.0	ewjhic.cn
 0.0.0.0	www.a.ewps.cn
