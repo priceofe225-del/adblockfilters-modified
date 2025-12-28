@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20251228003507
-# Last modified: 2025/12/28 00:35:07
-# Blocked domains: 10007
+# Version: 20251228103311
+# Last modified: 2025/12/28 10:33:11
+# Blocked domains: 9997
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -105,7 +105,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	103.40.13.122
 0.0.0.0	106.13.29.104
 0.0.0.0	106.14.68.26
-0.0.0.0	106.52.185.141
 0.0.0.0	106.52.208.143
 0.0.0.0	106.54.220.107
 0.0.0.0	106.54.239.134
@@ -121,9 +120,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	112.18.10.80
 0.0.0.0	oss-asq-static.11222.cn
 0.0.0.0	113.31.111.76
-0.0.0.0	113.98.201.248
 0.0.0.0	1133.cc
-0.0.0.0	114.132.150.96
 0.0.0.0	114.55.106.136
 0.0.0.0	114.fm
 0.0.0.0	1.11467.com
@@ -865,6 +862,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	8.137.149.67
 0.0.0.0	8.138.182.17
 0.0.0.0	8.148.237.33
+0.0.0.0	8.153.205.30
 0.0.0.0	8.153.97.202
 0.0.0.0	8020home.com.cn
 0.0.0.0	80vn.cn
@@ -1902,7 +1900,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	bfyer.com
 0.0.0.0	bfzb8.com
 0.0.0.0	bga100.cn
-0.0.0.0	uccard-co.bgeodv.cn
 0.0.0.0	info.bgi.com
 0.0.0.0	m.bgkgko.cn
 0.0.0.0	bhaabom.cn
@@ -5985,7 +5982,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	njzyjy.cn
 0.0.0.0	nkscdn.com
 0.0.0.0	img.nktcw.cn
-0.0.0.0	nloodt.cn
 0.0.0.0	nlyuuy.cn
 0.0.0.0	nmkgs.cn
 0.0.0.0	nmntgd.cn
@@ -8709,21 +8705,16 @@ ff02::3	ip6-allhosts
 0.0.0.0	wfbdjl.cn
 0.0.0.0	m.wgewj.cn
 0.0.0.0	wgnpq.com
-0.0.0.0	wha-app-whatsapp.com.cn
 0.0.0.0	whaleclean.cn
 0.0.0.0	whalecloud.com
 0.0.0.0	whalecpan.cn
 0.0.0.0	whalememory.cn
 0.0.0.0	whaleprotect.cn
-0.0.0.0	web.whatstapp.hk.cn
 0.0.0.0	spoaven.top.whecloud.com
 0.0.0.0	xyws.whecloud.com
 0.0.0.0	whitenoise.cn
 0.0.0.0	whoclick.cn
 0.0.0.0	wholefreshposts.com
-0.0.0.0	whp-app-whatsapp.com.cn
-0.0.0.0	whp-web-whatsapp.com.cn
-0.0.0.0	whs-web-whatsapp.com.cn
 0.0.0.0	whsjg.cn
 0.0.0.0	whxiaochengxu.com
 0.0.0.0	w.whydqy.cn
@@ -8834,7 +8825,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	wtdpcb.com
 0.0.0.0	home.wtt.ink
 0.0.0.0	cdn-ad.wtzw.com
-0.0.0.0	cdn-new-ad.wtzw.com
 0.0.0.0	wubingdu.cn
 0.0.0.0	tkshopbuy.wueh.cn
 0.0.0.0	wukongtongji.com

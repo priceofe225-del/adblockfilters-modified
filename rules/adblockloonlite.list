@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/12/28 00:35:07
-#!support=10007
+#!date=2025/12/28 10:33:11
+#!support=9997
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,395131115419474531.002.sh.cn
@@ -94,7 +94,6 @@ DOMAIN-SUFFIX,103.28.204.208
 DOMAIN-SUFFIX,103.40.13.122
 DOMAIN-SUFFIX,106.13.29.104
 DOMAIN-SUFFIX,106.14.68.26
-DOMAIN-SUFFIX,106.52.185.141
 DOMAIN-SUFFIX,106.52.208.143
 DOMAIN-SUFFIX,106.54.220.107
 DOMAIN-SUFFIX,106.54.239.134
@@ -110,9 +109,7 @@ DOMAIN-SUFFIX,111juegos.com
 DOMAIN-SUFFIX,112.18.10.80
 DOMAIN-SUFFIX,oss-asq-static.11222.cn
 DOMAIN-SUFFIX,113.31.111.76
-DOMAIN-SUFFIX,113.98.201.248
 DOMAIN-SUFFIX,1133.cc
-DOMAIN-SUFFIX,114.132.150.96
 DOMAIN-SUFFIX,114.55.106.136
 DOMAIN-SUFFIX,114.fm
 DOMAIN-SUFFIX,1.11467.com
@@ -854,6 +851,7 @@ DOMAIN-SUFFIX,8.137.114.210
 DOMAIN-SUFFIX,8.137.149.67
 DOMAIN-SUFFIX,8.138.182.17
 DOMAIN-SUFFIX,8.148.237.33
+DOMAIN-SUFFIX,8.153.205.30
 DOMAIN-SUFFIX,8.153.97.202
 DOMAIN-SUFFIX,8020home.com.cn
 DOMAIN-SUFFIX,80vn.cn
@@ -1891,7 +1889,6 @@ DOMAIN-SUFFIX,bfshan.cn
 DOMAIN-SUFFIX,bfyer.com
 DOMAIN-SUFFIX,bfzb8.com
 DOMAIN-SUFFIX,bga100.cn
-DOMAIN-SUFFIX,uccard-co.bgeodv.cn
 DOMAIN-SUFFIX,info.bgi.com
 DOMAIN-SUFFIX,m.bgkgko.cn
 DOMAIN-SUFFIX,bhaabom.cn
@@ -5974,7 +5971,6 @@ DOMAIN-SUFFIX,njob.com.cn
 DOMAIN-SUFFIX,njzyjy.cn
 DOMAIN-SUFFIX,nkscdn.com
 DOMAIN-SUFFIX,img.nktcw.cn
-DOMAIN-SUFFIX,nloodt.cn
 DOMAIN-SUFFIX,nlyuuy.cn
 DOMAIN-SUFFIX,nmkgs.cn
 DOMAIN-SUFFIX,nmntgd.cn
@@ -8698,21 +8694,16 @@ DOMAIN-SUFFIX,htrace.wetvinfo.com
 DOMAIN-SUFFIX,wfbdjl.cn
 DOMAIN-SUFFIX,m.wgewj.cn
 DOMAIN-SUFFIX,wgnpq.com
-DOMAIN-SUFFIX,wha-app-whatsapp.com.cn
 DOMAIN-SUFFIX,whaleclean.cn
 DOMAIN-SUFFIX,whalecloud.com
 DOMAIN-SUFFIX,whalecpan.cn
 DOMAIN-SUFFIX,whalememory.cn
 DOMAIN-SUFFIX,whaleprotect.cn
-DOMAIN-SUFFIX,web.whatstapp.hk.cn
 DOMAIN-SUFFIX,spoaven.top.whecloud.com
 DOMAIN-SUFFIX,xyws.whecloud.com
 DOMAIN-SUFFIX,whitenoise.cn
 DOMAIN-SUFFIX,whoclick.cn
 DOMAIN-SUFFIX,wholefreshposts.com
-DOMAIN-SUFFIX,whp-app-whatsapp.com.cn
-DOMAIN-SUFFIX,whp-web-whatsapp.com.cn
-DOMAIN-SUFFIX,whs-web-whatsapp.com.cn
 DOMAIN-SUFFIX,whsjg.cn
 DOMAIN-SUFFIX,whxiaochengxu.com
 DOMAIN-SUFFIX,w.whydqy.cn
@@ -8823,7 +8814,6 @@ DOMAIN-SUFFIX,mlog.wangsu.com.wswebcdn.com
 DOMAIN-SUFFIX,wtdpcb.com
 DOMAIN-SUFFIX,home.wtt.ink
 DOMAIN-SUFFIX,cdn-ad.wtzw.com
-DOMAIN-SUFFIX,cdn-new-ad.wtzw.com
 DOMAIN-SUFFIX,wubingdu.cn
 DOMAIN-SUFFIX,tkshopbuy.wueh.cn
 DOMAIN-SUFFIX,wukongtongji.com
