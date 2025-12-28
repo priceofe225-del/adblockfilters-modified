@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/12/28 16:37:29
-#!support=10057
+#!date=2025/12/29 00:35:39
+#!support=10042
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,395131115419474531.002.sh.cn
@@ -120,7 +120,6 @@ DOMAIN-SUFFIX,115.190.235.92
 DOMAIN-SUFFIX,appversion.115.com
 DOMAIN-SUFFIX,115fx.com
 DOMAIN-SUFFIX,116.198.233.179
-DOMAIN-SUFFIX,116.62.226.163
 DOMAIN-SUFFIX,117.157.17.194
 DOMAIN-SUFFIX,117.50.194.20
 DOMAIN-SUFFIX,117.72.102.110
@@ -150,7 +149,6 @@ DOMAIN-SUFFIX,bdlm.120askimages.com
 DOMAIN-SUFFIX,bdwmhz.120askimages.com
 DOMAIN-SUFFIX,120soft.cn
 DOMAIN-SUFFIX,121.40.18.128
-DOMAIN-SUFFIX,121.41.18.122
 DOMAIN-SUFFIX,122.51.46.102
 DOMAIN-SUFFIX,122.51.93.94
 DOMAIN-SUFFIX,12291.com
@@ -359,7 +357,6 @@ DOMAIN-SUFFIX,a1.289.com
 DOMAIN-SUFFIX,28in.cn
 DOMAIN-SUFFIX,2a.com.cn
 DOMAIN-SUFFIX,2bj.cn
-DOMAIN-SUFFIX,2cb15fb1f5.icu
 DOMAIN-SUFFIX,2d-c.cn
 DOMAIN-SUFFIX,2girls1finger.org
 DOMAIN-SUFFIX,qtber2017.2liang.cn
@@ -387,8 +384,6 @@ DOMAIN-SUFFIX,31d.net
 DOMAIN-SUFFIX,3231.cc
 DOMAIN-SUFFIX,325497.cn
 DOMAIN-SUFFIX,32b1f5b15f1b5.icu
-DOMAIN-SUFFIX,32c0bf5b51.icu
-DOMAIN-SUFFIX,32cb1fbf4b.icu
 DOMAIN-SUFFIX,mg.32r.com
 DOMAIN-SUFFIX,ee.32z8d.cn
 DOMAIN-SUFFIX,ad.3322.net
@@ -616,7 +611,6 @@ DOMAIN-SUFFIX,51.la
 DOMAIN-SUFFIX,511a.cn
 DOMAIN-SUFFIX,51240.com
 DOMAIN-SUFFIX,512612.com
-DOMAIN-SUFFIX,515db1fdb1.icu
 DOMAIN-SUFFIX,5166.info
 DOMAIN-SUFFIX,amradmin.5173.com
 DOMAIN-SUFFIX,urchin.5173.com
@@ -1160,7 +1154,6 @@ DOMAIN-SUFFIX,ai3dn.com
 DOMAIN-SUFFIX,aibantian.cn
 DOMAIN-SUFFIX,aicydb.com
 DOMAIN-SUFFIX,aidu-google.com.cn
-DOMAIN-SUFFIX,aiei-google.com.cn
 DOMAIN-SUFFIX,aier-google.com.cn
 DOMAIN-SUFFIX,aifapiao.cn
 DOMAIN-SUFFIX,aifo-google.com.cn
@@ -1409,7 +1402,6 @@ DOMAIN-SUFFIX,h-adashx.ut.amap.com
 DOMAIN-SUFFIX,logs.amap.com
 DOMAIN-SUFFIX,optimus-ads.amap.com
 DOMAIN-SUFFIX,ei2v.amaumxx.cn
-DOMAIN-SUFFIX,advertising.amazon.cn
 DOMAIN-SUFFIX,fls-cn.amazon.cn
 DOMAIN-SUFFIX,unagi.amazon.cn
 DOMAIN-SUFFIX,amberlf.cn
@@ -2686,7 +2678,6 @@ DOMAIN-SUFFIX,dnkeeper.platform.dbankcloud.com
 DOMAIN-SUFFIX,events-dra.op.dbankcloud.com
 DOMAIN-SUFFIX,events-drcn.op.dbankcloud.com
 DOMAIN-SUFFIX,events-dre.op.dbankcloud.com
-DOMAIN-SUFFIX,events-drru.op.dbankcloud.com
 DOMAIN-SUFFIX,grs.dbankcloud.com
 DOMAIN-SUFFIX,grs-iot.platform.dbankcloud.com
 DOMAIN-SUFFIX,grs-pub.platform.dbankcloud.com
@@ -2775,7 +2766,6 @@ DOMAIN-SUFFIX,dedeym.com
 DOMAIN-SUFFIX,dek93.com
 DOMAIN-SUFFIX,sm.dell.com
 DOMAIN-SUFFIX,vpass-login.delphia.cn
-DOMAIN-SUFFIX,demyhermes.help
 DOMAIN-SUFFIX,c.dengbaozx.cn
 DOMAIN-SUFFIX,v.dengbaozx.cn
 DOMAIN-SUFFIX,cwzx.dengfenzhang.cn
@@ -5289,7 +5279,6 @@ DOMAIN-SUFFIX,lichunxiao.cn
 DOMAIN-SUFFIX,cr.m.liebao.cn
 DOMAIN-SUFFIX,j.wan.liebao.cn
 DOMAIN-SUFFIX,liebaovip.com
-DOMAIN-SUFFIX,log.liepin.com
 DOMAIN-SUFFIX,lieqitianxia.cn
 DOMAIN-SUFFIX,lieying.cn
 DOMAIN-SUFFIX,ligfdjnfd.cn
@@ -7001,7 +6990,6 @@ DOMAIN-SUFFIX,rukoo.cn
 DOMAIN-SUFFIX,rumt-sg.com
 DOMAIN-SUFFIX,rumt-zh.com
 DOMAIN-SUFFIX,abc.ruodian360.com
-DOMAIN-SUFFIX,ruofei-tiktok.com
 DOMAIN-SUFFIX,ruskhw.cn
 DOMAIN-SUFFIX,rvbztg.cn
 DOMAIN-SUFFIX,smbc-ernfier.rvddub.cn
@@ -7184,7 +7172,6 @@ DOMAIN-SUFFIX,jpaasne.e.shifen.com
 DOMAIN-SUFFIX,shihe.cn
 DOMAIN-SUFFIX,statichf.shihuocdn.cn
 DOMAIN-SUFFIX,shijixinrui.cn
-DOMAIN-SUFFIX,log.shimo.im
 DOMAIN-SUFFIX,c.shishishiguixinfangfuzhuangshanghan.cn
 DOMAIN-SUFFIX,v.shishishiguixinfangfuzhuangshanghan.cn
 DOMAIN-SUFFIX,shisui.net.cn
@@ -8210,7 +8197,6 @@ DOMAIN-SUFFIX,analytics.umetrip.com
 DOMAIN-SUFFIX,a.umilu.com
 DOMAIN-SUFFIX,umiwi.com
 DOMAIN-SUFFIX,umm6.cn
-DOMAIN-SUFFIX,stat.umu.cn
 DOMAIN-SUFFIX,ccb.uncle-ad.com
 DOMAIN-SUFFIX,vhs.wwstat.com.eo.unicomcdn.com.cn
 DOMAIN-SUFFIX,unionli.com
@@ -9673,7 +9659,6 @@ DOMAIN-SUFFIX,yrszy.com.cn
 DOMAIN-SUFFIX,yrwap.cn
 DOMAIN-SUFFIX,ys630.com
 DOMAIN-SUFFIX,ys6ot.cn
-DOMAIN-SUFFIX,ad-material.ys7.com
 DOMAIN-SUFFIX,log.ys7.com
 DOMAIN-SUFFIX,ads.ysepay.com
 DOMAIN-SUFFIX,ysgsq.cn

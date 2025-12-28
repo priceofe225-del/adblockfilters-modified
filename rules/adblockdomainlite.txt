@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20251228163729
-! Last modified: 2025/12/28 16:37:29
-! Blocked domains: 10057
+! Version: 20251229003539
+! Last modified: 2025/12/29 00:35:39
+! Blocked domains: 10042
 !
 395131115419474531.002.sh.cn
 006116.com
@@ -116,7 +116,6 @@ oss-asq-static.11222.cn
 appversion.115.com
 115fx.com
 116.198.233.179
-116.62.226.163
 117.157.17.194
 117.50.194.20
 117.72.102.110
@@ -146,7 +145,6 @@ bdlm.120askimages.com
 bdwmhz.120askimages.com
 120soft.cn
 121.40.18.128
-121.41.18.122
 122.51.46.102
 122.51.93.94
 12291.com
@@ -355,7 +353,6 @@ a1.289.com
 28in.cn
 2a.com.cn
 2bj.cn
-2cb15fb1f5.icu
 2d-c.cn
 2girls1finger.org
 qtber2017.2liang.cn
@@ -383,8 +380,6 @@ hao.315hyw.com
 3231.cc
 325497.cn
 32b1f5b15f1b5.icu
-32c0bf5b51.icu
-32cb1fbf4b.icu
 mg.32r.com
 ee.32z8d.cn
 ad.3322.net
@@ -612,7 +607,6 @@ onlineappdownload.507.net.cn
 511a.cn
 51240.com
 512612.com
-515db1fdb1.icu
 5166.info
 amradmin.5173.com
 urchin.5173.com
@@ -1156,7 +1150,6 @@ ai3dn.com
 aibantian.cn
 aicydb.com
 aidu-google.com.cn
-aiei-google.com.cn
 aier-google.com.cn
 aifapiao.cn
 aifo-google.com.cn
@@ -1405,7 +1398,6 @@ h-adashx.ut.amap.com
 logs.amap.com
 optimus-ads.amap.com
 ei2v.amaumxx.cn
-advertising.amazon.cn
 fls-cn.amazon.cn
 unagi.amazon.cn
 amberlf.cn
@@ -2682,7 +2674,6 @@ dnkeeper.platform.dbankcloud.com
 events-dra.op.dbankcloud.com
 events-drcn.op.dbankcloud.com
 events-dre.op.dbankcloud.com
-events-drru.op.dbankcloud.com
 grs.dbankcloud.com
 grs-iot.platform.dbankcloud.com
 grs-pub.platform.dbankcloud.com
@@ -2771,7 +2762,6 @@ dedeym.com
 dek93.com
 sm.dell.com
 vpass-login.delphia.cn
-demyhermes.help
 c.dengbaozx.cn
 v.dengbaozx.cn
 cwzx.dengfenzhang.cn
@@ -5285,7 +5275,6 @@ lichunxiao.cn
 cr.m.liebao.cn
 j.wan.liebao.cn
 liebaovip.com
-log.liepin.com
 lieqitianxia.cn
 lieying.cn
 ligfdjnfd.cn
@@ -6997,7 +6986,6 @@ rukoo.cn
 rumt-sg.com
 rumt-zh.com
 abc.ruodian360.com
-ruofei-tiktok.com
 ruskhw.cn
 rvbztg.cn
 smbc-ernfier.rvddub.cn
@@ -7180,7 +7168,6 @@ jpaasne.e.shifen.com
 shihe.cn
 statichf.shihuocdn.cn
 shijixinrui.cn
-log.shimo.im
 c.shishishiguixinfangfuzhuangshanghan.cn
 v.shishishiguixinfangfuzhuangshanghan.cn
 shisui.net.cn
@@ -8206,7 +8193,6 @@ analytics.umetrip.com
 a.umilu.com
 umiwi.com
 umm6.cn
-stat.umu.cn
 ccb.uncle-ad.com
 vhs.wwstat.com.eo.unicomcdn.com.cn
 unionli.com
@@ -9669,7 +9655,6 @@ yrszy.com.cn
 yrwap.cn
 ys630.com
 ys6ot.cn
-ad-material.ys7.com
 log.ys7.com
 ads.ysepay.com
 ysgsq.cn
