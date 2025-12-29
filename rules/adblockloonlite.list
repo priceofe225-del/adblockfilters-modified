@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/12/29 16:42:54
-#!support=9949
+#!date=2025/12/30 00:36:52
+#!support=9927
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,395131115419474531.002.sh.cn
@@ -116,7 +116,6 @@ DOMAIN-SUFFIX,oss-asq-static.11222.cn
 DOMAIN-SUFFIX,113.31.111.76
 DOMAIN-SUFFIX,113.98.201.248
 DOMAIN-SUFFIX,1133.cc
-DOMAIN-SUFFIX,114.242.100.72
 DOMAIN-SUFFIX,114.55.106.136
 DOMAIN-SUFFIX,114.fm
 DOMAIN-SUFFIX,1.11467.com
@@ -202,7 +201,6 @@ DOMAIN-SUFFIX,pg-ad-b1.nosdn.127.net
 DOMAIN-SUFFIX,wanproxy.127.net
 DOMAIN-SUFFIX,yt-adp.nosdn.127.net
 DOMAIN-SUFFIX,129.204.103.151
-DOMAIN-SUFFIX,129.204.254.108
 DOMAIN-SUFFIX,12i.cn
 DOMAIN-SUFFIX,133u.com
 DOMAIN-SUFFIX,1357902.cn
@@ -857,7 +855,6 @@ DOMAIN-SUFFIX,8.134.51.218
 DOMAIN-SUFFIX,8.137.114.210
 DOMAIN-SUFFIX,8.137.149.67
 DOMAIN-SUFFIX,8.138.182.17
-DOMAIN-SUFFIX,8.148.237.33
 DOMAIN-SUFFIX,8.153.97.202
 DOMAIN-SUFFIX,8020home.com.cn
 DOMAIN-SUFFIX,80vn.cn
@@ -1314,7 +1311,6 @@ DOMAIN-SUFFIX,ah-scanning.oss-cn-hongkong.aliyuncs.com
 DOMAIN-SUFFIX,aixuntupian.oss-cn-hongkong.aliyuncs.com
 DOMAIN-SUFFIX,alime-pic.oss-cn-hangzhou.aliyuncs.com
 DOMAIN-SUFFIX,appgiftwall.oss-us-west-1.aliyuncs.com
-DOMAIN-SUFFIX,axyleu11gz-default-cn.rum.aliyuncs.com
 DOMAIN-SUFFIX,badding.oss-ap-southeast-1.aliyuncs.com
 DOMAIN-SUFFIX,beacon-api.aliyuncs.com
 DOMAIN-SUFFIX,bruplong.oss-accelerate.aliyuncs.com
@@ -1893,7 +1889,6 @@ DOMAIN-SUFFIX,betylife.com
 DOMAIN-SUFFIX,beyondcompare.cc
 DOMAIN-SUFFIX,m.bfhfhk.cn
 DOMAIN-SUFFIX,a.bfking.cn
-DOMAIN-SUFFIX,bfnhqrf.cn
 DOMAIN-SUFFIX,bfshan.cn
 DOMAIN-SUFFIX,bfyer.com
 DOMAIN-SUFFIX,bfzb8.com
@@ -2573,7 +2568,6 @@ DOMAIN-SUFFIX,px.czxym168.cn
 DOMAIN-SUFFIX,czyroo.cn
 DOMAIN-SUFFIX,d0741.cn
 DOMAIN-SUFFIX,ggjs.d17.cc
-DOMAIN-SUFFIX,d65d6f1b5f.icu
 DOMAIN-SUFFIX,ee.d6s2pn5t.cn
 DOMAIN-SUFFIX,m.d6s2pn5t.cn
 DOMAIN-SUFFIX,d7ytrv7yxa.com
@@ -2783,7 +2777,6 @@ DOMAIN-SUFFIX,dexinyi.cn
 DOMAIN-SUFFIX,apisoft.df0535.com
 DOMAIN-SUFFIX,df4sc.com
 DOMAIN-SUFFIX,dfad.dfdaily.com
-DOMAIN-SUFFIX,dffdf23455dd.asia
 DOMAIN-SUFFIX,newswifiapi.dfshurufa.com
 DOMAIN-SUFFIX,dfuu5.com
 DOMAIN-SUFFIX,dg186.cn
@@ -2919,20 +2912,10 @@ DOMAIN-SUFFIX,stun1.douyucdn.cn
 DOMAIN-SUFFIX,dotcounter.douyutv.com
 DOMAIN-SUFFIX,fintech.downyi.cn
 DOMAIN-SUFFIX,s.doyo.cn
-DOMAIN-SUFFIX,dpbat.qpon
 DOMAIN-SUFFIX,s.dpcq1.net
 DOMAIN-SUFFIX,dpd-app.icu
-DOMAIN-SUFFIX,dpd-com.qpon
-DOMAIN-SUFFIX,dpdat.qpon
-DOMAIN-SUFFIX,dpdate.qpon
-DOMAIN-SUFFIX,dpdati.qpon
-DOMAIN-SUFFIX,dpdatie.qpon
 DOMAIN-SUFFIX,dpdedit.qpon
 DOMAIN-SUFFIX,dpdnzm.qpon
-DOMAIN-SUFFIX,dpdsat.qpon
-DOMAIN-SUFFIX,dppdat.qpon
-DOMAIN-SUFFIX,dpqsat.qpon
-DOMAIN-SUFFIX,dpsdat.qpon
 DOMAIN-SUFFIX,dreamfull.cn
 DOMAIN-SUFFIX,drivethelife.com
 DOMAIN-SUFFIX,email-verification-tbw2hsczpwmnv0lvrtfpuq-authentification.on.drv.tw
@@ -5948,7 +5931,6 @@ DOMAIN-SUFFIX,ad.bn.netease.com
 DOMAIN-SUFFIX,advert.lx.netease.com
 DOMAIN-SUFFIX,analytics.hz.netease.com
 DOMAIN-SUFFIX,analytics.mpay.netease.com
-DOMAIN-SUFFIX,countly.unus.netease.com
 DOMAIN-SUFFIX,da.netease.com
 DOMAIN-SUFFIX,httpdns-sdk.n.netease.com
 DOMAIN-SUFFIX,httpdns.n.netease.com
@@ -6004,7 +5986,6 @@ DOMAIN-SUFFIX,nndzsw1.com
 DOMAIN-SUFFIX,nnfls.com.cn
 DOMAIN-SUFFIX,nnocsin.cn
 DOMAIN-SUFFIX,ad-ga.nocode.com
-DOMAIN-SUFFIX,nongton.cn
 DOMAIN-SUFFIX,generalkin.noqta.cn
 DOMAIN-SUFFIX,nouvelles247.com
 DOMAIN-SUFFIX,web.novogene.com
@@ -6037,7 +6018,6 @@ DOMAIN-SUFFIX,nuffnang.com.cn
 DOMAIN-SUFFIX,c.nuhcpf.com
 DOMAIN-SUFFIX,ray2jing.808.nuno.cn
 DOMAIN-SUFFIX,log.nuomi.com
-DOMAIN-SUFFIX,ads.nuonuo.com
 DOMAIN-SUFFIX,metric.nuonuo.com
 DOMAIN-SUFFIX,nuxwlc.cn
 DOMAIN-SUFFIX,m.nuxyz.cn
@@ -8703,9 +8683,7 @@ DOMAIN-SUFFIX,whalecloud.com
 DOMAIN-SUFFIX,whalecpan.cn
 DOMAIN-SUFFIX,whalememory.cn
 DOMAIN-SUFFIX,whaleprotect.cn
-DOMAIN-SUFFIX,web.whatsapp-im.com.cn
 DOMAIN-SUFFIX,web.whatsapp-net.com.cn
-DOMAIN-SUFFIX,whatsappwebsh.com.cn
 DOMAIN-SUFFIX,spoaven.top.whecloud.com
 DOMAIN-SUFFIX,xyws.whecloud.com
 DOMAIN-SUFFIX,whitenoise.cn

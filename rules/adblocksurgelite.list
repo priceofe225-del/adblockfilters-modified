@@ -10,8 +10,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2025/12/29 16:42:54
-#!support=9949
+#!date=2025/12/30 00:36:52
+#!support=9927
 #!proxy-select=REJECT-DROP
 #
 .395131115419474531.002.sh.cn
@@ -119,7 +119,6 @@
 .113.31.111.76
 .113.98.201.248
 .1133.cc
-.114.242.100.72
 .114.55.106.136
 .114.fm
 .1.11467.com
@@ -205,7 +204,6 @@
 .wanproxy.127.net
 .yt-adp.nosdn.127.net
 .129.204.103.151
-.129.204.254.108
 .12i.cn
 .133u.com
 .1357902.cn
@@ -860,7 +858,6 @@
 .8.137.114.210
 .8.137.149.67
 .8.138.182.17
-.8.148.237.33
 .8.153.97.202
 .8020home.com.cn
 .80vn.cn
@@ -1317,7 +1314,6 @@
 .aixuntupian.oss-cn-hongkong.aliyuncs.com
 .alime-pic.oss-cn-hangzhou.aliyuncs.com
 .appgiftwall.oss-us-west-1.aliyuncs.com
-.axyleu11gz-default-cn.rum.aliyuncs.com
 .badding.oss-ap-southeast-1.aliyuncs.com
 .beacon-api.aliyuncs.com
 .bruplong.oss-accelerate.aliyuncs.com
@@ -1896,7 +1892,6 @@
 .beyondcompare.cc
 .m.bfhfhk.cn
 .a.bfking.cn
-.bfnhqrf.cn
 .bfshan.cn
 .bfyer.com
 .bfzb8.com
@@ -2576,7 +2571,6 @@
 .czyroo.cn
 .d0741.cn
 .ggjs.d17.cc
-.d65d6f1b5f.icu
 .ee.d6s2pn5t.cn
 .m.d6s2pn5t.cn
 .d7ytrv7yxa.com
@@ -2786,7 +2780,6 @@
 .apisoft.df0535.com
 .df4sc.com
 .dfad.dfdaily.com
-.dffdf23455dd.asia
 .newswifiapi.dfshurufa.com
 .dfuu5.com
 .dg186.cn
@@ -2922,20 +2915,10 @@
 .dotcounter.douyutv.com
 .fintech.downyi.cn
 .s.doyo.cn
-.dpbat.qpon
 .s.dpcq1.net
 .dpd-app.icu
-.dpd-com.qpon
-.dpdat.qpon
-.dpdate.qpon
-.dpdati.qpon
-.dpdatie.qpon
 .dpdedit.qpon
 .dpdnzm.qpon
-.dpdsat.qpon
-.dppdat.qpon
-.dpqsat.qpon
-.dpsdat.qpon
 .dreamfull.cn
 .drivethelife.com
 .email-verification-tbw2hsczpwmnv0lvrtfpuq-authentification.on.drv.tw
@@ -5951,7 +5934,6 @@
 .advert.lx.netease.com
 .analytics.hz.netease.com
 .analytics.mpay.netease.com
-.countly.unus.netease.com
 .da.netease.com
 .httpdns-sdk.n.netease.com
 .httpdns.n.netease.com
@@ -6007,7 +5989,6 @@
 .nnfls.com.cn
 .nnocsin.cn
 .ad-ga.nocode.com
-.nongton.cn
 .generalkin.noqta.cn
 .nouvelles247.com
 .web.novogene.com
@@ -6040,7 +6021,6 @@
 .c.nuhcpf.com
 .ray2jing.808.nuno.cn
 .log.nuomi.com
-.ads.nuonuo.com
 .metric.nuonuo.com
 .nuxwlc.cn
 .m.nuxyz.cn
@@ -8706,9 +8686,7 @@
 .whalecpan.cn
 .whalememory.cn
 .whaleprotect.cn
-.web.whatsapp-im.com.cn
 .web.whatsapp-net.com.cn
-.whatsappwebsh.com.cn
 .spoaven.top.whecloud.com
 .xyws.whecloud.com
 .whitenoise.cn
