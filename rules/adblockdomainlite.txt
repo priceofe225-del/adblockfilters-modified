@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20251230003652
-! Last modified: 2025/12/30 00:36:52
-! Blocked domains: 9927
+! Version: 20251230102208
+! Last modified: 2025/12/30 10:22:08
+! Blocked domains: 9921
 !
 395131115419474531.002.sh.cn
 005555.com
@@ -134,7 +134,6 @@ appversion.115.com
 bj1.118pan.com
 119.91.141.214
 120.25.163.165
-120.46.212.33
 120.48.50.33
 120.79.192.88
 120.79.255.238
@@ -574,7 +573,6 @@ stat.api.4399.com
 47.104.173.216
 47.104.31.7
 47.104.96.89
-47.105.55.111
 47.107.136.106
 47.109.145.121
 47.109.48.57
@@ -851,6 +849,7 @@ cp.7y7.com
 8.137.114.210
 8.137.149.67
 8.138.182.17
+8.148.237.33
 8.153.97.202
 8020home.com.cn
 80vn.cn
@@ -3043,7 +3042,6 @@ chrisbenoitkane.edgeone.app
 earthewndegtheyased.edgeone.app
 hkz2311011313001-l5deuphxox.edgeone.app
 hq-cpanel-uptime-upgrade-hnrv61j7if.edgeone.app
-mnbvcxz.edgeone.app
 pointball-llvwkkfsoo.edgeone.app
 wealotheoloagathalimda.edgeone.app
 webemali234rfy3ch34fc8ui43-fy234-dyalqukr2d.edgeone.app
@@ -3779,7 +3777,6 @@ gzthedu.cn
 gztianfu.net
 m.gzxiuyuan.cn
 gzzkjdam.cn
-web.h-whatsapp.com.cn
 h148.cn
 h3806.cn
 h45pmx1.cn
@@ -7028,7 +7025,6 @@ sckexing.cn
 sckfcn.cn
 scoev.cn
 scorpio8.cn
-malleery.scyqbw.cn
 statscollector.sd-rtn.com
 sd6hon.cn
 m.sdabfw.cn
@@ -8540,7 +8536,6 @@ vyye.cn
 vzt.com.cn
 vzvvifw.cn
 w-office.cn
-web.w-whatsapp.com.cn
 w010w.com.cn
 e.w6xj6.cn
 m.w6xj6.cn
@@ -8679,7 +8674,6 @@ whalecloud.com
 whalecpan.cn
 whalememory.cn
 whaleprotect.cn
-web.whatsapp-net.com.cn
 spoaven.top.whecloud.com
 xyws.whecloud.com
 whitenoise.cn

@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20251230003652
-# Last modified: 2025/12/30 00:36:52
-# Blocked domains: 9927
+# Version: 20251230102208
+# Last modified: 2025/12/30 10:22:08
+# Blocked domains: 9921
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -149,7 +149,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	bj1.118pan.com
 0.0.0.0	119.91.141.214
 0.0.0.0	120.25.163.165
-0.0.0.0	120.46.212.33
 0.0.0.0	120.48.50.33
 0.0.0.0	120.79.192.88
 0.0.0.0	120.79.255.238
@@ -589,7 +588,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	47.104.173.216
 0.0.0.0	47.104.31.7
 0.0.0.0	47.104.96.89
-0.0.0.0	47.105.55.111
 0.0.0.0	47.107.136.106
 0.0.0.0	47.109.145.121
 0.0.0.0	47.109.48.57
@@ -866,6 +864,7 @@ ff02::3	ip6-allhosts
 0.0.0.0	8.137.114.210
 0.0.0.0	8.137.149.67
 0.0.0.0	8.138.182.17
+0.0.0.0	8.148.237.33
 0.0.0.0	8.153.97.202
 0.0.0.0	8020home.com.cn
 0.0.0.0	80vn.cn
@@ -3058,7 +3057,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	earthewndegtheyased.edgeone.app
 0.0.0.0	hkz2311011313001-l5deuphxox.edgeone.app
 0.0.0.0	hq-cpanel-uptime-upgrade-hnrv61j7if.edgeone.app
-0.0.0.0	mnbvcxz.edgeone.app
 0.0.0.0	pointball-llvwkkfsoo.edgeone.app
 0.0.0.0	wealotheoloagathalimda.edgeone.app
 0.0.0.0	webemali234rfy3ch34fc8ui43-fy234-dyalqukr2d.edgeone.app
@@ -3794,7 +3792,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	gztianfu.net
 0.0.0.0	m.gzxiuyuan.cn
 0.0.0.0	gzzkjdam.cn
-0.0.0.0	web.h-whatsapp.com.cn
 0.0.0.0	h148.cn
 0.0.0.0	h3806.cn
 0.0.0.0	h45pmx1.cn
@@ -7043,7 +7040,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	sckfcn.cn
 0.0.0.0	scoev.cn
 0.0.0.0	scorpio8.cn
-0.0.0.0	malleery.scyqbw.cn
 0.0.0.0	statscollector.sd-rtn.com
 0.0.0.0	sd6hon.cn
 0.0.0.0	m.sdabfw.cn
@@ -8555,7 +8551,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	vzt.com.cn
 0.0.0.0	vzvvifw.cn
 0.0.0.0	w-office.cn
-0.0.0.0	web.w-whatsapp.com.cn
 0.0.0.0	w010w.com.cn
 0.0.0.0	e.w6xj6.cn
 0.0.0.0	m.w6xj6.cn
@@ -8694,7 +8689,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	whalecpan.cn
 0.0.0.0	whalememory.cn
 0.0.0.0	whaleprotect.cn
-0.0.0.0	web.whatsapp-net.com.cn
 0.0.0.0	spoaven.top.whecloud.com
 0.0.0.0	xyws.whecloud.com
 0.0.0.0	whitenoise.cn
