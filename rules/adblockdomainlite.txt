@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、DanPollock、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20251231003827
-! Last modified: 2025/12/31 00:38:27
-! Blocked domains: 10033
+! Version: 20251231102208
+! Last modified: 2025/12/31 10:22:08
+! Blocked domains: 10032
 !
 395131115419474531.002.sh.cn
 006116.com
@@ -64,6 +64,7 @@ a1.0s.net.cn
 m.0uk9e.cn
 jump.0x1.ink
 0x5.me
+1.14.157.231
 10000xing.cn
 1000su.com
 1717.1000uc.com
@@ -107,6 +108,7 @@ ytx-file.110route.cn
 112.18.10.80
 oss-asq-static.11222.cn
 113.31.111.76
+113.98.201.248
 1133.cc
 114.132.150.96
 114.55.106.136
@@ -117,11 +119,11 @@ oss-asq-static.11222.cn
 115.190.235.92
 appversion.115.com
 115fx.com
+116.198.233.179
 116.62.226.163
 117.157.17.194
 117.50.194.20
 117.72.102.110
-117.72.222.203
 118.178.133.241
 118.25.68.152
 118.25.85.198
@@ -132,6 +134,7 @@ bj1.118pan.com
 120.25.163.165
 120.48.50.33
 120.79.192.88
+120.79.255.238
 120.79.64.164
 analysis.120ask.com
 ax.120ask.com
@@ -144,7 +147,6 @@ bdjs.120askimages.com
 bdlm.120askimages.com
 bdwmhz.120askimages.com
 120soft.cn
-121.40.18.128
 122.51.46.102
 122.51.93.94
 12291.com
@@ -551,6 +553,7 @@ m.3tx8zr.cn
 420909.cn
 426g.com
 43.138.28.205
+43.139.50.42
 43.226.39.44
 43.249.192.196
 43366.cn
@@ -564,7 +567,6 @@ stat.api.4399.com
 47.104.31.7
 47.104.96.89
 47.107.136.106
-47.108.63.64
 47.109.145.121
 47.109.48.57
 47.109.77.84
@@ -576,7 +578,6 @@ stat.api.4399.com
 47.98.165.119
 47.98.224.91
 m.479db.cn
-49.234.46.15
 49.234.48.162
 4a9.cn
 4d0m.cn
@@ -837,7 +838,6 @@ cp.7y7.com
 7ywl.com
 8.131.63.6
 8.134.51.218
-8.137.114.210
 8.137.149.67
 8.138.182.17
 8.148.237.33
@@ -4559,7 +4559,6 @@ ivqtrjt.cn
 iwb.com.cn
 ad.iwhop.cn
 tracking.iwhop.cn
-iwtspa.cn
 ixelrsd.cn
 api5-normal-quic-lf.ixigua.com
 search.ixigua.com
