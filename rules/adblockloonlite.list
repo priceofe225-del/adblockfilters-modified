@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/01/03 00:36:39
-#!support=9820
+#!date=2026/01/03 04:08:07
+#!support=9823
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,395131115419474531.002.sh.cn
@@ -4080,6 +4080,7 @@ DOMAIN-SUFFIX,hskj88.cn
 DOMAIN-SUFFIX,hsrgnac.cn
 DOMAIN-SUFFIX,g.hsw.cn
 DOMAIN-SUFFIX,hswfj.cn
+DOMAIN-SUFFIX,hsych.com
 DOMAIN-SUFFIX,hsykj.net
 DOMAIN-SUFFIX,ht55.cn
 DOMAIN-SUFFIX,htgjkm.cn
@@ -7892,6 +7893,7 @@ DOMAIN-SUFFIX,analy.tuniu.cn
 DOMAIN-SUFFIX,turbonamestore.cn
 DOMAIN-SUFFIX,api.tusdk.com
 DOMAIN-SUFFIX,asdkd.tutuapp.com
+DOMAIN-SUFFIX,log.tutuapp.com
 DOMAIN-SUFFIX,smetrics.tuvsud.cn
 DOMAIN-SUFFIX,tuxi.com.cn
 DOMAIN-SUFFIX,blog.tuziip.com
@@ -9444,6 +9446,7 @@ DOMAIN-SUFFIX,yrszy.com.cn
 DOMAIN-SUFFIX,yrwap.cn
 DOMAIN-SUFFIX,ys630.com
 DOMAIN-SUFFIX,ys6ot.cn
+DOMAIN-SUFFIX,log.ys7.com
 DOMAIN-SUFFIX,ads.ysepay.com
 DOMAIN-SUFFIX,ysgsq.cn
 DOMAIN-SUFFIX,ysjwj.com

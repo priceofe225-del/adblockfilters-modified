@@ -10,8 +10,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/01/03 00:36:40
-#!support=9820
+#!date=2026/01/03 04:08:07
+#!support=9823
 #!proxy-select=REJECT-DROP
 #
 .395131115419474531.002.sh.cn
@@ -4083,6 +4083,7 @@
 .hsrgnac.cn
 .g.hsw.cn
 .hswfj.cn
+.hsych.com
 .hsykj.net
 .ht55.cn
 .htgjkm.cn
@@ -7895,6 +7896,7 @@
 .turbonamestore.cn
 .api.tusdk.com
 .asdkd.tutuapp.com
+.log.tutuapp.com
 .smetrics.tuvsud.cn
 .tuxi.com.cn
 .blog.tuziip.com
@@ -9447,6 +9449,7 @@
 .yrwap.cn
 .ys630.com
 .ys6ot.cn
+.log.ys7.com
 .ads.ysepay.com
 .ysgsq.cn
 .ysjwj.com
