@@ -97,7 +97,7 @@ class BlackList(object):
         self.__domainlistUrl_CN_Google = "https://raw.githubusercontent.com/Loyalsoldier/v2ray-rules-dat/refs/heads/release/google-cn.txt"
         self.__iplistFile_CN = os.getcwd() + "/rules/CN-ip-cidr.txt"
         self.__iplistUrl_CN = "https://raw.githubusercontent.com/Aethersailor/geoip/refs/heads/release/text/cn-ipv4.txt"
-        self.__maxTask = 3000  # 增大并发数以提升 DNS 解析吞吐量
+        self.__maxTask = 500  # 控制并发数避免触发公共 DNS 的 QPS 限制
 
     def __getDomainList(self):
         logger.info("resolve adblock dns backup...")
