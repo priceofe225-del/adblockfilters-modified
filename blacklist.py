@@ -220,7 +220,6 @@ class BlackList(object):
                     ipList = await self.__resolve(dnsresolver, host)
                     count -= 1
 
-            logger.info("%s: %s" % (domain, ipList))
             return domain, ipList
 
     def __generateBlackList(self, blackList):
