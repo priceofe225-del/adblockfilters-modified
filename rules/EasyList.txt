@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: va5f8QUIJIkghY/GUieIuw
-! Version: 202601030711
+! Checksum: v5xJZ5QcJa0ahIWLNTZhfA
+! Version: 202601030821
 ! Title: EasyList
-! Last modified: 03 Jan 2026 07:11 UTC
+! Last modified: 03 Jan 2026 08:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -18747,6 +18747,7 @@ browsershots.org#@#.advert_area
 ||argyricmosaics.cyou^
 ||argyricshrups.qpon^
 ||ariasmajored.cyou^
+||arid-management.pro^
 ||arid-smell.pro^
 ||aridianhiatus.cyou^
 ||ariotgribble.com^
@@ -34083,6 +34084,7 @@ browsershots.org#@#.advert_area
 ||jassidskbar.cyou^
 ||jasymairie.cfd^
 ||jaucoawotaunee.net^
+||jauhaulaud.net^
 ||jaukeepsaupsie.net^
 ||jaunty-leadership.com^
 ||jaunty-neck.pro^
@@ -46725,6 +46727,7 @@ browsershots.org#@#.advert_area
 ||rnvybkoaqkljv.space^
 ||rnwbrm.com^
 ||rnwcdacauihbr.space^
+||rnxitdbv.com^
 ||rnyryywomrwnh.space^
 ||rnywgmiidmivb.online^
 ||roachedzoarium.help^
@@ -48769,6 +48772,7 @@ browsershots.org#@#.advert_area
 ||smarttopchain.nl^
 ||smartytech.io^
 ||smashedplumepea.com^
+||smatteraviatevaluers.cfd^
 ||smbttxpafponx.store^
 ||smbzsbsahhxaj.online^
 ||smcdxffhlkifc.site^
