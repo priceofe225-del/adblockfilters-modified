@@ -3,9 +3,9 @@
 ! Description: 适用于 InviZible Pro、personalDNSfilter 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist、uBlock Ads、uBlock Privacy、AdGuard Tracking Protection、AdGuard Annoyances。Lite 版仅针对国内域名拦截。
 ! Homepage: https://github.com/217heidai/adblockfilters
 ! Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdomainlite.txt
-! Version: 20260106164250
-! Last modified: 2026/01/06 16:42:50
-! Blocked domains: 6567
+! Version: 20260107004058
+! Last modified: 2026/01/07 00:40:58
+! Blocked domains: 6545
 !
 008k.com
 011211.cn
@@ -113,7 +113,6 @@ oss-asq-static.11222.cn
 113.98.201.248
 1133.cc
 114.132.150.96
-114.242.100.72
 114.55.106.136
 114.fm
 1.11467.com
@@ -122,7 +121,6 @@ oss-asq-static.11222.cn
 115.190.235.92
 appversion.115.com
 115fx.com
-116.198.233.179
 117.157.17.194
 117.50.194.20
 117.72.102.110
@@ -155,7 +153,6 @@ bdwmhz.120askimages.com
 js1.122cha.com
 123.207.20.187
 123.232.43.185
-123.57.250.154
 123.99.197.19
 123.99.198.195
 12322app.com
@@ -198,7 +195,6 @@ pg-ad-b1.nosdn.127.net
 14.103.234.180
 14198.com
 d.14yaa.com
-150.158.121.15
 150100.cn
 1503.net
 1537e06bbdc52c95.com
@@ -1065,13 +1061,11 @@ hdtu.oss-cn-beijing.aliyuncs.com
 hkuu.oss-cn-hongkong.aliyuncs.com
 httpdns-api.aliyuncs.com
 httpdns-sc.aliyuncs.com
-hwztx6svg3-default-cn.rum.aliyuncs.com
 hxyhxsq4jc-sdk.rum.aliyuncs.com
 img-dsp.oss-cn-beijing.aliyuncs.com
 imgggadpic.oss-cn-shenzhen.aliyuncs.com
 j2c03hoppk-default-cn.rum.aliyuncs.com
 jiayi1.oss-cn-shanghai.aliyuncs.com
-jlg3361uft-default-cn.rum.aliyuncs.com
 josvduvuiu-default-cn.rum.aliyuncs.com
 jpg1.oss-cn-beijing.aliyuncs.com
 jun01.oss-cn-beijing.aliyuncs.com
@@ -2087,7 +2081,6 @@ day66.com
 ads.daydaycook.com.cn
 jc1.dayfund.com.cn
 bun1.dayi.org.cn
-images.dayoo.com
 dazhantai.com
 dazhonghua.cn
 bdjs.daziba.cn
@@ -2477,7 +2470,6 @@ m.ercos.cn
 ergeapp.com
 log.ergeduoduo.com
 erlpbwy.cn
-erxaey.cn
 ethan.wang
 c.etoolads.cn
 marketing.etouch.cn
@@ -2550,7 +2542,6 @@ fangyi.cn
 fanqianbb.com
 fanyi100.com.cn
 fanzhuang.net.cn
-faq-web-whatsapp.com.cn
 fashion18.cn
 fastapi.net
 fastcache.com.cn
@@ -2583,7 +2574,6 @@ fenbo.cn
 api-fp-retry-sa.fengkongcloud.com
 cloudconf.fengkongcloud.com
 fp-it.fengkongcloud.com
-fp-it-acc.fengkongcloud.com
 fp-it-tracker.fengkongcloud.com
 fp-na-it-acc.fengkongcloud.com
 fp-sa-it.fengkongcloud.com
@@ -2655,7 +2645,6 @@ bdu.focus.cn
 pv.focus.cn
 focusbrand.cn
 foisonad.com
-analytics.fontke.com
 fooae.com
 foodbyte.cn
 img.ford.com
@@ -3234,7 +3223,6 @@ hiido.com
 analytics.shop.hisense.com
 api-4know-em.hismarttv.com
 api-4know-eu.hismarttv.com
-api-cloudfalcon.hismarttv.com
 api-gps.hismarttv.com
 api-gps-em.hismarttv.com
 api-gps-eu.hismarttv.com
@@ -3305,7 +3293,6 @@ hoverming.cn
 h.how5.cn
 abtest-api-data-sg.hoyoverse.com
 apm-log-upload-os.hoyoverse.com
-bh3-sdk-os-static.hoyoverse.com
 devlog-upload-os.hoyoverse.com
 hkrpg-log-upload-os.hoyoverse.com
 log-upload-os.hoyoverse.com
@@ -3419,7 +3406,6 @@ huzhanbin.cn
 m.hvjxf.cn
 hvuqkb.cn
 hx018.com
-hxahv.com
 hxgccl.cn
 hxgirl.cn
 hxpfvn.cn
@@ -3427,7 +3413,6 @@ hxqu.com
 hy-cn.cn
 hy90.cn
 hyfyuan.com
-c2.wifi.hypdncy.com
 hypers.com
 dsp.hypers.com.cn
 hw-t.hypers.com.cn
@@ -3505,7 +3490,6 @@ c0.ifengimg.com
 c1.ifengimg.com
 log.iflytek.com
 logconf.iflytek.com
-log.igamecj.com
 igehuo.com
 entree.igetget.com
 piccdn.igetget.com
@@ -4579,7 +4563,6 @@ a.munters.cn
 murroliving.com.cn
 m.mxguan.com
 fdc.my0511.com
-ads.api.my7v.com
 hwads-t.api.my7v.com
 apiyd.my91app.com
 optservicenote.myallvalue.com
@@ -4726,9 +4709,7 @@ ntfsformac.cc
 ntfsformac.cn
 ntkrnlpa.cn
 ntsa-go.cyou
-ntsaago.cc
 ntsaago.help
-ntsago.blog
 ntvlwef.cn
 nuaaad.cn
 pdns.nudt.edu.cn
@@ -5057,7 +5038,6 @@ qbdgame.com
 dn-growing.qbox.me
 qcasino.cc
 log.qcast.cn
-analytics.qccqcc.com
 qchannel04.cn
 qcjslm.com
 qcl.cc
@@ -6009,8 +5989,6 @@ bankofamerica30.wecom.work
 bankofuganda2.wecom.work
 bankofuganda4.wecom.work
 ifm5.wecom.work
-dads.wedobest.com.cn
-event.wedobest.com.cn
 event.stat.wedobest.com.cn
 dns.weibo.cn
 dp.im.weibo.cn
