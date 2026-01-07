@@ -3,9 +3,9 @@
 # Description: 适用于 hosts 的去广告合并规则，每 8 个小时更新一次。规则源：AdGuard Base filter、AdGuard Chinese filter、AdGuard Mobile Ads filter、AdGuard DNS filter、AdRules DNS List、CJX's Annoyance List、EasyList、EasyList China、EasyPrivacy、xinggsf mv、jiekouAD、AWAvenue Ads Rule、DNS-Blocklists Light、Hblock、OISD Basic、StevenBlack hosts、Pollock hosts、anti-AD、Phishing URL Blocklist、Online Malicious URL Blocklist、PeterLowe、SmartTV、HageziMultiPro、uBlock Badware risks、OISD Big、Stalkerware、Scam Blocklist、uBlock Ads、uBlock Privacy、AdGuard Tracking Protection、AdGuard Annoyances。Lite 版仅针对国内域名拦截。
 # Homepage: https://github.com/217heidai/adblockfilters
 # Source: https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockhostslite.txt
-# Version: 20260107201159
-# Last modified: 2026/01/07 20:11:59
-# Blocked domains: 3829
+# Version: 20260108004211
+# Last modified: 2026/01/08 00:42:11
+# Blocked domains: 3825
 #
 127.0.0.1	localhost
 127.0.0.1	localhost.localdomain
@@ -109,7 +109,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	10de7e1f17f512b2.com
 0.0.0.0	adm.10jqka.com.cn
 0.0.0.0	10raw.com
-0.0.0.0	110.42.39.182
 0.0.0.0	1.11130.com.cn
 0.0.0.0	111juegos.com
 0.0.0.0	112.18.10.80
@@ -185,7 +184,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	ad.mcloud.139.com
 0.0.0.0	1391.com
 0.0.0.0	13e8c7eddf1dc73d.com
-0.0.0.0	14.103.234.180
 0.0.0.0	14198.com
 0.0.0.0	1503.net
 0.0.0.0	1537e06bbdc52c95.com
@@ -550,7 +548,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	58tg.com
 0.0.0.0	58xiao.cn
 0.0.0.0	59.110.28.230
-0.0.0.0	59.59.6.86
 0.0.0.0	595image.com
 0.0.0.0	59cn.cn
 0.0.0.0	59gt.cn
@@ -673,7 +670,6 @@ ff02::3	ip6-allhosts
 0.0.0.0	8020home.com.cn
 0.0.0.0	80de65997d4fd4ea.com
 0.0.0.0	80vn.cn
-0.0.0.0	81.70.255.195
 0.0.0.0	81.70.85.113
 0.0.0.0	81106bdade3ddccc.com
 0.0.0.0	815ss.cn
