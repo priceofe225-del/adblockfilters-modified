@@ -4,6 +4,10 @@ on:
   schedule:
   - cron: 0 1 * * *
 
+concurrency:
+  group: blacklist-${{ github.ref }}
+  cancel-in-progress: false
+
 env:
   TZ: Asia/Shanghai
 
@@ -63,6 +67,7 @@ jobs:
       - name: Generate Blacklist
         id: update
         run: |
+          git pull --rebase origin main
           python blacklist.py
           rm -rf __pycache__
           echo "message=chore(blacklist): update domain blocklist [$(TZ='Asia/Shanghai' date +'%F %T%:z')]" >> $GITHUB_OUTPUT
