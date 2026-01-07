@@ -27,7 +27,7 @@ class ChinaDomian(object):
             if os.path.exists(self.__fileName):
                 os.remove(self.__fileName)
             
-            with httpx.Client(timeout=30) as client:
+            with httpx.Client() as client:
                 response = client.get(self.__url)
                 response.raise_for_status()
                 with open(self.__fileName,'wb') as f:
@@ -138,7 +138,7 @@ class BlackList(object):
             if os.path.exists(self.__iplistFile_CN):
                 os.remove(self.__iplistFile_CN)
             
-            with httpx.Client(timeout=30) as client:
+            with httpx.Client() as client:
                 response = client.get(self.__iplistUrl_CN)
                 response.raise_for_status()
                 with open(self.__iplistFile_CN,'wb') as f:
@@ -191,10 +191,7 @@ class BlackList(object):
                 port = 80
             if port:
                 try:
-                    _, writer = await asyncio.wait_for(
-                        asyncio.open_connection(host, port),
-                        timeout=5  # 添加连接超时
-                    )
+                    _, writer = await asyncio.open_connection(host, port)
                     writer.close()
                     await writer.wait_closed()
                     ipList.append(host)
@@ -202,18 +199,17 @@ class BlackList(object):
                     if port == 80:
                         port = 443
                         try:
-                            _, writer = await asyncio.wait_for(
-                                asyncio.open_connection(host, port),
-                                timeout=5  # 添加连接超时
-                            )
+                            _, writer = await asyncio.open_connection(host, port)
                             writer.close()
                             await writer.wait_closed()
                             ipList.append(host)
                         except Exception:
                             pass  # 静默处理连接失败
             else:
-                # 减少重试次数从 3 次到 1 次，提升速度
-                ipList = await self.__resolve(dnsresolver, host)
+                count = 3
+                while len(ipList) < 1 and count > 0:
+                    ipList = await self.__resolve(dnsresolver, host)
+                    count -= 1
 
             return domain, ipList
 
@@ -247,8 +243,6 @@ class BlackList(object):
         dnsresolver = DNSResolver()
         dnsresolver.nameservers = nameservers
         dnsresolver.port = port
-        dnsresolver.lifetime = 5  # DNS 查询超时时间（秒）
-        
         # 启动异步循环
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
