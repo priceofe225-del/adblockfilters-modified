@@ -1,4 +1,5 @@
 import os
+import argparse
 
 from loguru import logger
 
@@ -10,7 +11,7 @@ class ADBlock(object):
     def __init__(self):
         self.pwd = os.getcwd()
 
-    def refresh(self):
+    def refresh(self, mode: str = "all", force: bool = False):
         readme = ReadMe(self.pwd + '/README.md')
         ruleList = readme.getRules()
         '''
@@ -23,15 +24,25 @@ class ADBlock(object):
         #        testList.append(rule)
         ruleList = testList
         '''
-        # 更新上游规
-        updater = Updater(ruleList)
-        update, ruleList = updater.update(self.pwd + '/rules')
-        if not update:
-            return
-        
+        if mode in ("all", "prepare"):
+            # 更新上游规
+            updater = Updater(ruleList)
+            update, ruleList = updater.update(self.pwd + '/rules')
+            if not update and not force and mode == "all":
+                return
+
+            if mode == "prepare":
+                # 仅生成域名备份，用于黑名单检测
+                filter = Filter(ruleList, self.pwd + '/rules')
+                filter.generate(readme.getRulesNames(), generate_rules=False, generate_domain_backup=True)
+                readme.setRules(ruleList)
+                readme.regenerate()
+                return
+
         # 生成新规则
         filter = Filter(ruleList, self.pwd + '/rules')
-        filter.generate(readme.getRulesNames())
+        generate_domain_backup = (mode == "all")
+        filter.generate(readme.getRulesNames(), generate_rules=True, generate_domain_backup=generate_domain_backup)
         
         # 生成 readme.md
         readme.setRules(ruleList)
@@ -46,5 +57,19 @@ if __name__ == '__main__':
         os.remove(logFile)
     logger.add(logFile)
     '''
+    parser = argparse.ArgumentParser(description="AdBlock filter generator")
+    parser.add_argument(
+        "--mode",
+        choices=["all", "prepare", "generate"],
+        default="all",
+        help="all: update+generate; prepare: update+domain backup; generate: generate rules only",
+    )
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="Run even if no upstream updates are detected",
+    )
+    args = parser.parse_args()
+
     adBlock = ADBlock()
-    adBlock.refresh()
+    adBlock.refresh(mode=args.mode, force=args.force)

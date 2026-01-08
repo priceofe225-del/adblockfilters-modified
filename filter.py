@@ -259,7 +259,7 @@ class Filter(object):
         
         logger.info("domain backup: %d"%(len(domainList)))
 
-    def generate(self, sourceRule):
+    def generate(self, sourceRule, generate_rules: bool = True, generate_domain_backup: bool = True):
         # 从上游规则中提取规则
         blockDict,unblockDict,filterDict = self.__getFilters()
 
@@ -299,23 +299,25 @@ class Filter(object):
             % (len(lite_candidates), lite_unknown, lite_non_china, sample_size, sample_mismatch)
         )
 
-        # 生成合并规则 AdGuard, AdGuardHome, DNSMasq, InviZible, SmartDNS等
-        generaterList:List[APPBase] = [
-            AdGuard     (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockfilters.txt",   sourceRule),
-            AdGuardHome (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockdns.txt",       sourceRule),
-            DNSMasq     (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockdnsmasq.txt",   sourceRule),
-            Hosts       (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockhosts.txt",     sourceRule),
-            InviZible   (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockdomain.txt",    sourceRule),
-            Loon        (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockloon.list",      sourceRule),
-            Mihomo      (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockmihomo.yaml",   sourceRule),
-            QuantumultX (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockqx.conf",       sourceRule),
-            Shadowrocket(blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockclash.list",    sourceRule),
-            SingBox     (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblocksingbox.json",  sourceRule),
-            SmartDNS    (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblocksmartdns.conf", sourceRule),
-            Surge       (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblocksurge.list",     sourceRule),
-        ]
-        for g in generaterList:
-            g.generateAll()
+        if generate_rules:
+            # 生成合并规则 AdGuard, AdGuardHome, DNSMasq, InviZible, SmartDNS等
+            generaterList:List[APPBase] = [
+                AdGuard     (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockfilters.txt",   sourceRule),
+                AdGuardHome (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockdns.txt",       sourceRule),
+                DNSMasq     (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockdnsmasq.txt",   sourceRule),
+                Hosts       (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockhosts.txt",     sourceRule),
+                InviZible   (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockdomain.txt",    sourceRule),
+                Loon        (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockloon.list",      sourceRule),
+                Mihomo      (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockmihomo.yaml",   sourceRule),
+                QuantumultX (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockqx.conf",       sourceRule),
+                Shadowrocket(blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblockclash.list",    sourceRule),
+                SingBox     (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblocksingbox.json",  sourceRule),
+                SmartDNS    (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblocksmartdns.conf", sourceRule),
+                Surge       (blockList, unblockList, filterDict, filterList, filterList_var, ChinaSet, self.path + "/adblocksurge.list",     sourceRule),
+            ]
+            for g in generaterList:
+                g.generateAll()
         
         # 生成用于域名连通性检测的全域名清单
-        self.__generateDomainBackup(blockSet_block | unblockSet_unblock | domainSet_filter, self.path + "/domain.txt")
+        if generate_domain_backup:
+            self.__generateDomainBackup(blockSet_block | unblockSet_unblock | domainSet_filter, self.path + "/domain.txt")

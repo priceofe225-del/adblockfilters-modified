@@ -2,10 +2,15 @@ name: Update Filters
 on: 
   workflow_dispatch:
   schedule:
-  - cron: 0 */8 * * *
+  - cron: 0 1 * * *
+
+concurrency:
+  group: rules-${{ github.ref }}
+  cancel-in-progress: false
 
 env:
   TZ: Asia/Shanghai
+  SMARTDNS_PATH: /tmp/smartdns
   SINGBOX_VERSION: 1.12.12
   MIHOMO_VERSION: 1.19.16
 
@@ -32,15 +37,54 @@ jobs:
           sudo apt-get install -y wget gzip
           sudo timedatectl set-timezone "$TZ"
           python -m pip install --upgrade pip
-          pip install -U tld IPy dnspython httpx loguru
+          pip install -U tld IPy dnspython httpx loguru pytricia
 
-      - name: Update Filters
+      - name: Prepare sources and domain backup
+        run: |
+          git pull --rebase origin main
+          python adblock.py --mode prepare --force
+
+      - name: Setup SmartDNS
+        run: |
+          mkdir -p $SMARTDNS_PATH
+          LATEST_URL=$(curl -s https://api.github.com/repos/pymumu/smartdns/releases/latest | grep "browser_download_url" | grep "smartdns-x86_64" | cut -d '"' -f 4)
+          echo "Downloading SmartDNS from: $LATEST_URL"
+          wget -q "$LATEST_URL" -O $SMARTDNS_PATH/smartdns
+          chmod +x $SMARTDNS_PATH/smartdns
+          cp smartdns.conf $SMARTDNS_PATH/smartdns.conf
+          nohup $SMARTDNS_PATH/smartdns -f -x -c $SMARTDNS_PATH/smartdns.conf > /dev/null 2>&1 &
+
+      - name: Wait for SmartDNS
+        run: |
+          python - <<'PY'
+          import time
+          import dns.message
+          import dns.query
+          import dns.rcode
+
+          for i in range(60):
+              try:
+                  q = dns.message.make_query("example.com", "A")
+                  r = dns.query.udp(q, "127.0.0.1", port=5053, timeout=2)
+                  print("SmartDNS ready: rcode=%s" % dns.rcode.to_text(r.rcode()))
+                  break
+              except Exception:
+                  time.sleep(1)
+          else:
+              raise SystemExit("SmartDNS not ready")
+          PY
+
+      - name: Generate blacklist and China list
+        run: |
+          python blacklist.py
+
+      - name: Generate final rules
         id: update
         run: |
-          python adblock.py
+          python adblock.py --mode generate
           rm -rf __pycache__
           rm -rf app/__pycache__
-          echo "message=chore(filters): update adblock rules [$(TZ='Asia/Shanghai' date +'%F %T%:z')]" >> $GITHUB_OUTPUT
+          echo "message=chore(rules): update filters and blacklist [$(TZ='Asia/Shanghai' date +'%F %T%:z')]" >> $GITHUB_OUTPUT
 
       - name: Validate rule counts
         run: |
