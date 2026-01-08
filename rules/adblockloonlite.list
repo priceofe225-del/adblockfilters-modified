@@ -7,8 +7,8 @@
 #!system=iOS, iPadOS
 #!system_version=
 #!loon_version=
-#!date=2026/01/08 00:42:11
-#!support=3825
+#!date=2026/01/08 10:24:18
+#!support=3823
 #!proxy-select=REJECT
 #
 DOMAIN-SUFFIX,395131115419474531.002.sh.cn
@@ -2079,7 +2079,6 @@ DOMAIN-SUFFIX,exevcl.cn
 DOMAIN-SUFFIX,ad.exyws.org
 DOMAIN-SUFFIX,eyewand.cn
 DOMAIN-SUFFIX,eyouv.cn
-DOMAIN-SUFFIX,eyswoy.cn
 DOMAIN-SUFFIX,ez33.org.cn
 DOMAIN-SUFFIX,ez4q2.cn
 DOMAIN-SUFFIX,analytics.ezbim.net
@@ -3065,7 +3064,6 @@ DOMAIN-SUFFIX,all.rising.com.cn
 DOMAIN-SUFFIX,dualstack-collection.rong-edge.com
 DOMAIN-SUFFIX,feedback.cn.ronghub.com
 DOMAIN-SUFFIX,aeon.rthmwy.cn
-DOMAIN-SUFFIX,down.ruanmei.com
 DOMAIN-SUFFIX,ds.ruanwengfa.com
 DOMAIN-SUFFIX,abc.ruodian360.com
 DOMAIN-SUFFIX,c.rxconkz.cn
