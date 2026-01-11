@@ -117,6 +117,9 @@ class BlackList(object):
         self.__iplistFile_CN = os.getcwd() + "/rules/CN-ip-cidr.txt"
         self.__iplistUrl_CN = "https://raw.githubusercontent.com/Aethersailor/geoip/refs/heads/release/text/cn-ipv4.txt"
         self.__maxTask = 500  # 控制并发数避免触发公共 DNS 的 QPS 限制
+        self.__dns_timeout = 2.0
+        self.__dns_lifetime = 3.0
+        self.__connect_timeout = 3.0
         self.__dns_stats = Counter()
         self.__min_change_ratio = 0.7
         self.__max_change_ratio = 1.5
@@ -302,6 +305,18 @@ class BlackList(object):
                 self.__dns_stats[stat_prefix + "empty"] += 1
             return ipList
 
+    async def __try_connect(self, host: str, port: int) -> bool:
+        try:
+            _, writer = await asyncio.wait_for(
+                asyncio.open_connection(host, port),
+                timeout=self.__connect_timeout,
+            )
+            writer.close()
+            await writer.wait_closed()
+            return True
+        except Exception:
+            return False
+
     async def __pingx(self, dnsresolver, domain, semaphore):
         async with semaphore:
             host, port = self.__split_host_port(domain)
@@ -312,21 +327,12 @@ class BlackList(object):
             except Exception:
                 port = 80
             if port:
-                try:
-                    _, writer = await asyncio.open_connection(host, port)
-                    writer.close()
-                    await writer.wait_closed()
+                if await self.__try_connect(host, port):
                     ipList.append(host)
-                except Exception:
-                    if port == 80:
-                        port = 443
-                        try:
-                            _, writer = await asyncio.open_connection(host, port)
-                            writer.close()
-                            await writer.wait_closed()
-                            ipList.append(host)
-                        except Exception:
-                            pass  # 静默处理连接失败
+                elif port == 80:
+                    port = 443
+                    if await self.__try_connect(host, port):
+                        ipList.append(host)
             if not ipList:
                 count = 3
                 while len(ipList) < 1 and count > 0:
@@ -356,6 +362,8 @@ class BlackList(object):
         dnsresolver = DNSResolver()
         dnsresolver.nameservers = nameservers
         dnsresolver.port = port
+        dnsresolver.timeout = self.__dns_timeout
+        dnsresolver.lifetime = self.__dns_lifetime
         # 启动异步循环
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
