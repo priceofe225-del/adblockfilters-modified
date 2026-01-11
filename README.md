@@ -15,6 +15,13 @@
    - AdGuard Tracking Protection
    - anti-AD
    - HageziMultiPro
+   - HaGeZi's Apple Tracker Blocklist
+   - HaGeZi's Badware Hoster Blocklist
+   - HaGeZi's Windows/Office Tracker Blocklist
+   - HaGeZi's Xiaomi Tracker Blocklist
+   - HaGeZi's Vivo Tracker Blocklist
+   - HaGeZi's Samsung Tracker Blocklist
+   - Malicious URL Blocklist
    - OISD Big
    - Online Malicious URL Blocklist
    - PeterLowe
