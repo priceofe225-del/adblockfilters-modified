@@ -7,7 +7,10 @@ from loguru import logger
 class Rule(object):
     def __init__(self, name:str, type:str, url:str, latest:str, update:bool=False):
         self.name = name
-        self.filename = self.name.replace(' ', '_') + '.txt'
+        safe_name = self.name.replace(' ', '_')
+        for ch in ['/', '\\', ':', '*', '?', '"', '<', '>', '|']:
+            safe_name = safe_name.replace(ch, '_')
+        self.filename = safe_name + '.txt'
         self.type = type
         self.url = url
         self.latest = latest
