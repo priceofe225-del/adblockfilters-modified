@@ -1,6 +1,8 @@
 import os
 import asyncio
 import re
+import time
+import subprocess
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -8,6 +10,9 @@ import httpx
 import pytricia
 from tld import get_tld
 from loguru import logger
+import dns.message
+import dns.query
+import dns.rcode
 from dns.asyncresolver import Resolver as DNSResolver
 from dns.resolver import NXDOMAIN, NoAnswer, NoNameservers
 from dns.exception import Timeout
@@ -120,6 +125,10 @@ class BlackList(object):
         self.__dns_timeout = 2.0
         self.__dns_lifetime = 3.0
         self.__connect_timeout = 3.0
+        self.__health_check_interval = 10000
+        self.__health_check_timeout = 2.0
+        self.__health_check_sleep = 5
+        self.__health_check_max_wait = 600
         self.__dns_stats = Counter()
         self.__min_change_ratio = 0.7
         self.__max_change_ratio = 1.5
@@ -199,6 +208,77 @@ class BlackList(object):
             "dns stats: primary=%d/%d, failures=%s"
             % (primary_success, primary_queries, detail_text)
         )
+
+    def __check_smartdns(self, host: str, port: int) -> tuple:
+        try:
+            q = dns.message.make_query("example.com", "A")
+            r = dns.query.udp(q, host, port=port, timeout=self.__health_check_timeout)
+            rcode = r.rcode()
+            return rcode == dns.rcode.NOERROR, dns.rcode.to_text(rcode)
+        except Exception as e:
+            return False, str(e)
+
+    def __wait_for_smartdns(self, host: str, port: int):
+        start = time.time()
+        attempt = 0
+        delay = self.__health_check_sleep
+        while True:
+            healthy, detail = self.__check_smartdns(host, port)
+            if healthy:
+                if attempt > 0:
+                    logger.info("SmartDNS healthy: %s after %d attempts" % (detail, attempt))
+                return
+            attempt += 1
+            logger.warning(
+                "SmartDNS unhealthy: %s (attempt=%d). Wait %ds"
+                % (detail, attempt, delay)
+            )
+            time.sleep(delay)
+            if self.__health_check_max_wait and (time.time() - start) >= self.__health_check_max_wait:
+                raise RuntimeError("SmartDNS unhealthy for %ds" % self.__health_check_max_wait)
+            delay = min(delay * 2, 60)
+
+    def __stop_smartdns(self, bin_path: str):
+        try:
+            if os.name == "nt":
+                subprocess.run(
+                    ["taskkill", "/f", "/im", "smartdns.exe"],
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL,
+                    check=False,
+                )
+                return
+            subprocess.run(
+                ["pkill", "-f", os.path.basename(bin_path)],
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+                check=False,
+            )
+        except Exception as e:
+            logger.warning("stop smartdns failed: %s" % e)
+
+    def __restart_smartdns(self):
+        smartdns_path = os.environ.get("SMARTDNS_PATH", "/tmp/smartdns")
+        bin_path = os.path.join(smartdns_path, "smartdns")
+        conf_path = os.path.join(smartdns_path, "smartdns.conf")
+        if not os.path.exists(bin_path):
+            logger.warning("smartdns binary not found: %s" % bin_path)
+            return False
+        if not os.path.exists(conf_path):
+            logger.warning("smartdns config not found: %s" % conf_path)
+            return False
+        self.__stop_smartdns(bin_path)
+        try:
+            subprocess.Popen(
+                [bin_path, "-f", "-x", "-c", conf_path],
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL,
+            )
+            logger.info("smartdns restarted")
+            return True
+        except Exception as e:
+            logger.warning("smartdns restart failed: %s" % e)
+            return False
 
     def __getDomainList(self):
         logger.info("resolve adblock dns backup...")
@@ -392,6 +472,23 @@ class BlackList(object):
         logger.info("resolve domain: %d, success: %d, fail: %d"%(len(domainDict), resolved, len(domainDict) - resolved))
         return domainDict
 
+    def __testDomainBatches(self, domainList, nameservers, port=53):
+        if not self.__health_check_interval or self.__health_check_interval <= 0:
+            return self.__testDomain(domainList, nameservers, port)
+        host = nameservers[0] if nameservers else "127.0.0.1"
+        total = len(domainList)
+        domainDict = {}
+        self.__wait_for_smartdns(host, port)
+        for start in range(0, total, self.__health_check_interval):
+            end = min(start + self.__health_check_interval, total)
+            logger.info("resolve domain batch: %d-%d/%d" % (start + 1, end, total))
+            batchDict = self.__testDomain(domainList[start:end], nameservers, port)
+            domainDict.update(batchDict)
+            if end < total:
+                if self.__restart_smartdns():
+                    self.__wait_for_smartdns(host, port)
+        return domainDict
+
     def __isChinaDomain(self, domain, ipList, fullSet_CN, domainSet_CN, compiled_regexps, keywordSet_CN, IPTrie_CN):
         """判断域名是否属于中国，使用预编译正则和前缀树进行高效判定"""
         isChinaDomain = False
@@ -443,7 +540,7 @@ class BlackList(object):
             if len(domainList) < 1:
                 return
             
-            domainDict = self.__testDomain(domainList, ["127.0.0.1"], 5053)
+            domainDict = self.__testDomainBatches(domainList, ["127.0.0.1"], 5053)
             self.__log_dns_stats()
 
             fullSet_CN, domainSet_CN, regexpSet_CN, keywordSet_CN = self.__getDomainSet_CN()
