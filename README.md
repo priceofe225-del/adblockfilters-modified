@@ -128,4 +128,10 @@ adblockfilters 去广告合并规则增强版，每天更新一次。
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Aethersailor/adblockfilters-modified&type=Date)](https://star-history.com/#Aethersailor/adblockfilters-modified&Date)
+<a href="https://www.star-history.com/#Aethersailor/adblockfilters-modified&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Aethersailor/adblockfilters-modified&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Aethersailor/adblockfilters-modified&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Aethersailor/adblockfilters-modified&type=Date" />
+ </picture>
+</a>

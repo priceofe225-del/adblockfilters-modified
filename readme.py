@@ -183,7 +183,13 @@ class ReadMe(object):
             f.write("\n")
             
             f.write("## Star History\n")
-            f.write("[![Star History Chart](https://api.star-history.com/svg?repos=Aethersailor/adblockfilters-modified&type=Date)](https://star-history.com/#Aethersailor/adblockfilters-modified&Date)\n")
+            f.write('<a href="https://www.star-history.com/#Aethersailor/adblockfilters-modified&Date">\n')
+            f.write(' <picture>\n')
+            f.write('   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Aethersailor/adblockfilters-modified&type=Date&theme=dark" />\n')
+            f.write('   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Aethersailor/adblockfilters-modified&type=Date" />\n')
+            f.write('   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Aethersailor/adblockfilters-modified&type=Date" />\n')
+            f.write(' </picture>\n')
+            f.write('</a>\n')
             '''
 
             '''
