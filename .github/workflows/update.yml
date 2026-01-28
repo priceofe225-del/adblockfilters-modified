@@ -3,13 +3,6 @@ on:
   workflow_dispatch:
   schedule:
   - cron: 0 1 * * *
-  push:
-    branches:
-    - main
-    paths:
-    - scripts/**/*.py
-    - config/smartdns.conf
-    - .github/workflows/update.yml
 
 concurrency:
   group: rules-${{ github.ref }}
