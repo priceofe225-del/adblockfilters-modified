@@ -146,7 +146,6 @@ class ReadMe(object):
             f.write("| 上游规则去重率 | %s |\n" % (upstream_dedupe_rate if upstream_dedupe_rate is not None else "N/A"))
             f.write("| 有效规则数量（可解析） | %s |\n" % (effective_count if effective_count is not None else "N/A"))
             f.write("| 有效规则占比（检测域名） | %s |\n" % (effective_ratio if effective_ratio is not None else "N/A"))
-            f.write("| 成品规则总数 | %s |\n" % (total_rules if total_rules is not None else "N/A"))
             f.write("| 中国规则数（Lite） | %s |\n" % (china_rules if china_rules is not None else "N/A"))
             f.write("| 中国规则占比（Lite/成品） | %s |\n" % (china_ratio if china_ratio is not None else "N/A"))
             f.write("\n")
