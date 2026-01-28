@@ -8,7 +8,7 @@ on:
     - main
     paths:
     - py/**/*.py
-    - smartdns.conf
+    - config/smartdns.conf
     - .github/workflows/update.yml
 
 concurrency:
@@ -113,7 +113,7 @@ jobs:
               echo "Downloading SmartDNS from: $LATEST_URL"
               if wget -q "$LATEST_URL" -O "$SMARTDNS_PATH/smartdns" && [ -s "$SMARTDNS_PATH/smartdns" ]; then
                 chmod +x "$SMARTDNS_PATH/smartdns"
-                cp smartdns.conf "$SMARTDNS_PATH/smartdns.conf"
+          cp config/smartdns.conf "$SMARTDNS_PATH/smartdns.conf"
                 nohup "$SMARTDNS_PATH/smartdns" -f -x -c "$SMARTDNS_PATH/smartdns.conf" > /dev/null 2>&1 &
                 echo "SmartDNS started."
                 break
