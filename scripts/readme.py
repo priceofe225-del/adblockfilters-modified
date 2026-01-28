@@ -129,6 +129,7 @@ class ReadMe(object):
         beijing_tz = timezone(timedelta(hours=8))
         update_time = datetime.now(beijing_tz).strftime("%Y/%m/%d %H:%M:%S") + " (UTC+08:00)"
         total_rules, china_rules = self._get_rule_counts()
+        china_ratio = self._format_ratio(china_rules, total_rules)
         upstream_raw, upstream_unique, upstream_dedupe_rate = self._get_upstream_stats()
         effective_count, effective_ratio = self._get_effective_stats()
         source_meta = self._load_source_meta()
@@ -147,6 +148,7 @@ class ReadMe(object):
             f.write("| 有效规则占比（检测域名） | %s |\n" % (effective_ratio if effective_ratio is not None else "N/A"))
             f.write("| 成品规则总数 | %s |\n" % (total_rules if total_rules is not None else "N/A"))
             f.write("| 中国规则数（Lite） | %s |\n" % (china_rules if china_rules is not None else "N/A"))
+            f.write("| 中国规则占比（Lite/成品） | %s |\n" % (china_ratio if china_ratio is not None else "N/A"))
             f.write("\n")
 
             f.write("## 说明\n")
