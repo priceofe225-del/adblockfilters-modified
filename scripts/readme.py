@@ -136,7 +136,7 @@ class ReadMe(object):
 
         with open(self.filename, 'a') as f:
             f.write("# AdBlock DNS Filters Modified\n")
-            f.write("adblockfilters 去广告合并规则增强版，每天更新一次。  \n")
+            f.write("[217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) 去广告合并规则增强版，每天更新一次。  \n")
             f.write("\n")
             f.write("| 指标 | 数值 |\n")
             f.write("| :- | :- |\n")
