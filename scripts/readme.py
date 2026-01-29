@@ -234,6 +234,8 @@ class ReadMe(object):
             f.write("| 规则19' |" + self.__subscribeLink("adblockrouterosadlistlite.txt") + " %s | %s | RouterOS AdList |\n" % (self._get_product_size_mb("adblockrouterosadlistlite.txt") or "N/A", self._get_product_count("adblockrouterosadlistlite.txt") or "N/A"))
             f.write("| 规则20 |" + self.__subscribeLink("adblockdnsmasqaddnhosts.txt") + " %s | %s | DNSMasq addn-hosts |\n" % (self._get_product_size_mb("adblockdnsmasqaddnhosts.txt") or "N/A", self._get_product_count("adblockdnsmasqaddnhosts.txt") or "N/A"))
             f.write("| 规则20' |" + self.__subscribeLink("adblockdnsmasqaddnhostslite.txt") + " %s | %s | DNSMasq addn-hosts |\n" % (self._get_product_size_mb("adblockdnsmasqaddnhostslite.txt") or "N/A", self._get_product_count("adblockdnsmasqaddnhostslite.txt") or "N/A"))
+            f.write("| 规则21 |" + self.__subscribeLink("adblockdnsmasqservers.txt") + " %s | %s | DNSMasq servers |\n" % (self._get_product_size_mb("adblockdnsmasqservers.txt") or "N/A", self._get_product_count("adblockdnsmasqservers.txt") or "N/A"))
+            f.write("| 规则21' |" + self.__subscribeLink("adblockdnsmasqserverslite.txt") + " %s | %s | DNSMasq servers |\n" % (self._get_product_size_mb("adblockdnsmasqserverslite.txt") or "N/A", self._get_product_count("adblockdnsmasqserverslite.txt") or "N/A"))
             f.write("\n")
 
             f.write("## 上游规则源\n")
