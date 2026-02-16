@@ -1,9 +1,9 @@
 !
 ! Title: HaGeZi's Badware Hoster Blocklist
 ! Description: Blocks known free hosters that also host badware via user content to prevent the use of these hosters for malicious purposes.
-! Version: 1.0.19.1
+! Version: 1.0.19.4
 ! Homepage: https://github.com/hagezi/dns-blocklists
-! Last modified: 2026-02-12T17:28:22.131Z
+! Last modified: 2026-02-15T23:11:26.771Z
 !
 ! Compiled by @adguard/hostlist-compiler v1.0.35
 !
@@ -151,10 +151,8 @@
 ||aeza.network^
 ||africafull.top^
 ||ag.gp^
-||ag0rcgwjv5.com^
 ||ahlamountada.com^
 ||airground.club^
-||airself.shop^
 ||al6.de^
 ||alboompro.com^
 ||all.lc^
@@ -222,7 +220,6 @@
 ||biz.tc^
 ||biz.uz^
 ||bizhat.com^
-||bizmovie.shop^
 ||blackapplehost.com^
 ||blackblogs.org^
 ||blinkweb.com^
@@ -375,7 +372,6 @@
 ||cloudwaysapps.com^
 ||club.lc^
 ||club-area.de^
-||clubstrack.shop^
 ||clumsy.de^
 ||cn.gp^
 ||co.de^
@@ -441,7 +437,6 @@
 ||csb.app^
 ||ct8.pl^
 ||ctempurl.com^
-||cubavalue.shop^
 ||cyberbree.com^
 ||cyberfight.de^
 ||cz.gp^
@@ -451,7 +446,6 @@
 ||da.cx^
 ||da.ru^
 ||daftpage.com^
-||datechurch.shop^
 ||datesize.top^
 ||datingpm.club^
 ||dax.ru^
@@ -468,7 +462,6 @@
 ||de-info.de^
 ||design.tl^
 ||designcarthosting.com^
-||dietmark.shop^
 ||digitalzones.com^
 ||dimsolo.com^
 ||dinamikajambi.com^
@@ -496,7 +489,6 @@
 ||e-monsite.com^
 ||easyfreehosting.com^
 ||eb2a.com^
-||ebuykind.shop^
 ||ec.gp^
 ||ecardalert.com^
 ||ecomplanet.com^
