@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: To3tFstME7cV9zLzC9/opQ
-! Version: 202602170331
+! Checksum: nV07VtAspcaBbbapIirB6w
+! Version: 202602180341
 ! Title: EasyPrivacy
-! Last modified: 17 Feb 2026 03:31 UTC
+! Last modified: 18 Feb 2026 03:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -9245,6 +9245,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||livelyvideo.tv/lb/logger
 ||liverail.com/?metric=
 ||liverail.com/track/?
+||livesearch-metrics.magento-ds.com^
 ||livestats.kaltura.com^
 ||livestory.io/*/collect
 ||llama.fi/script.js
@@ -11521,6 +11522,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! Estonian
 ! Finnish
 ||almamedia.fi^*/scroll-monitor.min.js
+||ddl.alma.iltalehti.fi^
 ||dnt-userreport.com^
 ||er.sanoma-sndp.fi/stats/
 ||er.sanoma-sndp.fi/v2/stats/
@@ -50828,6 +50830,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||ymprove.web.de^
 ||zooplus.de/om/pxl/
 ! TrustPid/Utiq
+! ||service.utiq.com^
 ||a1at.mno.link^
 ||bgtfr-test.mno.link^
 ||bob-a1at.mno.link^
@@ -50840,7 +50843,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||o2de.mno.link^
 ||orangefr-test.mno.link^
 ||orangefr.mno.link^
-||service.utiq.com^
 ||sfr.mno.link^
 ||timit.mno.link^
 ||tmi.jv-telcoid.es^
