@@ -157,6 +157,9 @@
 | AdGuard Annoyances | filter | [原始链接](https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/Aethersailor/adblockfilters-modified@main/sources/upstream/AdGuard_Annoyances.txt) | 64642 | 2026/03/02 |
 | lingeringsound adblock_auto | filter | [原始链接](https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/Aethersailor/adblockfilters-modified@main/sources/upstream/lingeringsound_adblock_auto.txt) | 244947 | 2026/03/02 |
 | CERT.PL's Warning List | host | [原始链接](https://hole.cert.pl/domains/v2/domains_hosts.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/Aethersailor/adblockfilters-modified@main/sources/upstream/CERT.PL's_Warning_List.txt) | 143811 | 2026/03/02 |
+| hululu1068 | filter | [原始链接](https://github.com/hululu1068/AdGuard-Rule/blob/main/rule/adgh.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/hululu1068/AdGuard-Rule/blob/main/rule/adgh.txt) | 244947 | 2026/03/02 |
+| AdvertisingTest | filter | [原始链接](https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/AdGuard/AdvertisingTest/Advertising.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/AdGuard/AdvertisingTest/Advertising.txt) | 244947 | 2026/03/02 |
+| REIJI007 | filter | [原始链接](https://raw.githubusercontent.com/REIJI007/Adblock-Rule-Collection/main/ADBLOCK_RULE_COLLECTION.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/REIJI007/Adblock-Rule-Collection/main/ADBLOCK_RULE_COLLECTION.txt) | 244947 | 2026/03/02 |
 
 ## Star History
 <a href="https://www.star-history.com/#Aethersailor/adblockfilters-modified&Date">
