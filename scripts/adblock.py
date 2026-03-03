@@ -30,7 +30,7 @@ class ADBlock(object):
         for rule in ruleList:
             if rule.type in ['filter']:
                 testList.append(rule)
-        #    if rule.name in ["AdGuard Mobile Ads filter"]: # "AdRules DNS List", "CJX's Annoyance List", "EasyList China", "EasyList", "EasyPrivacy", "jiekouAD", "xinggsf mv", "xinggsf rule"
+        #    if rule.name in ["AdGuard Mobile Ads filter"]: # "AdRules DNS List", "CJX's Annoyance List", "EasyList China", "EasyList", "EasyPrivacy", "jiekouAD", "xinggsf mv", "xinggsf rule", "AdvertisingTest", "REIJI007", "hululu1068"
         #        testList.append(rule)
         ruleList = testList
         '''
