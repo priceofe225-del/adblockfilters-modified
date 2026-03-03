@@ -367,5 +367,32 @@
     "sha256": "57ed3125463e773dd1ab440609a8bba59468e5f5c6d95c8f78e0d30340619a60",
     "source_url": "https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt",
     "updated_at": "2026-03-02 11:42:05"
+  },
+  "REIJI007": {
+    "etag": "W/\"80cb8e4586c412071f30652d1608a36efa983336acd1efcda097337dec68f22f\"",
+    "filename": "REIJI007",
+    "last_modified": "",
+    "lines": 9144,
+    "sha256": "a4295805083beff5ee81331b676152a145e6a9d55345e2c925d632404fc70389",
+    "source_url": "https://raw.githubusercontent.com/REIJI007/Adblock-Rule-Collection/main/ADBLOCK_RULE_COLLECTION.txt",
+    "updated_at": "2026-02-26 11:45:57"
+  },
+  "hululu1068": {
+    "etag": "W/\"69a3aea0-fdf1\"",
+    "filename": "hululu1068",
+    "last_modified": "Sun, 01 Mar 2026 03:12:32 GMT",
+    "lines": 3134,
+    "sha256": "3c383cce697d4d271b74aa25e88ebbeb2b1ff9638079475ebacd0b4871015276",
+    "source_url": "https://github.com/hululu1068/AdGuard-Rule/blob/main/rule/adgh.txt",
+    "updated_at": "2026-03-01 11:52:58"
+  },
+  "AdvertisingTest": {
+    "etag": "W/\"a46fc3c553ad134139f05b697820bedd2a44569979ce3959bb55242e6fd64c4d\"",
+    "filename": "AdvertisingTest",
+    "last_modified": "",
+    "lines": 2215,
+    "sha256": "57ed3125463e773dd1ab440609a8bba59468e5f5c6d95c8f78e0d30340619a60",
+    "source_url": "https://github.com/blackmatrix7/ios_rule_script/raw/refs/heads/master/rule/AdGuard/AdvertisingTest/Advertising.txt",
+    "updated_at": "2026-03-02 11:42:05"
   }
 }
