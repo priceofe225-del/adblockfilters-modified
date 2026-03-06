@@ -341,15 +341,6 @@
     "source_url": "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-easylist.txt",
     "updated_at": "2026-03-06 13:29:04"
   },
-  "hululu1068": {
-    "etag": "W/\"69a3aea0-fdf1\"",
-    "filename": "hululu1068",
-    "last_modified": "Sun, 01 Mar 2026 03:12:32 GMT",
-    "lines": 3134,
-    "sha256": "3c383cce697d4d271b74aa25e88ebbeb2b1ff9638079475ebacd0b4871015276",
-    "source_url": "https://github.com/hululu1068/AdGuard-Rule/blob/main/rule/adgh.txt",
-    "updated_at": "2026-03-01 11:52:58"
-  },
   "hululu1068.txt": {
     "etag": "W/\"44188be37abf61352a23d90f096e552f\"",
     "filename": "hululu1068.txt",
