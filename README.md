@@ -162,7 +162,7 @@
 | CERT.PL's Warning List | host | [原始链接](https://hole.cert.pl/domains/v2/domains_hosts.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/priceofe225-del/adblockfilters-modified@main/sources/upstream/CERT.PL's_Warning_List.txt) | 143607 | 2026/03/06 |
 | hululu1068 | filter | [原始链接](https://github.com/hululu1068/AdGuard-Rule/raw/refs/heads/main/rule/adgh.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/priceofe225-del/adblockfilters-modified@main/sources/upstream/hululu1068.txt) | 1070 | 2026/03/06 |
 | AdvertisingTest | filter | [原始链接](https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/AdGuard/Advertising/Advertising.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/priceofe225-del/adblockfilters-modified@main/sources/upstream/AdvertisingTest.txt) | N/A | 2026/03/02 |
-| REIJI007 | filter | [原始链接](https://raw.githubusercontent.com/REIJI007/Adblock-Rule-Collection/main/ADBLOCK_RULE_COLLECTION.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/priceofe225-del/adblockfilters-modified@main/sources/upstream/REIJI007.txt) | N/A | 2026/03/02 |
+| REIJI007 | dns | [原始链接](https://raw.githubusercontent.com/REIJI007/Adblock-Rule-Collection/main/ADBLOCK_RULE_COLLECTION_DNS.txt) | [加速链接](https://testingcf.jsdelivr.net/gh/priceofe225-del/adblockfilters-modified@main/sources/upstream/REIJI007.txt) | N/A | 2026/03/02 |
 
 ## Star History
 <a href="https://www.star-history.com/#priceofe225-del/adblockfilters-modified&Date">
